@@ -1,0 +1,590 @@
+[
+  {
+    "id": "brief",
+    "title": "Documento inicial del viaje aportado por el usuario",
+    "url": null,
+    "type": "usuario",
+    "note": "Documento histórico: 11 días y vuelos por Edimburgo. Sustituido por la actualización Escocia 2027 del usuario; conservar como antecedente, no como plan vigente."
+  },
+  {
+    "id": "editorial",
+    "title": "Propuesta editorial de esta guía",
+    "url": null,
+    "type": "propuesta",
+    "note": "Primera distribución editorial sustituida por la actualización del usuario. Solo se mantienen sugerencias generales que no contradicen el plan vigente."
+  },
+  {
+    "id": "edinburgh-unesco",
+    "title": "UNESCO · Old and New Towns of Edinburgh",
+    "url": "https://whc.unesco.org/en/list/728/",
+    "type": "oficial",
+    "note": "Patrimonio de Edimburgo."
+  },
+  {
+    "id": "staffa",
+    "title": "National Trust for Scotland · Staffa",
+    "url": "https://www.nts.org.uk/visit/places/staffa",
+    "type": "oficial",
+    "note": "Descripción y cueva de Fingal; consultar estado de acceso antes del viaje."
+  },
+  {
+    "id": "staffa-geology",
+    "title": "National Trust for Scotland · Geología de Staffa",
+    "url": "https://www.nts.org.uk/visit/places/staffa/highlights/geology",
+    "type": "oficial",
+    "note": "Formación de las columnas de basalto."
+  },
+  {
+    "id": "glencoe",
+    "title": "National Trust for Scotland · Glencoe",
+    "url": "https://www.nts.org.uk/visit/places/glencoe",
+    "type": "oficial",
+    "note": "Paisaje y geología."
+  },
+  {
+    "id": "glenfinnan",
+    "title": "National Trust for Scotland · Glenfinnan",
+    "url": "https://www.nts.org.uk/visit/places/glenfinnan-monument",
+    "type": "oficial",
+    "note": "Contexto del destino; sin horario de tren confirmado."
+  },
+  {
+    "id": "skye",
+    "title": "VisitScotland · Qué ver en Skye",
+    "url": "https://www.visitscotland.com/places-to-go/islands/isle-skye/things-to-do",
+    "type": "oficial",
+    "note": "Paisajes y lugares de la isla."
+  },
+  {
+    "id": "eilean-donan",
+    "title": "Eilean Donan Castle · Web oficial",
+    "url": "https://www.eileandonancastle.com/",
+    "type": "oficial",
+    "note": "Consultar apertura y entradas cuando se conozcan las fechas."
+  },
+  {
+    "id": "driving",
+    "title": "VisitScotland · Conducir por Escocia",
+    "url": "https://www.visitscotland.com/travel-planning/driving",
+    "type": "oficial",
+    "note": "Información práctica de conducción."
+  },
+  {
+    "id": "ferries",
+    "title": "VisitScotland · Viajar en ferry",
+    "url": "https://www.visitscotland.com/travel-planning/ferry",
+    "type": "oficial",
+    "note": "Preparación y enlaces a operadores; no hay reservas confirmadas."
+  },
+  {
+    "id": "photo-skye",
+    "title": "Tim Rüßmann · Quiraing, Unsplash",
+    "url": "https://unsplash.com/photos/mAvvnTHHtIc",
+    "type": "fotografia",
+    "note": "Portada: assets/images/skye.jpg. Licencia Unsplash."
+  },
+  {
+    "id": "photo-quiraing",
+    "title": "Quiraing · Fotografía en Unsplash",
+    "url": "https://unsplash.com/photos/_tw49ov0oyc",
+    "type": "fotografia",
+    "note": "assets/images/quiraing.jpg. Licencia Unsplash."
+  },
+  {
+    "id": "photo-highlands",
+    "title": "Quiraing · Fotografía en Unsplash",
+    "url": "https://unsplash.com/photos/A5zzFGAWe-w",
+    "type": "fotografia",
+    "note": "assets/images/highlands.jpg. Imagen ambiental de Skye, nunca identificada como otro destino. Licencia Unsplash."
+  },
+  {
+    "id": "photo-edinburgh",
+    "title": "Edimburgo · Fotografía en Unsplash",
+    "url": "https://images.unsplash.com/photo-1506377585622-bedcbb027afc",
+    "type": "fotografia",
+    "note": "assets/images/edinburgh.jpg. Licencia Unsplash. Fuente original de la imagen."
+  },
+  {
+    "id": "photo-glencoe",
+    "title": "LoboStudio Hamburg · Unsplash",
+    "url": "https://unsplash.com/photos/kuq8hXjdimY",
+    "type": "fotografia",
+    "note": "assets/images/glencoe.jpg. Licencia Unsplash. Imagen: https://images.unsplash.com/photo-1472494060377-5e98f58af1c2?auto=format&fit=crop&w=1100&q=82"
+  },
+  {
+    "id": "photo-eilean-donan",
+    "title": "Eilean Donan · Unsplash",
+    "url": "https://unsplash.com/photos/l6axIa5mfGc",
+    "type": "fotografia",
+    "note": "assets/images/eilean-donan.jpg. Licencia Unsplash. Imagen: https://images.unsplash.com/photo-1649980559603-5f48e84e0fe2?auto=format&fit=crop&w=1100&q=82"
+  },
+  {
+    "id": "update-2027",
+    "title": "Actualización del usuario · Viaje a Escocia 2027",
+    "url": null,
+    "type": "usuario",
+    "note": "Fuente vigente: 12 días, 3 adultos, Glasgow, junio de 2027 provisional, alquiler días 4–11, Iona y Staffa, dos noches en Fidden. Fechas y reservas pendientes."
+  },
+  {
+    "id": "fidden-official",
+    "title": "Fidden Farm Campsite · Web oficial",
+    "url": "https://fiddenfarm.co.uk/",
+    "type": "oficial",
+    "note": "Consultada el 10 de octubre de 2026. Indica actualmente que no acepta reservas. Revalidar condiciones y disponibilidad para junio de 2027; no se registra estancia garantizada ni precio."
+  },
+  {
+    "id": "red-squirrel-official",
+    "title": "Red Squirrel Campsite · Web oficial",
+    "url": "https://redsquirrelcampsite.co.uk/",
+    "type": "oficial",
+    "note": "Candidato aportado por el usuario. Confirmar admisión de la autocaravana concreta, instalaciones y disponibilidad; no se da por elegido."
+  },
+  {
+    "id": "arthurs-geology",
+    "title": "British Geological Survey · Geología de Arthur’s Seat",
+    "url": "https://www.bgs.ac.uk/discovering-geology/maps-and-resources/office-geology/geology-of-arthurs-seat/",
+    "type": "oficial",
+    "note": "Restos de actividad volcánica y modelado por erosión y glaciares. Consultar acceso actual antes de caminar."
+  },
+  {
+    "id": "glencoe-glen",
+    "title": "National Trust for Scotland · El valle de Glencoe",
+    "url": "https://www.nts.org.uk/visit/places/glencoe/highlights/the-glen",
+    "type": "oficial",
+    "note": "Paisaje volcánico y glaciar; Three Sisters y Signal Rock."
+  },
+  {
+    "id": "photo-user-glasgow",
+    "title": "Glasgow · Imagen aportada por el usuario",
+    "url": null,
+    "type": "fotografia",
+    "note": "assets/images/glasgow.jpg. Archivo aportado por el usuario; autor y licencia no indicados."
+  },
+  {
+    "id": "photo-user-oban",
+    "title": "Oban y McCaig’s Tower · Imagen aportada por el usuario",
+    "url": null,
+    "type": "fotografia",
+    "note": "assets/images/oban.jpg. Archivo aportado por el usuario; autor y licencia no indicados."
+  },
+  {
+    "id": "photo-user-iona",
+    "title": "Abadía de Iona · Imagen aportada por el usuario",
+    "url": null,
+    "type": "fotografia",
+    "note": "assets/images/iona.jpg. Archivo aportado por el usuario; autor y licencia no indicados."
+  },
+  {
+    "id": "photo-user-staffa",
+    "title": "Staffa · Imagen aportada por el usuario",
+    "url": null,
+    "type": "fotografia",
+    "note": "assets/images/staffa.avif. Archivo aportado por el usuario; autor y licencia no indicados. El original staffa.jpg contiene AVIF; se conserva y se sirve una copia con extensión .avif."
+  },
+  {
+    "id": "photo-user-highlands2",
+    "title": "Paisaje de Skye · Imagen aportada por el usuario",
+    "url": null,
+    "type": "fotografia",
+    "note": "assets/images/highlands2.jpg. Archivo aportado por el usuario; autor y licencia no indicados."
+  },
+  {
+    "id": "guide-glasgow",
+    "title": "VisitScotland · Glasgow",
+    "url": "https://www.visitscotland.com/places-to-go/glasgow",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-glasgow-centre",
+    "title": "Visit Glasgow · City Centre",
+    "url": "https://www.visitglasgow.com/neighbourhoods/city-centre",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-oban",
+    "title": "VisitScotland · Oban",
+    "url": "https://www.visitscotland.com/places-to-go/oban",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-oban-museum",
+    "title": "Oban · War & Peace Museum",
+    "url": "https://www.oban.org.uk/arts-activity-tour-listings/oban-war-peace-museum/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-mull",
+    "title": "VisitScotland · Isle of Mull",
+    "url": "https://www.visitscotland.com/places-to-go/islands/isle-mull?a=1",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-mull-geology",
+    "title": "Isle of Mull · Geology",
+    "url": "https://www.isle-of-mull.net/things-to-do/geology/",
+    "type": "divulgacion",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-mull-wildlife",
+    "title": "VisitScotland · Wildlife in Scotland",
+    "url": "https://www.visitscotland.com/things-to-do/landscapes-nature/wildlife/beginners-guide",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-staffa-story",
+    "title": "National Trust for Scotland · Stories from Staffa",
+    "url": "https://www.nts.org.uk/stories/stories-from-staffa-island-of-staves",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-glencoe-massacre",
+    "title": "National Trust for Scotland · The Glencoe Massacre",
+    "url": "https://www.nts.org.uk/visit/places/glencoe/the-glencoe-massacre",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-glencoe-turf",
+    "title": "National Trust for Scotland · Turf and creel house",
+    "url": "https://www.nts.org.uk/visit/places/glencoe/highlights/turf-and-creel-house",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-glenfinnan-viaduct",
+    "title": "National Trust for Scotland · Glenfinnan Viaduct",
+    "url": "https://www.nts.org.uk/visit/places/glenfinnan-monument/highlights/viaduct",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-glenfinnan-monument",
+    "title": "National Trust for Scotland · Glenfinnan Monument",
+    "url": "https://www.nts.org.uk/visit/places/glenfinnan-monument/highlights/monument",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-skye-geology",
+    "title": "British Geological Survey · Quaternary geology of Skye",
+    "url": "https://earthwise.bgs.ac.uk/index.php/Quaternary_and_Recent_geology_of_the_Isle_of_Skye",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-armadale-clan",
+    "title": "Armadale Castle · Clan history",
+    "url": "https://armadalecastle.com/about/clan-history/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-eilean-about",
+    "title": "Eilean Donan Castle · About",
+    "url": "https://www.eileandonancastle.com/about/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-eilean-history",
+    "title": "Highland Historic Environment Record · Eilean Donan Castle",
+    "url": "https://her.highland.gov.uk/Monument/MHG45372",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-eilean-interiors",
+    "title": "Eilean Donan Castle · Explore inside",
+    "url": "https://www.eileandonancastle.com/explore/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-fort-augustus",
+    "title": "Visit Inverness Loch Ness · Fort Augustus",
+    "url": "https://www.visitinvernesslochness.com/fort-augustus",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-caledonian-history",
+    "title": "Scottish Canals · Caledonian Canal history",
+    "url": "https://www.scottishcanals.co.uk/visit/canals/visit-the-caledonian-canal/history-heritage",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-pitlochry",
+    "title": "Pitlochry Dam · Local area",
+    "url": "https://www.pitlochrydam.com/about/local-area/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-glasgow-airport",
+    "title": "Glasgow Airport · About us",
+    "url": "https://www.glasgowairport.com/about-us/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-glasgow-cathedral",
+    "title": "Historic Environment Scotland · Glasgow Cathedral history",
+    "url": "https://www.historicenvironment.scot/visit/all/glasgow-cathedral/history-and-stories/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-necropolis",
+    "title": "Friends of Glasgow Necropolis · John Knox",
+    "url": "https://www.glasgownecropolis.org/profiles/john-knox/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-george-scott",
+    "title": "Historic Environment Scotland · Sir Walter Scott monument",
+    "url": "https://portal.historicenvironment.scot/apex/f?p=1505%3A300%3A%3A%3A%3A%3AVIEWTYPE%2CVIEWREF%3Adesignation%2CLB32696",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-george-history",
+    "title": "Historic Environment Scotland · The Battle of George Square",
+    "url": "https://blog.historicenvironment.scot/2019/01/red-clydeside-battle-george-square/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-glasgow-trade",
+    "title": "Glasgow Life · Decolonial trail",
+    "url": "https://www.glasgowlife.org.uk/media/1bzkgwey/decolonial-trail-2025.pdf",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-edinburgh-castle",
+    "title": "Edinburgh Castle · History",
+    "url": "https://www.edinburghcastle.scot/the-castle/history/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-mons-meg",
+    "title": "Edinburgh Castle · Mons Meg",
+    "url": "https://www.edinburghcastle.scot/see-and-do/highlights/mons-meg/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-royal-mile",
+    "title": "Forever Edinburgh · The Royal Mile",
+    "url": "https://edinburgh.org/neighbourhoods/the-royal-mile/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-royal-closes",
+    "title": "Forever Edinburgh · Royal Mile attractions",
+    "url": "https://edinburgh.org/neighbourhoods/the-royal-mile/attractions/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-victoria",
+    "title": "VisitScotland · Harry Potter sites walking tour",
+    "url": "https://www.visitscotland.com/nl-nl/info/tours/harry-potter-sites-of-edinburgh-self-guided-walking-tour-39f71136",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-st-giles-history",
+    "title": "St Giles · History",
+    "url": "https://www.stgilescathedral.org.uk/history/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-st-giles-chapel",
+    "title": "St Giles · The Thistle Chapel",
+    "url": "https://www.stgilescathedral.org.uk/the-thistle-chapel",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-st-giles-title",
+    "title": "St Giles · Becoming a cathedral",
+    "url": "https://www.stgilescathedral.org.uk/st-giles-becomes-a-cathedral",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-calton",
+    "title": "Historic Environment Scotland · National Monument",
+    "url": "https://portal.historicenvironment.scot/apex/f?p=1505%3A300%3A%3A%3A%3A%3AVIEWTYPE%2CVIEWREF%3Adesignation%2CLB27820",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-dean",
+    "title": "Edinburgh World Heritage · Well Court",
+    "url": "https://ewh.org.uk/well-court/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-loch-lomond",
+    "title": "Loch Lomond & The Trossachs National Park · Loch Lomond",
+    "url": "https://www.lochlomond-trossachs.org/things-to-see/lochs-in-the-national-park/loch-lomond/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-mccaig",
+    "title": "Historic Environment Scotland · McCaig’s Tower",
+    "url": "https://portal.historicenvironment.scot/apex/f?p=1505%3A300%3A%3A%3A%3AVIEWTYPE%2CVIEWREF%3Adesignation%2CLB38814",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-craignure",
+    "title": "Isle of Mull · Craignure",
+    "url": "https://www.isle-of-mull.net/locations/craignure/",
+    "type": "divulgacion",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-grass-point",
+    "title": "Isle of Mull · Grass Point",
+    "url": "https://www.isle-of-mull.net/locations/craignure/grasspoint/",
+    "type": "divulgacion",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-fionnphort",
+    "title": "Isle of Mull · Fionnphort",
+    "url": "https://www.isle-of-mull.net/locations/fionnphort/",
+    "type": "divulgacion",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-mull-granite",
+    "title": "Isle of Mull · Tormore granite quarry",
+    "url": "https://www.isle-of-mull.net/attractions/scenic-attractions/tormore-granite-quarry/",
+    "type": "divulgacion",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-iona",
+    "title": "National Trust for Scotland · Iona",
+    "url": "https://www.nts.org.uk/visit/places/iona",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-iona-book",
+    "title": "National Trust for Scotland · The Book of Kells",
+    "url": "https://www.nts.org.uk/stories/the-book-of-kells",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-iona-abbey",
+    "title": "Historic Environment Scotland · Iona Abbey history",
+    "url": "https://www.historicenvironment.scot/visit/all/iona-abbey-and-nunnery/history-and-stories/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-fidden-beach",
+    "title": "Isle of Mull · Fidden beach",
+    "url": "https://www.isle-of-mull.net/things-to-do/beaches/fidden-beach/",
+    "type": "divulgacion",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-tobermory-history",
+    "title": "Explore Tobermory · History",
+    "url": "https://www.tobermory.co.uk/things-to-do-tobermory/historical-attraction/history/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-tobermory-tv",
+    "title": "Explore Tobermory · Balamory",
+    "url": "https://www.tobermory.co.uk/things-to-do-tobermory/childrens-activities/balamory/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-fingal-music",
+    "title": "National Trust for Scotland · Countryside and wildlife",
+    "url": "https://www.nts.org.uk/what-we-do/countryside-and-wildlife",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-glencoe-walks",
+    "title": "National Trust for Scotland · Glencoe outdoor adventures",
+    "url": "https://www.nts.org.uk/visit/places/glencoe/highlights/outdoor-adventures",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-mallaig",
+    "title": "Mallaig Heritage Centre · Mallaig history",
+    "url": "https://mallaigheritage.org.uk/exhibit/mallaig.php",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-armadale",
+    "title": "Armadale Castle · Castle, gardens and museum",
+    "url": "https://www.armadalecastle.com/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-storr-geology",
+    "title": "British Geological Survey · Bearreraig Bay and The Storr",
+    "url": "https://earthwise.bgs.ac.uk/index.php/Bearreraig_Bay_-_The_Storr%2C_Skye_-_an_excursion",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-storr",
+    "title": "The Storr · History and folklore",
+    "url": "https://thestorr.com/about/",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-kilt",
+    "title": "Isle of Skye · Kilt Rock",
+    "url": "https://www.isleofskye.com/skye-guide/skye-places/kilt-rock",
+    "type": "divulgacion",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-quiraing",
+    "title": "Isle of Skye · The Quiraing",
+    "url": "https://www.isleofskye.com/skye-guide/top-ten-skye-walks/the-quiraing",
+    "type": "divulgacion",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "guide-skye-bridge",
+    "title": "Scottish Government · Skye Bridge construction information",
+    "url": "https://www.gov.scot/binaries/content/documents/govscot/publications/foi-eir-release/2019/06/foi-19-01338/documents/foi-19-01338-annex-b/foi-19-01338-annex-b/govscot%253Adocument/FOI1901338%252B-%252BAnnex%252BB.pdf",
+    "type": "oficial",
+    "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  }
+]

@@ -1,0 +1,2272 @@
+[
+  {
+    "id": "edinburgh",
+    "name": "Edimburgo",
+    "region": "Lowlands",
+    "category": "historia",
+    "image": "assets/images/edinburgh.jpg",
+    "imageAlt": "Arquitectura histórica de Edimburgo",
+    "imageCaption": "Edimburgo",
+    "coordinates": [
+      55.9533,
+      -3.1883
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Dos noches para disfrutar de Edimburgo. El día 3 queda completo para la ciudad, con paseos, patrimonio y Arthur’s Seat como alternativa geológica.",
+    "history": "El casco antiguo y la ciudad nueva forman parte del Patrimonio Mundial de la UNESCO.",
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "Elegir entre las visitas propuestas, sin intentar hacerlo todo.",
+      "El día 4 volvemos a Glasgow para recoger la autocaravana."
+    ],
+    "sourceIds": [
+      "edinburgh-unesco",
+      "update-2027"
+    ],
+    "featured": false,
+    "miniGuide": {
+      "intro": "La capital de Escocia reúne dos ciudades de aspecto muy distinto: la Old Town, crecida alrededor del castillo, y la New Town, trazada con calles regulares y edificios clásicos. El contraste entre ambas es parte de su identidad.",
+      "story": "Imagina una ciudad que primero se aprieta sobre una cresta de roca y después decide respirar. Los callejones de la Old Town hablan de ese crecimiento compacto; las plazas y avenidas de la New Town, de una ampliación planificada desde el siglo XVIII.",
+      "highlights": [
+        {
+          "title": "La silueta del castillo",
+          "text": "Busca cómo domina el casco antiguo. Desde abajo se entiende enseguida por qué aquella roca resultaba tan útil para defenderse."
+        },
+        {
+          "title": "Dos maneras de construir una ciudad",
+          "text": "Compara la Royal Mile y sus pasos estrechos con las fachadas ordenadas de la New Town. Fíjate en la anchura de las calles y la repetición de ventanas."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La UNESCO protege conjuntamente la Old Town y la New Town: el valor está también en cómo conviven, no solo en un edificio aislado."
+        }
+      ],
+      "sourceIds": [
+        "edinburgh-unesco"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "glasgow",
+    "name": "Glasgow",
+    "region": "Lowlands",
+    "category": "historia",
+    "image": "assets/images/glasgow.jpg",
+    "imageAlt": "Arquitectura de Glasgow entre flores y cielo azul",
+    "imageCaption": "Glasgow · Fotografía aportada para el viaje",
+    "coordinates": [
+      55.8642,
+      -4.2518
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Nuestra puerta de entrada y de salida. El día 1 es para llegar y descansar; el día 2, para conocer la ciudad antes de viajar a Edimburgo. Volveremos el día 11.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "Traslados urbanos en autobús o tren.",
+      "No hay visitas obligatorias el día de llegada."
+    ],
+    "sourceIds": [
+      "brief",
+      "update-2027",
+      "photo-user-glasgow",
+      "guide-glasgow",
+      "guide-glasgow-centre"
+    ],
+    "featured": false,
+    "miniGuide": {
+      "intro": "Glasgow es una gran ciudad del oeste de Escocia, con patrimonio medieval, arquitectura victoriana, museos y mucha vida musical. Para conocerla conviene mirar tanto sus edificios como lo que ocurre en sus calles.",
+      "story": "Nuestro paseo puede empezar por la catedral y continuar hacia el centro: de los orígenes religiosos de la ciudad a sus grandes edificios cívicos y comerciales. Es una propuesta para orientarte; puedes escoger los rincones que más te apetezcan.",
+      "highlights": [
+        {
+          "title": "Catedral y Necrópolis",
+          "text": "Observa el contraste entre la iglesia medieval y los monumentos funerarios de la colina. Sus fichas cuentan dos momentos diferentes de la historia de Glasgow."
+        },
+        {
+          "title": "El centro a pie",
+          "text": "George Square y Buchanan Street permiten ver la escala de sus edificios y la actividad urbana. Levanta la vista por encima de los escaparates."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Glasgow recibe el sobrenombre de «Dear Green Place»: VisitScotland destaca sus más de 90 parques y jardines."
+        }
+      ],
+      "sourceIds": [
+        "guide-glasgow",
+        "guide-glasgow-centre"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "oban",
+    "name": "Oban",
+    "region": "Costa oeste",
+    "category": "costa",
+    "image": "assets/images/oban.jpg",
+    "imageAlt": "Edificios de Oban con McCaig’s Tower sobre la colina",
+    "imageCaption": "Oban y McCaig’s Tower · Fotografía aportada para el viaje",
+    "coordinates": [
+      56.4152,
+      -5.471
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Puerto de salida hacia Mull. Llegada prevista el día 4, después de recoger la autocaravana en Glasgow y comprar provisiones.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "Camping por elegir.",
+      "Ferry Oban–Craignure acordado; horarios y reserva pendientes."
+    ],
+    "sourceIds": [
+      "brief",
+      "ferries",
+      "update-2027",
+      "photo-user-oban",
+      "guide-oban",
+      "guide-oban-museum"
+    ],
+    "featured": false,
+    "miniGuide": {
+      "intro": "Oban es una localidad costera organizada alrededor de una bahía y un puerto que conecta el continente con las islas. En nuestro viaje será la puerta hacia Mull, pero merece una mirada antes de embarcar.",
+      "story": "Piensa en el puerto como una plaza con barcos. Pesca, ferris y desplazamientos han marcado la vida local. Desde el agua, McCaig’s Tower recorta la colina; desde arriba, el puerto explica la relación de Oban con las islas.",
+      "highlights": [
+        {
+          "title": "El frente marítimo",
+          "text": "Pasea por la bahía y mira cómo conviven los edificios con el trabajo del puerto. Observa el movimiento desde las zonas públicas."
+        },
+        {
+          "title": "La colina de McCaig",
+          "text": "Si encaja en la tarde, el monumento ofrece otra perspectiva de la localidad. No hace falta añadir la subida para disfrutar del paseo costero."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Durante la Segunda Guerra Mundial operaron hidroaviones de la RAF desde la bahía de Oban. Su historia marítima va mucho más allá de los ferris turísticos."
+        }
+      ],
+      "sourceIds": [
+        "guide-oban",
+        "guide-oban-museum"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "mull",
+    "name": "Isla de Mull",
+    "region": "Hébridas Interiores",
+    "category": "islas",
+    "image": "assets/images/iona.jpg",
+    "imageAlt": "Abadía de Iona junto al mar",
+    "imageCaption": "Abadía de Iona · Fotografía aportada para el viaje · Imagen de contexto del recorrido por las islas; no representa este lugar concreto",
+    "coordinates": [
+      56.4667,
+      -5.7
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Nuestra base para visitar Iona y Staffa. La propuesta acordada atraviesa la isla desde Craignure hasta Fidden, cerca de Fionnphort.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "Dos noches previstas en Fidden Farm Campsite.",
+      "Tobermory es opcional y no prioritario."
+    ],
+    "sourceIds": [
+      "brief",
+      "update-2027",
+      "photo-user-iona",
+      "guide-mull",
+      "guide-mull-geology",
+      "guide-mull-wildlife"
+    ],
+    "featured": false,
+    "miniGuide": {
+      "intro": "Mull es una isla de las Hébridas Interiores con costa recortada, montañas y pequeños pueblos. Será nuestra base para cruzar a Iona y salir hacia Staffa; aquí el propio desplazamiento ayuda a descubrir el paisaje.",
+      "story": "La isla conserva una historia volcánica que se relaciona con la apertura del Atlántico. En el recorrido desde Craignure hacia el suroeste, fíjate en cómo se alternan roca, agua y praderas: son pistas para leer esa historia sin convertir cada parada en una excursión.",
+      "highlights": [
+        {
+          "title": "Los paisajes del trayecto",
+          "text": "Mira las bahías y los relieves desde lugares donde se pueda parar. La carretera no es un mirador: guarda la observación para las pausas."
+        },
+        {
+          "title": "La costa y su fauna",
+          "text": "Mull alberga águilas reales, pigargos y nutrias. Observa a distancia; encontrar animales depende del lugar y del momento, no está garantizado."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Parte de las rocas de Mull nació de coladas de lava cuando se estaba formando el Atlántico Norte. El paisaje tranquilo de hoy tiene un pasado volcánico."
+        }
+      ],
+      "sourceIds": [
+        "guide-mull",
+        "guide-mull-geology",
+        "guide-mull-wildlife"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "staffa",
+    "name": "Isla de Staffa",
+    "region": "Hébridas Interiores",
+    "category": "geologia",
+    "image": "assets/images/staffa.avif",
+    "imageAlt": "Staffa · Fotografía aportada para el viaje",
+    "imageCaption": "Staffa · Fotografía aportada para el viaje",
+    "coordinates": [
+      56.435,
+      -6.341
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Una de las prioridades del viaje: excursión desde Fionnphort para conocer Staffa y la cueva de Fingal, con sus columnas de basalto.",
+    "history": "La acústica de la cueva de Fingal inspiró a Mendelssohn en su obertura de Las Hébridas.",
+    "geology": "Las columnas se formaron al enfriarse y contraerse la lava. El oleaje ha ido modelando las cuevas entre las fracturas del basalto.",
+    "durationMinutes": null,
+    "recommendations": [
+      "Excursión acordada para el día 6, reserva pendiente.",
+      "Desembarco sujeto a meteorología y estado del mar.",
+      "Observar frailecillos es una posibilidad estacional, nunca garantizada."
+    ],
+    "sourceIds": [
+      "staffa",
+      "staffa-geology",
+      "update-2027",
+      "photo-user-staffa",
+      "guide-staffa-story"
+    ],
+    "featured": true,
+    "miniGuide": {
+      "intro": "Staffa es una pequeña isla famosa por sus columnas de basalto y sus cuevas marinas. Al aproximarte en barco, la roca puede parecer una arquitectura construida a propósito: sus formas regulares tienen un origen natural.",
+      "story": "Las columnas se abrieron por contracción cuando una gruesa masa de lava, ya solidificada pero todavía caliente, se enfrió. Después el mar fue ensanchando las fracturas y arrancando bloques. Primero trabajó el fuego; durante muchísimo tiempo siguió trabajando el agua.",
+      "highlights": [
+        {
+          "title": "La fachada de columnas",
+          "text": "Compara las zonas con columnas rectas y otras más irregulares. Las diferencias ayudan a imaginar que la lava no se enfrió de la misma forma en todas partes."
+        },
+        {
+          "title": "Fingal’s Cave",
+          "text": "Su entrada y el oleaje son el gran foco de la visita. El desembarco y el acceso dependen de las condiciones; la aproximación por mar ya permite entender la isla."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El nombre Staffa procede del nórdico y alude a una «isla de pilares»: también los antiguos navegantes se fijaron en esas formas."
+        },
+        {
+          "kind": "dato",
+          "text": "La visita del naturalista Joseph Banks en 1772 ayudó a dar a conocer la isla entre viajeros europeos."
+        }
+      ],
+      "sourceIds": [
+        "staffa-geology",
+        "guide-staffa-story"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "glencoe",
+    "name": "Glencoe",
+    "region": "Highlands",
+    "category": "naturaleza",
+    "image": "assets/images/glencoe.jpg",
+    "imageAlt": "Montañas verdes y rocosas de Glencoe",
+    "imageCaption": "Glencoe",
+    "coordinates": [
+      56.6826,
+      -5.1023
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Llegaremos el día 7 tras regresar de Mull a Oban. Miradores, bosque y un paisaje volcánico modelado por glaciares, sin llenar la tarde de actividades.",
+    "history": null,
+    "geology": "El paisaje conserva la huella de actividad volcánica antigua y del modelado posterior de los glaciares.",
+    "durationMinutes": null,
+    "recommendations": [
+      "Three Sisters, Signal Rock y el Visitor Centre son propuestas.",
+      "Camping pendiente de elegir; Red Squirrel solo es candidato."
+    ],
+    "sourceIds": [
+      "glencoe",
+      "update-2027",
+      "glencoe-glen",
+      "guide-glencoe-massacre",
+      "guide-glencoe-turf"
+    ],
+    "featured": true,
+    "miniGuide": {
+      "intro": "Glencoe es un valle de las Highlands en el que el relieve volcánico fue remodelado por los glaciares. Sus laderas, gargantas y grandes paredes cuentan una historia natural, pero también una historia de comunidades y clanes.",
+      "story": "El 13 de febrero de 1692, soldados alojados por los MacDonald atacaron a quienes les habían dado hospitalidad. La matanza dejó una profunda huella precisamente por esa ruptura de confianza. Conviene recordar también que aquí hubo hogares, cultivos y vida cotidiana.",
+      "highlights": [
+        {
+          "title": "La forma del valle",
+          "text": "Desde los miradores, observa la amplitud del fondo y la fuerza de las paredes. El hielo aprovechó y transformó un relieve mucho más antiguo."
+        },
+        {
+          "title": "Paisaje y memoria",
+          "text": "Las Three Sisters muestran la escala de las montañas; el centro de visitantes ayuda a entender a las personas que vivieron entre ellas."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Un paisaje que hoy parece vacío no siempre estuvo deshabitado: la arqueología ha localizado antiguos asentamientos bajo la vegetación del valle."
+        }
+      ],
+      "sourceIds": [
+        "glencoe-glen",
+        "guide-glencoe-massacre",
+        "guide-glencoe-turf"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "glenfinnan",
+    "name": "Glenfinnan",
+    "region": "Highlands",
+    "category": "historia",
+    "image": "assets/images/highlands2.jpg",
+    "imageAlt": "Lago y montañas de Skye con el pináculo del Storr al fondo",
+    "imageCaption": "Paisaje de Skye · Fotografía aportada para el viaje · Imagen de ambiente del viaje; no representa este lugar concreto",
+    "coordinates": [
+      56.8762,
+      -5.4315
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "El viaducto de Glenfinnan forma parte del plan provisional del día 8, antes de continuar hacia Mallaig y cruzar a Skye.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "No hay horario de tren confirmado.",
+      "Coordinar la visita con el ferry Mallaig–Armadale."
+    ],
+    "sourceIds": [
+      "glenfinnan",
+      "update-2027",
+      "photo-user-highlands2",
+      "guide-glenfinnan-viaduct",
+      "guide-glenfinnan-monument"
+    ],
+    "featured": false,
+    "miniGuide": {
+      "intro": "Glenfinnan reúne tres protagonistas: el viaducto ferroviario, el monumento jacobita y Loch Shiel. Es un lugar donde ingeniería, cine e historia política aparecen en un mismo panorama.",
+      "story": "En 1745, Charles Edward Stuart reunió aquí a seguidores que querían restaurar a los Estuardo en el trono. El monumento que recuerda a los participantes se construyó en 1815. Mucho después, el viaducto se convirtió en un icono ferroviario y en escenario de Harry Potter.",
+      "highlights": [
+        {
+          "title": "El viaducto",
+          "text": "Mira la curva y la sucesión de arcos, incluso si no pasa ningún tren. El interés del puente no depende de acertar con un horario."
+        },
+        {
+          "title": "Loch Shiel y el monumento",
+          "text": "Gira la mirada hacia el lago: completa el paisaje y sitúa la historia jacobita. El monumento y el viaducto pertenecen a épocas muy distintas."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Los 21 arcos del viaducto son de hormigón: aunque su aspecto pueda sugerir piedra antigua, fue una obra de ingeniería innovadora."
+        }
+      ],
+      "sourceIds": [
+        "guide-glenfinnan-viaduct",
+        "guide-glenfinnan-monument"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "skye",
+    "name": "Isla de Skye",
+    "region": "Hébridas Interiores",
+    "category": "naturaleza",
+    "image": "assets/images/quiraing.jpg",
+    "imageAlt": "Montañas y carretera entre las laderas del Quiraing",
+    "imageCaption": "Quiraing, isla de Skye",
+    "coordinates": [
+      57.412,
+      -6.196
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Dos noches previstas en la isla. Llegada provisional por ferry desde Mallaig, un día para el norte y salida por el puente hacia Eilean Donan.",
+    "history": null,
+    "geology": "El norte de la isla reúne paisajes geológicos como el Quiraing y los pináculos del Old Man of Storr.",
+    "durationMinutes": null,
+    "recommendations": [
+      "Old Man of Storr, Kilt Rock y Quiraing están en el plan provisional del día 9.",
+      "Campings y tiempos de ruta pendientes."
+    ],
+    "sourceIds": [
+      "skye",
+      "update-2027",
+      "guide-skye-geology",
+      "guide-armadale-clan"
+    ],
+    "featured": true,
+    "miniGuide": {
+      "intro": "Skye es una isla de las Hébridas Interiores con montañas, costas y un importante patrimonio gaélico. Nuestro recorrido se concentra en el norte de Trotternish, aunque la llegada por Armadale muestra primero otra cara de la isla.",
+      "story": "La mejor forma de leer sus paisajes es comparar escalas: un pináculo aislado en el Storr, grandes masas desplazadas en el Quiraing y paredes de roca junto al mar. No todas las formaciones se explican igual; la lava, los deslizamientos y la erosión han dejado señales diferentes.",
+      "highlights": [
+        {
+          "title": "Trotternish",
+          "text": "Las fichas del Storr, Kilt Rock y Quiraing permiten reconocer qué estás mirando en cada parada, más allá de hacer una fotografía."
+        },
+        {
+          "title": "La cultura de la isla",
+          "text": "Presta atención a los nombres gaélicos y a la historia de los clanes. Skye es también una comunidad habitada, no solo un paisaje."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "En Armadale puedes conocer la historia de los señores de las Islas, que gobernaron un territorio conectado principalmente por mar."
+        }
+      ],
+      "sourceIds": [
+        "skye",
+        "guide-skye-geology",
+        "guide-armadale-clan"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "eilean-donan",
+    "name": "Eilean Donan",
+    "region": "Highlands",
+    "category": "historia",
+    "image": "assets/images/eilean-donan.jpg",
+    "imageAlt": "Castillo de Eilean Donan y su puente de piedra",
+    "imageCaption": "Eilean Donan",
+    "coordinates": [
+      57.274,
+      -5.516
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Parada prevista en el día 10, después de salir de Skye por el puente y antes de llegar a Fort Augustus.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "Visita dentro del tramo provisional.",
+      "Apertura, entradas y duración pendientes."
+    ],
+    "sourceIds": [
+      "eilean-donan",
+      "update-2027",
+      "guide-eilean-about",
+      "guide-eilean-history",
+      "guide-eilean-interiors"
+    ],
+    "featured": false,
+    "miniGuide": {
+      "intro": "Eilean Donan es un castillo situado en una pequeña isla donde confluyen tres lochs marinos. Su emplazamiento permitía vigilar rutas de agua, algo esencial en una región donde el mar era una vía de comunicación.",
+      "story": "La imagen actual no es la de una fortaleza medieval intacta. El castillo quedó arruinado en 1719 y pasó casi dos siglos abandonado. La reconstrucción impulsada por John MacRae-Gilstrap se completó en 1932: estás viendo también una historia moderna de recuperación del pasado.",
+      "highlights": [
+        {
+          "title": "La isla y el puente",
+          "text": "Antes de acercarte, observa cómo la fortaleza se separa de tierra y se relaciona con las aguas que la rodean."
+        },
+        {
+          "title": "Los interiores, si los visitamos",
+          "text": "Las salas conservan objetos relacionados con la familia MacRae y la historia del castillo. Entre ellos hay proyectiles del bombardeo de 1719."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "En 1719 había soldados españoles en el castillo apoyando a los jacobitas. La historia del edificio conecta Escocia con España."
+        }
+      ],
+      "sourceIds": [
+        "guide-eilean-about",
+        "guide-eilean-history",
+        "guide-eilean-interiors"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "fort-augustus",
+    "name": "Fort Augustus",
+    "region": "Highlands",
+    "category": "naturaleza",
+    "image": "assets/images/highlands2.jpg",
+    "imageAlt": "Lago y montañas de Skye con el pináculo del Storr al fondo",
+    "imageCaption": "Paisaje de Skye · Fotografía aportada para el viaje · Imagen de ambiente del viaje; no representa este lugar concreto",
+    "coordinates": [
+      57.145,
+      -4.681
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Destino provisional del día 10, junto al lago Ness. La siguiente jornada se reserva para volver a Glasgow y devolver la autocaravana.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "Camping pendiente.",
+      "Confirmar la hora de devolución antes de añadir paradas al regreso."
+    ],
+    "sourceIds": [
+      "brief",
+      "update-2027",
+      "photo-user-highlands2",
+      "guide-fort-augustus",
+      "guide-caledonian-history"
+    ],
+    "featured": false,
+    "miniGuide": {
+      "intro": "Fort Augustus es un pueblo en el extremo sur de Loch Ness, donde el lago se encuentra con el canal de Caledonia. Aquí el agua se convierte en un espectáculo de ingeniería a escala cotidiana.",
+      "story": "Una esclusa permite salvar un desnivel llenando o vaciando una cámara de agua. Al observar un barco, fíjate en las compuertas y en cómo cambia su altura. El canal, construido bajo la dirección de Thomas Telford con William Jessop, buscaba conectar costas evitando una difícil vuelta por el norte.",
+      "highlights": [
+        {
+          "title": "El tramo de esclusas",
+          "text": "Pasea por las zonas públicas del canal. Si hay tránsito de barcos, observa la maniobra sin dar por hecho que ocurrirá a una hora concreta."
+        },
+        {
+          "title": "La orilla de Loch Ness",
+          "text": "Mira hacia la longitud del lago: ayuda a situar Fort Augustus dentro del Great Glen, más allá del tópico del monstruo."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El trazado combina excavaciones con grandes lagos naturales: no todo el canal de Caledonia fue abierto artificialmente."
+        }
+      ],
+      "sourceIds": [
+        "guide-fort-augustus",
+        "guide-caledonian-history"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "pitlochry",
+    "name": "Pitlochry",
+    "region": "Perthshire",
+    "category": "naturaleza",
+    "image": "assets/images/highlands2.jpg",
+    "imageAlt": "Lago y montañas de Skye con el pináculo del Storr al fondo",
+    "imageCaption": "Paisaje de Skye · Fotografía aportada para el viaje · Imagen de ambiente del viaje; no representa este lugar concreto",
+    "coordinates": [
+      56.704,
+      -3.734
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Posible pausa del día 11 camino de Glasgow. Solo se incorpora si encaja razonablemente con la ruta y con la devolución del vehículo.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "Visita opcional; se puede descartar para evitar una jornada demasiado larga."
+    ],
+    "sourceIds": [
+      "brief",
+      "update-2027",
+      "photo-user-highlands2",
+      "guide-pitlochry"
+    ],
+    "featured": false,
+    "miniGuide": {
+      "intro": "Pitlochry es una localidad de Highland Perthshire junto al río Tummel, con arquitectura y tradición turística victoriana. En nuestro plan solo es una pausa opcional si encaja con el regreso y la devolución del vehículo.",
+      "story": "Aquí se encuentran dos historias: el atractivo de las Highlands para los viajeros del siglo XIX y la transformación del río para producir electricidad. La presa y su escala para peces muestran cómo una obra de ingeniería intenta mantener el paso del salmón hacia aguas superiores.",
+      "highlights": [
+        {
+          "title": "El paseo por la localidad",
+          "text": "Observa el aspecto de sus edificios y la relación con las colinas y los bosques del entorno."
+        },
+        {
+          "title": "La presa y la escala para peces",
+          "text": "Si queda margen, busca las cámaras escalonadas. La estructura ayuda a entender el recorrido del salmón; verlo pasar no está garantizado."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La escala de Pitlochry tiene 34 cámaras, cada una con un nivel de agua algo más alto que la anterior."
+        },
+        {
+          "kind": "dato",
+          "text": "Las visitas de la reina Victoria forman parte de la historia turística de esta zona."
+        }
+      ],
+      "sourceIds": [
+        "guide-pitlochry"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "glasgow-airport",
+    "name": "Aeropuerto de Glasgow",
+    "region": "Glasgow",
+    "category": "transporte",
+    "image": "assets/images/glasgow.jpg",
+    "imageAlt": "Arquitectura de Glasgow entre flores y cielo azul",
+    "imageCaption": "Glasgow · Fotografía aportada para el viaje · Imagen de contexto de la zona",
+    "coordinates": [
+      55.8719,
+      -4.4331
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Llegada del día 1 y salida del día 12. Vuelos, horarios y traslados pendientes.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Comprobar el aeropuerto exacto en los billetes antes de organizar los traslados."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-glasgow",
+      "guide-glasgow-airport"
+    ],
+    "featured": false,
+    "parentId": "glasgow",
+    "miniGuide": {
+      "intro": "El aeropuerto de Glasgow es nuestro punto de llegada y salida, situado junto a Paisley, al oeste de la ciudad. En el viaje cumple una función de transporte: llegar, organizar el traslado y volver a casa.",
+      "story": "El aeropuerto comercial abrió el 2 de mayo de 1966 con una terminal diseñada por Sir Basil Spence. Antes, el lugar había tenido uso militar. Ese cambio resume la transformación de una infraestructura aérea en una puerta para viajeros internacionales.",
+      "highlights": [
+        {
+          "title": "Las indicaciones de llegada o salida",
+          "text": "Sigue la señalización correspondiente y localiza primero equipaje, terminal y transporte. Esta ficha no propone añadir una visita turística."
+        },
+        {
+          "title": "La información del traslado",
+          "text": "Comprueba el destino y el punto de recogida del servicio elegido cuando tengamos los vuelos y horarios. No presupongas que aeropuerto y centro son el mismo lugar."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El código de este aeropuerto es GLA."
+        },
+        {
+          "kind": "dato",
+          "text": "La apertura al tráfico comercial y la inauguración oficial fueron dos fechas distintas de 1966: mayo y junio."
+        }
+      ],
+      "sourceIds": [
+        "guide-glasgow-airport"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "glasgow-cathedral",
+    "name": "Catedral de Glasgow",
+    "region": "Glasgow",
+    "category": "historia",
+    "image": "assets/images/glasgow.jpg",
+    "imageAlt": "Arquitectura de Glasgow entre flores y cielo azul",
+    "imageCaption": "Glasgow · Fotografía aportada para el viaje · Imagen de contexto de la zona",
+    "coordinates": [
+      55.8629,
+      -4.2346
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Una de las visitas propuestas para conocer Glasgow el día 2.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-glasgow",
+      "guide-glasgow-cathedral"
+    ],
+    "featured": false,
+    "parentId": "glasgow",
+    "miniGuide": {
+      "intro": "La catedral de Glasgow es una gran iglesia medieval dedicada a san Kentigern, también conocido como san Mungo. Gran parte del edificio que contemplamos procede del siglo XIII y conserva una poderosa arquitectura gótica.",
+      "story": "La ciudad creció alrededor de este centro religioso. Tras la Reforma, la iglesia llegó a acoger tres congregaciones en espacios diferentes del mismo edificio. Su aspecto actual es resultado de siglos de uso, cambios y restauraciones, no de haber quedado congelada en el tiempo.",
+      "highlights": [
+        {
+          "title": "Los arcos y las ventanas",
+          "text": "Busca las formas apuntadas y la piedra que divide los ventanales. Al mirar hacia arriba se aprecia la repetición que ordena el interior."
+        },
+        {
+          "title": "La iglesia inferior",
+          "text": "Si el acceso está disponible, fíjate en la zona vinculada a la tumba de san Mungo. La organización en niveles distingue esta visita de otras iglesias."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Kentigern y Mungo son dos nombres del mismo santo, una pista útil para interpretar carteles y explicaciones."
+        },
+        {
+          "kind": "dato",
+          "text": "La nave, el coro y la cripta llegaron a funcionar como tres iglesias dentro de un solo edificio."
+        }
+      ],
+      "sourceIds": [
+        "guide-glasgow-cathedral"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "necropolis",
+    "name": "Necrópolis de Glasgow",
+    "region": "Glasgow",
+    "category": "historia",
+    "image": "assets/images/glasgow.jpg",
+    "imageAlt": "Arquitectura de Glasgow entre flores y cielo azul",
+    "imageCaption": "Glasgow · Fotografía aportada para el viaje · Imagen de contexto de la zona",
+    "coordinates": [
+      55.8622,
+      -4.2311
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Una parada propuesta junto al entorno de la catedral, que se puede combinar con el paseo por Glasgow.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-glasgow",
+      "guide-necropolis"
+    ],
+    "featured": false,
+    "parentId": "glasgow",
+    "miniGuide": {
+      "intro": "La Necrópolis es un cementerio histórico situado en una colina junto a la catedral de Glasgow. Sus monumentos y caminos permiten descubrir cómo las familias y personajes de la ciudad quisieron ser recordados.",
+      "story": "Aquí las tumbas funcionan también como pequeñas obras de arquitectura. Columnas, obeliscos y mausoleos reflejan el gusto y las posibilidades de quienes los encargaron. Lee alguna inscripción: una profesión o un apellido puede convertir una vista bonita en una historia personal.",
+      "highlights": [
+        {
+          "title": "Los monumentos funerarios",
+          "text": "Compara tamaños, materiales y símbolos desde los caminos. No todos los memoriales cuentan lo mismo ni tuvieron el mismo coste."
+        },
+        {
+          "title": "La relación con la catedral",
+          "text": "Busca un punto desde el que se vean ambos espacios. El contraste entre la iglesia y el cementerio ayuda a situar épocas y usos."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El monumento a John Knox se promovió cuando la colina todavía era Fir Park: la memoria del reformador precedió al cementerio."
+        },
+        {
+          "kind": "dato",
+          "text": "La estatua de Knox sobre su columna fue la primera que se levantó en su honor en Escocia."
+        }
+      ],
+      "sourceIds": [
+        "guide-necropolis"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "george-square",
+    "name": "George Square",
+    "region": "Glasgow",
+    "category": "historia",
+    "image": "assets/images/glasgow.jpg",
+    "imageAlt": "Arquitectura de Glasgow entre flores y cielo azul",
+    "imageCaption": "Glasgow · Fotografía aportada para el viaje · Imagen de contexto de la zona",
+    "coordinates": [
+      55.8612,
+      -4.2503
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Una de las plazas incluidas entre las opciones del paseo urbano del día 2.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-glasgow",
+      "guide-glasgow-centre",
+      "guide-george-scott",
+      "guide-george-history"
+    ],
+    "featured": false,
+    "parentId": "glasgow",
+    "miniGuide": {
+      "intro": "George Square es una de las grandes plazas cívicas de Glasgow, frente al edificio del ayuntamiento, las City Chambers. Sus monumentos permiten recorrer ideas de poder municipal, memoria y vida pública.",
+      "story": "En 1919 la plaza fue escenario de una protesta por la reducción de la jornada laboral que terminó en enfrentamientos. Junto a las fachadas solemnes también hay historia social: este espacio ha servido para reunirse, reclamar y hacerse visible.",
+      "highlights": [
+        {
+          "title": "La fachada de las City Chambers",
+          "text": "Observa la escala y los detalles del edificio. El ayuntamiento se presenta como una expresión de la importancia de la ciudad."
+        },
+        {
+          "title": "La columna de Walter Scott",
+          "text": "Identifica al escritor en la parte alta. La columna fue diseñada por David Rhind en 1837; recuerda que el estado y la ubicación accesible de los monumentos pueden cambiar con las obras."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La gran columna de la plaza no está dedicada a un rey ni a un general, sino al escritor Walter Scott."
+        }
+      ],
+      "sourceIds": [
+        "guide-glasgow-centre",
+        "guide-george-scott",
+        "guide-george-history"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "buchanan-street",
+    "name": "Buchanan Street",
+    "region": "Glasgow",
+    "category": "historia",
+    "image": "assets/images/glasgow.jpg",
+    "imageAlt": "Arquitectura de Glasgow entre flores y cielo azul",
+    "imageCaption": "Glasgow · Fotografía aportada para el viaje · Imagen de contexto de la zona",
+    "coordinates": [
+      55.8609,
+      -4.2545
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Otra opción para disfrutar de Glasgow antes del traslado a Edimburgo.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-glasgow",
+      "guide-glasgow-centre",
+      "guide-glasgow-trade"
+    ],
+    "featured": false,
+    "parentId": "glasgow",
+    "miniGuide": {
+      "intro": "Buchanan Street es una de las principales calles comerciales de Glasgow. Es una buena pausa de paseo urbano entre escaparates y edificios, con una escala distinta a la de los lugares medievales del recorrido.",
+      "story": "La historia de su nombre revela una parte menos amable de la prosperidad de Glasgow. Andrew Buchanan hizo fortuna con el tabaco producido en plantaciones de Virginia mediante trabajo de personas esclavizadas. La riqueza comercial dejó huella en los nombres y edificios de la ciudad.",
+      "highlights": [
+        {
+          "title": "Las fachadas sobre las tiendas",
+          "text": "Levanta la mirada: balcones, ventanas y remates muestran detalles que desaparecen si solo miramos los escaparates."
+        },
+        {
+          "title": "La calle como espacio público",
+          "text": "Observa cómo el paseo comercial se mezcla con encuentros y actividad urbana. Puedes recorrer solo un tramo y continuar hacia la siguiente visita."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Glasgow Life incluye Buchanan Street en un recorrido sobre la historia del comercio y la esclavitud: su nombre conserva una pista de ese pasado."
+        }
+      ],
+      "sourceIds": [
+        "guide-glasgow-centre",
+        "guide-glasgow-trade"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "edinburgh-castle",
+    "name": "Castillo de Edimburgo",
+    "region": "Edimburgo",
+    "category": "historia",
+    "image": "assets/images/edinburgh.jpg",
+    "imageAlt": "Arquitectura histórica de Edimburgo",
+    "imageCaption": "Edimburgo · Imagen de contexto de la zona",
+    "coordinates": [
+      55.9486,
+      -3.1999
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Visita propuesta para el día completo en Edimburgo. Entradas, horario y duración pendientes.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "guide-edinburgh-castle",
+      "guide-mons-meg"
+    ],
+    "featured": false,
+    "parentId": "edinburgh",
+    "miniGuide": {
+      "intro": "El castillo de Edimburgo es una fortaleza sobre una gran roca, utilizada como residencia real, guarnición y prisión. Su posición permite entender la elección del emplazamiento incluso antes de entrar.",
+      "story": "No es un castillo de una sola época. Sus edificios y defensas se añadieron o cambiaron con los asedios y las necesidades de sus ocupantes. En una visita conviene comparar la pequeña capilla de Santa Margarita con las grandes salas y las baterías de cañones.",
+      "highlights": [
+        {
+          "title": "La capilla de Santa Margarita",
+          "text": "Si visitamos el interior, busca este pequeño edificio dedicado por David I a su madre. Su tamaño contrasta con la fama de la fortaleza."
+        },
+        {
+          "title": "Mons Meg y las defensas",
+          "text": "Observa el gran cañón medieval y mira desde las murallas hacia la ciudad: paisaje y estrategia militar se explican juntos."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La capilla de Santa Margarita es el edificio más antiguo que se conserva en Edimburgo."
+        },
+        {
+          "kind": "dato",
+          "text": "Mons Meg fue un regalo a Jacobo II en 1457 y pesa unas seis toneladas."
+        }
+      ],
+      "sourceIds": [
+        "guide-edinburgh-castle",
+        "guide-mons-meg"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "royal-mile",
+    "name": "Royal Mile",
+    "region": "Edimburgo",
+    "category": "historia",
+    "image": "assets/images/edinburgh.jpg",
+    "imageAlt": "Arquitectura histórica de Edimburgo",
+    "imageCaption": "Edimburgo · Imagen de contexto de la zona",
+    "coordinates": [
+      55.9502,
+      -3.1855
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Un paseo propuesto para conocer la ciudad a nuestro ritmo.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "guide-royal-mile",
+      "guide-royal-closes"
+    ],
+    "featured": false,
+    "parentId": "edinburgh",
+    "miniGuide": {
+      "intro": "La Royal Mile es el eje histórico que une el entorno del castillo con el palacio de Holyroodhouse. El nombre agrupa varias calles, no una única calle con el mismo rótulo de principio a fin.",
+      "story": "Imagina la vida del casco antiguo concentrada en una cresta: casas, comercios y accesos apretados unos junto a otros. Los closes, pasos estrechos que salen del eje principal, son una forma de asomarse a esa organización. Basta un desvío corto y público para cambiar de perspectiva.",
+      "highlights": [
+        {
+          "title": "Los accesos a los closes",
+          "text": "Mira los nombres sobre las entradas y la estrechez de los pasajes. Entra solo donde el acceso sea público."
+        },
+        {
+          "title": "St Giles y el sentido del recorrido",
+          "text": "Sitúa la iglesia en la calle y observa cómo el trazado enlaza los grandes centros de poder: el castillo y Holyrood."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Riddle’s Court acogió un banquete real de Jacobo VI y Ana de Dinamarca en 1598, según la guía de patrimonio de Forever Edinburgh."
+        }
+      ],
+      "sourceIds": [
+        "guide-royal-mile",
+        "guide-royal-closes"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "victoria-street",
+    "name": "Victoria Street",
+    "region": "Edimburgo",
+    "category": "historia",
+    "image": "assets/images/edinburgh.jpg",
+    "imageAlt": "Arquitectura histórica de Edimburgo",
+    "imageCaption": "Edimburgo · Imagen de contexto de la zona",
+    "coordinates": [
+      55.9486,
+      -3.1931
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Una de las calles propuestas para el paseo del día 3.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "guide-victoria"
+    ],
+    "featured": false,
+    "parentId": "edinburgh",
+    "miniGuide": {
+      "intro": "Victoria Street es una calle curva del casco antiguo de Edimburgo, reconocible por sus escaparates de colores y la pendiente. Su interés está en recorrerla despacio y mirar cómo se superponen los edificios.",
+      "story": "Antes de sacar la foto, compara las fachadas comerciales con la piedra de los pisos superiores. La curva hace que la vista cambie a cada paso. Es una pequeña lección sobre cómo una calle puede tener personalidad sin necesitar un gran monumento.",
+      "highlights": [
+        {
+          "title": "La curva y los colores",
+          "text": "Busca perspectivas diferentes desde las zonas de paso. La calle no se ve igual desde abajo que desde arriba."
+        },
+        {
+          "title": "Las fachadas completas",
+          "text": "Fíjate en ventanas, alturas y accesos, además de las tiendas. El conjunto importa tanto como cada negocio."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La calle se compara a menudo con el Callejón Diagon de Harry Potter, pero eso no demuestra que fuese su inspiración: la asociación no está confirmada por la autora."
+        }
+      ],
+      "sourceIds": [
+        "guide-victoria"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "st-giles",
+    "name": "Catedral de St Giles",
+    "region": "Edimburgo",
+    "category": "historia",
+    "image": "assets/images/edinburgh.jpg",
+    "imageAlt": "Arquitectura histórica de Edimburgo",
+    "imageCaption": "Edimburgo · Imagen de contexto de la zona",
+    "coordinates": [
+      55.9494,
+      -3.1908
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Una parada propuesta en el recorrido urbano de Edimburgo.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "guide-st-giles-history",
+      "guide-st-giles-chapel",
+      "guide-st-giles-title"
+    ],
+    "featured": false,
+    "parentId": "edinburgh",
+    "miniGuide": {
+      "intro": "St Giles es la gran iglesia de la Royal Mile, conocida por su torre rematada como una corona. Su historia se vincula a la Reforma escocesa y a John Knox, que llegó a ser su ministro en 1559.",
+      "story": "Al entrar, fíjate en que los espacios no pertenecen todos al mismo momento. La capilla del Cardo, terminada en 1911 y diseñada por Robert Lorimer, añade una pieza moderna de apariencia medieval. Sus detalles hablan de una orden de caballería y de símbolos escoceses.",
+      "highlights": [
+        {
+          "title": "La torre y el interior",
+          "text": "Desde la calle identifica la corona de piedra; dentro, compara pilares, ventanas y los distintos espacios."
+        },
+        {
+          "title": "La capilla del Cardo",
+          "text": "Si está accesible, busca los escudos y la talla de madera. Los detalles pequeños cuentan tanto como las grandes bóvedas."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Entre las figuras de la capilla hay ángeles que tocan la gaita."
+        },
+        {
+          "kind": "dato",
+          "text": "Aunque conserva el título histórico de catedral, hoy pertenece a la tradición presbiteriana de la Iglesia de Escocia."
+        }
+      ],
+      "sourceIds": [
+        "guide-st-giles-history",
+        "guide-st-giles-chapel",
+        "guide-st-giles-title"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "calton-hill",
+    "name": "Calton Hill",
+    "region": "Edimburgo",
+    "category": "naturaleza",
+    "image": "assets/images/edinburgh.jpg",
+    "imageAlt": "Arquitectura histórica de Edimburgo",
+    "imageCaption": "Edimburgo · Imagen de contexto de la zona",
+    "coordinates": [
+      55.955,
+      -3.1824
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Una de las alternativas propuestas para disfrutar de las vistas de la ciudad.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "guide-calton",
+      "edinburgh-unesco"
+    ],
+    "featured": false,
+    "parentId": "edinburgh",
+    "miniGuide": {
+      "intro": "Calton Hill es una colina de Edimburgo con vistas al casco antiguo, la ciudad nueva y el estuario. Sus monumentos convierten el paseo en una pequeña colección de arquitectura y memoria pública.",
+      "story": "El gran conjunto de columnas recuerda al Partenón, pero no es una ruina griega. El Monumento Nacional se empezó en 1826 para recordar a los escoceses muertos en las guerras napoleónicas. Las obras se detuvieron en 1829 por falta de fondos: lo que vemos es una construcción inacabada.",
+      "highlights": [
+        {
+          "title": "Las columnas del Monumento Nacional",
+          "text": "Mira su silueta y los huecos donde debería continuar el edificio. Saber que quedó sin terminar cambia la lectura de la foto."
+        },
+        {
+          "title": "La ciudad desde arriba",
+          "text": "Identifica el castillo y compara la trama del casco antiguo con las calles más regulares de la ciudad nueva."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Estas columnas tienen dos siglos de historia, aunque su modelo arquitectónico sea la antigua Grecia."
+        }
+      ],
+      "sourceIds": [
+        "guide-calton",
+        "edinburgh-unesco"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "dean-village",
+    "name": "Dean Village",
+    "region": "Edimburgo",
+    "category": "historia",
+    "image": "assets/images/edinburgh.jpg",
+    "imageAlt": "Arquitectura histórica de Edimburgo",
+    "imageCaption": "Edimburgo · Imagen de contexto de la zona",
+    "coordinates": [
+      55.9521,
+      -3.2161
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Otra opción del día 3. Elegirla según las ganas de caminar y el tiempo disponible.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "guide-dean"
+    ],
+    "featured": false,
+    "parentId": "edinburgh",
+    "miniGuide": {
+      "intro": "Dean Village es un antiguo núcleo de molinos junto al Water of Leith, hoy integrado en Edimburgo. El río explica su origen: antes de ser un rincón fotogénico, fue un espacio de trabajo.",
+      "story": "Busca Well Court, el conjunto de viviendas con torre de reloj y patio. Sir John Findlay, propietario del periódico The Scotsman, lo encargó en la década de 1880 para alojar a trabajadores locales. La arquitectura y la vida cotidiana se encontraron aquí, lejos de los grandes palacios.",
+      "highlights": [
+        {
+          "title": "El río y los puentes",
+          "text": "Observa cómo los edificios se acercan al agua. Imagina el movimiento y el ruido de los antiguos molinos."
+        },
+        {
+          "title": "Well Court desde el espacio público",
+          "text": "Fíjate en el reloj, la piedra y la organización de las viviendas. Sigue siendo un lugar residencial: disfruta la vista respetando sus accesos."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Well Court se terminó en 1886 y fue diseñado por el arquitecto Sydney Mitchell."
+        }
+      ],
+      "sourceIds": [
+        "guide-dean"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "arthurs-seat",
+    "name": "Arthur’s Seat",
+    "region": "Edimburgo",
+    "category": "geologia",
+    "image": "assets/images/edinburgh.jpg",
+    "imageAlt": "Arquitectura histórica de Edimburgo",
+    "imageCaption": "Edimburgo · Imagen de contexto de la zona",
+    "coordinates": [
+      55.9441,
+      -3.1618
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Alternativa de senderismo y geología al paseo urbano del día 3.",
+    "history": null,
+    "geology": "El relieve conserva restos de actividad volcánica antigua. La erosión posterior y el paso de los glaciares contribuyeron a dar forma al paisaje actual.",
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Alternativa opcional, no una visita que haya que sumar al resto.",
+      "Elegir un sendero adecuado y revisar accesos y meteorología."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "arthurs-geology"
+    ],
+    "featured": false,
+    "parentId": "edinburgh",
+    "miniGuide": {
+      "intro": "Arthur’s Seat es la elevación más reconocible de Holyrood Park, dentro de Edimburgo. No es un volcán activo: conserva parte de un sistema volcánico de hace unos 342 millones de años.",
+      "story": "La erosión ha eliminado buena parte de aquel volcán y ha dejado expuestos materiales que estuvieron en su interior. El hielo también modeló el paisaje. Mirarlo así transforma una colina urbana en un corte a través de la historia de la Tierra.",
+      "highlights": [
+        {
+          "title": "La silueta de la colina",
+          "text": "Desde un punto cómodo del parque, distingue las formas del relieve y su contraste con la ciudad. No hace falta alcanzar la cima para entender el paisaje."
+        },
+        {
+          "title": "Salisbury Crags",
+          "text": "Estos escarpes son una intrusión de roca ígnea: magma que se solidificó entre otras capas. No son la pared de un cráter."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El volcán es del Carbonífero, mucho más antiguo que los dinosaurios. La forma actual resulta de millones de años de erosión."
+        }
+      ],
+      "sourceIds": [
+        "arthurs-geology"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "loch-lomond",
+    "name": "Loch Lomond",
+    "region": "Camino a Oban",
+    "category": "naturaleza",
+    "image": "assets/images/highlands2.jpg",
+    "imageAlt": "Lago y montañas de Skye con el pináculo del Storr al fondo",
+    "imageCaption": "Paisaje de Skye · Fotografía aportada para el viaje · Imagen de ambiente del viaje; no representa este lugar concreto",
+    "coordinates": [
+      56.083,
+      -4.632
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Posible parada para disfrutar de las vistas durante el trayecto del día 4 hacia Oban.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Elegir un punto de parada autorizado que encaje con la ruta.",
+      "Descartar la parada si la recogida del vehículo se retrasa."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-highlands2",
+      "guide-loch-lomond"
+    ],
+    "featured": false,
+    "parentId": null,
+    "miniGuide": {
+      "intro": "Loch Lomond es un gran lago de agua dulce del parque nacional Loch Lomond & The Trossachs. Es el mayor lago de Gran Bretaña por superficie; esa medida no equivale a profundidad ni volumen.",
+      "story": "Aquí se encuentra la falla de las Highlands, una frontera geológica entre las tierras bajas y las altas. El lago permite leer esa transición: el sur se abre entre paisajes más suaves, mientras el norte se estrecha entre montañas.",
+      "highlights": [
+        {
+          "title": "La forma del lago",
+          "text": "Observa la anchura del agua y las islas que aparezcan desde nuestra parada. El aspecto cambia mucho según la orilla y la zona."
+        },
+        {
+          "title": "El relieve alrededor",
+          "text": "Compara las pendientes y las cumbres. El paisaje ayuda a entender por qué se habla de una puerta de entrada a las Highlands."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La falla de las Highlands puede seguirse en el paisaje de Conic Hill y Ben Bowie, a ambos lados del lago."
+        }
+      ],
+      "sourceIds": [
+        "guide-loch-lomond"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "mccaigs-tower",
+    "name": "McCaig’s Tower",
+    "region": "Oban",
+    "category": "historia",
+    "image": "assets/images/oban.jpg",
+    "imageAlt": "Edificios de Oban con McCaig’s Tower sobre la colina",
+    "imageCaption": "Oban y McCaig’s Tower · Fotografía aportada para el viaje",
+    "coordinates": [
+      56.4154,
+      -5.4696
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Posible subida al llegar a Oban el día 4, si queda tiempo después del paseo por el puerto.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-oban",
+      "guide-mccaig"
+    ],
+    "featured": false,
+    "parentId": "oban",
+    "miniGuide": {
+      "intro": "McCaig’s Tower es la construcción circular que domina Oban. Sus arcadas recuerdan a una arena romana, pero pertenecen a un proyecto iniciado a finales del siglo XIX.",
+      "story": "El banquero John Stuart McCaig comenzó a construirla en 1897 como monumento familiar. El proyecto contemplaba más elementos, entre ellos una torre central y esculturas. No llegó a completarse: la estructura que da carácter a la ciudad es también la huella de una idea más ambiciosa.",
+      "highlights": [
+        {
+          "title": "Las dos filas de arcos",
+          "text": "Compara los niveles, la piedra y el ritmo de las aberturas. La referencia clásica convive con detalles que no son propiamente romanos."
+        },
+        {
+          "title": "La bahía de Oban",
+          "text": "Desde los espacios de visita, sitúa el puerto y la costa. La relación entre pueblo y mar se entiende especialmente bien desde aquí."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Aunque parece un monumento de la Antigüedad, sus obras arrancaron en 1897."
+        }
+      ],
+      "sourceIds": [
+        "guide-mccaig"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "craignure",
+    "name": "Craignure",
+    "region": "Isla de Mull",
+    "category": "transporte",
+    "image": "assets/images/iona.jpg",
+    "imageAlt": "Abadía de Iona junto al mar",
+    "imageCaption": "Abadía de Iona · Fotografía aportada para el viaje · Imagen de contexto del recorrido por las islas; no representa este lugar concreto · Imagen de contexto de la zona",
+    "coordinates": [
+      56.469,
+      -5.706
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Puerto de llegada desde Oban el día 5 y de salida de Mull el día 7. Ferris con autocaravana, pendientes de reserva.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-iona",
+      "guide-craignure",
+      "guide-grass-point"
+    ],
+    "featured": false,
+    "parentId": "mull",
+    "miniGuide": {
+      "intro": "Craignure es uno de los principales puntos de entrada a Mull, con la terminal del ferry que enlaza con Oban. Para nuestro viaje es el momento en que la isla deja de ser una silueta y se convierte en carretera y paisaje.",
+      "story": "Un puerto cuenta también la historia de cómo se comunicaba una isla. Craignure ocupa hoy un papel destacado, pero el cercano Grass Point fue en otra época una entrada importante para pasajeros, correo y ganado. Las conexiones han cambiado tanto como los barcos.",
+      "highlights": [
+        {
+          "title": "El muelle y la llegada",
+          "text": "Mira la relación entre el ferry, el pequeño núcleo y las carreteras. Desembarca siguiendo las indicaciones antes de detenerte a observar."
+        },
+        {
+          "title": "La costa desde un espacio público",
+          "text": "Si tenemos margen después de salir de la terminal, mira las orillas y el agua: el viaje por mar sigue presente en el paisaje."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Grass Point recuerda una etapa en la que otras pequeñas instalaciones portuarias organizaban la entrada a Mull."
+        }
+      ],
+      "sourceIds": [
+        "guide-craignure",
+        "guide-grass-point"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "fionnphort",
+    "name": "Fionnphort",
+    "region": "Isla de Mull",
+    "category": "transporte",
+    "image": "assets/images/iona.jpg",
+    "imageAlt": "Abadía de Iona junto al mar",
+    "imageCaption": "Abadía de Iona · Fotografía aportada para el viaje · Imagen de contexto del recorrido por las islas; no representa este lugar concreto · Imagen de contexto de la zona",
+    "coordinates": [
+      56.3257,
+      -6.3691
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Punto de salida del ferry de pasajeros a Iona y de la excursión prevista a Staffa.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Coordinar enlaces por mar con los operadores.",
+      "La autocaravana permanece en Mull durante la visita a Iona."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-iona",
+      "guide-fionnphort",
+      "guide-mull-granite"
+    ],
+    "featured": false,
+    "parentId": "mull",
+    "miniGuide": {
+      "intro": "Fionnphort es el pequeño pueblo del extremo del Ross of Mull desde el que sale el ferry hacia Iona. Es un lugar de paso, pero también una ventana a una costa de granito, playas y canales de mar.",
+      "story": "La roca no es solo decorado: el Ross of Mull tuvo canteras de granito. Los restos de la cantera y el muelle de Tormore recuerdan aquella actividad. Mientras esperamos nuestro enlace, podemos mirar el paisaje con esa doble lectura: naturaleza e historia del trabajo.",
+      "highlights": [
+        {
+          "title": "Iona al otro lado",
+          "text": "Localiza la isla y observa la estrecha separación de agua. Una distancia pequeña en el mapa sigue requiriendo un enlace marítimo."
+        },
+        {
+          "title": "Las rocas y la costa",
+          "text": "Fíjate en el color y las formas del granito desde las zonas públicas. La textura cambia con la luz y la humedad."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El cercano muelle de Tormore estaba vinculado a una cantera de granito; el Ross of Mull también tuvo una historia industrial."
+        }
+      ],
+      "sourceIds": [
+        "guide-fionnphort",
+        "guide-mull-granite"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "iona",
+    "name": "Isla de Iona",
+    "region": "Hébridas Interiores",
+    "category": "islas",
+    "image": "assets/images/iona.jpg",
+    "imageAlt": "Abadía de Iona junto al mar",
+    "imageCaption": "Abadía de Iona · Fotografía aportada para el viaje",
+    "coordinates": [
+      56.33,
+      -6.4
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Visita acordada para el día 5: ferry de pasajeros desde Fionnphort, paseo por la isla, su pueblo y sus playas. Regreso a Mull para dormir.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Planificar el regreso a Fionnphort con el horario real del ferry.",
+      "Elegir el ritmo de la visita al llegar."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-iona",
+      "guide-iona",
+      "guide-iona-book"
+    ],
+    "featured": false,
+    "parentId": null,
+    "miniGuide": {
+      "intro": "Iona es una pequeña isla frente al Ross of Mull, conocida por su patrimonio cristiano, sus playas y un paisaje de escala íntima. En 563 llegó aquí san Columba con sus compañeros y fundó una comunidad monástica.",
+      "story": "Su importancia histórica fue mucho mayor que su tamaño. El monasterio conectó este rincón del Atlántico con redes religiosas y culturales. Conviene mirar la isla como un lugar vivido: además de peregrinación, hay campos, caminos, costa y una comunidad actual.",
+      "highlights": [
+        {
+          "title": "El pueblo y la abadía",
+          "text": "Sigue el recorrido acordado y observa cómo la vida de la isla y el conjunto religioso conviven en poco espacio."
+        },
+        {
+          "title": "La costa y los campos",
+          "text": "Mira el agua, las playas visibles y el paisaje agrícola sin salir de los accesos permitidos. La isla ofrece más que una única fotografía de la abadía."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El Libro de Kells probablemente se inició en Iona hacia el año 800. Hoy se conserva en Dublín: no es una pieza que vayamos a ver aquí."
+        }
+      ],
+      "sourceIds": [
+        "guide-iona",
+        "guide-iona-book"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "iona-abbey",
+    "name": "Abadía de Iona",
+    "region": "Isla de Iona",
+    "category": "historia",
+    "image": "assets/images/iona.jpg",
+    "imageAlt": "Abadía de Iona junto al mar",
+    "imageCaption": "Abadía de Iona · Fotografía aportada para el viaje",
+    "coordinates": [
+      56.3344,
+      -6.3927
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "La abadía está entre las visitas contempladas durante el día en Iona. Accesos y entradas pendientes.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-iona",
+      "guide-iona-abbey"
+    ],
+    "featured": false,
+    "parentId": "iona",
+    "miniGuide": {
+      "intro": "La abadía de Iona es un conjunto monástico ligado a san Columba y a la historia del cristianismo en Escocia. El monasterio empezó en 563, pero los edificios de piedra que vemos no son aquella primera fundación.",
+      "story": "La comunidad inicial utilizó construcciones mucho más sencillas. Hacia 1200 se estableció una abadía benedictina, de la que procede buena parte de la arquitectura medieval. Las cruces de piedra permiten mirar todavía más atrás: algunas conservadas aquí pertenecen a los siglos VIII y IX.",
+      "highlights": [
+        {
+          "title": "La iglesia y el claustro",
+          "text": "Compara los espacios y sus materiales. Piensa en las actividades que separaban: oración, circulación y vida comunitaria."
+        },
+        {
+          "title": "Las cruces talladas",
+          "text": "Si visitamos el conjunto y su museo, fíjate en figuras, entrelazos y proporciones. La cruz de san Martín sigue en su emplazamiento exterior."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La fecha de 563 corresponde a la fundación de la comunidad, no a la antigüedad de todas las paredes actuales."
+        }
+      ],
+      "sourceIds": [
+        "guide-iona-abbey"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "fidden",
+    "name": "Fidden y sus playas",
+    "region": "Isla de Mull",
+    "category": "costa",
+    "image": "assets/images/iona.jpg",
+    "imageAlt": "Abadía de Iona junto al mar",
+    "imageCaption": "Abadía de Iona · Fotografía aportada para el viaje · Imagen de contexto del recorrido por las islas; no representa este lugar concreto · Imagen de contexto de la zona",
+    "coordinates": [
+      56.311,
+      -6.356
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Nuestro entorno de descanso para las noches 5 y 6, con una tarde libre después de Staffa.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Fidden Farm Campsite está elegido; estancia y condiciones para 2027 pendientes de comprobar.",
+      "La web oficial indica actualmente que no acepta reservas; no hay disponibilidad garantizada."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "fidden-official",
+      "photo-user-iona",
+      "guide-fidden-beach"
+    ],
+    "featured": false,
+    "parentId": "mull",
+    "miniGuide": {
+      "intro": "Fidden es una playa y un entorno de camping en el Ross of Mull. La arena clara, el agua y los afloramientos de granito rosado forman uno de los paisajes más reconocibles de esta parte de la isla.",
+      "story": "Aquí el pequeño detalle merece tanto tiempo como la panorámica: formas de las rocas, charcos entre ellas y cambios de color con la luz. Nuestro camping elegido está en una granja familiar, así que el descanso del viaje comparte espacio con un paisaje que también se trabaja.",
+      "highlights": [
+        {
+          "title": "La arena y el granito",
+          "text": "Mira el contraste de colores y las formas redondeadas de las rocas desde la playa y los pasos accesibles."
+        },
+        {
+          "title": "Los charcos y la luz",
+          "text": "Observa los pequeños rincones sin retirar animales ni alterar sus refugios. Con tiempo despejado, la luz del final del día cambia la escena."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La web de Fidden Farm presenta la granja como un negocio de tercera generación, en manos de la familia desde 1952."
+        },
+        {
+          "kind": "dato",
+          "text": "En esta costa pueden verse focas, aunque una visita nunca garantiza un encuentro."
+        }
+      ],
+      "sourceIds": [
+        "guide-fidden-beach",
+        "fidden-official"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "tobermory",
+    "name": "Tobermory",
+    "region": "Isla de Mull",
+    "category": "costa",
+    "image": "assets/images/iona.jpg",
+    "imageAlt": "Abadía de Iona junto al mar",
+    "imageCaption": "Abadía de Iona · Fotografía aportada para el viaje · Imagen de contexto del recorrido por las islas; no representa este lugar concreto · Imagen de contexto de la zona",
+    "coordinates": [
+      56.623,
+      -6.072
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Visita opcional y no prioritaria. Se puede descartar para evitar desplazamientos largos durante la estancia en Mull.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-iona",
+      "guide-tobermory-history",
+      "guide-tobermory-tv"
+    ],
+    "featured": false,
+    "parentId": "mull",
+    "miniGuide": {
+      "intro": "Tobermory es un puerto de Mull famoso por sus fachadas de colores frente a la bahía. Su imagen alegre tiene detrás una historia planificada: nació como núcleo pesquero en 1788.",
+      "story": "La British Fisheries Society impulsó la población. Hubo que preparar el terreno de la orilla, cortando parte de la ladera y ganando espacio al agua. Antes de pensar en una postal, piensa en barcos, almacenamiento, sal y trabajo relacionado con la pesca.",
+      "highlights": [
+        {
+          "title": "Las fachadas del frente marítimo",
+          "text": "Mira los colores como un conjunto y compáralos con la ladera de detrás. La estrechez de la franja costera ayuda a explicar el trazado."
+        },
+        {
+          "title": "La bahía y el puerto",
+          "text": "Observa la forma protegida del agua y la relación entre los edificios y los barcos. El puerto es la razón de ser del núcleo."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La serie infantil de la BBC Balamory utilizó Tobermory como escenario, dando otra vida popular a sus casas de colores."
+        }
+      ],
+      "sourceIds": [
+        "guide-tobermory-history",
+        "guide-tobermory-tv"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "fingals-cave",
+    "name": "Cueva de Fingal",
+    "region": "Isla de Staffa",
+    "category": "geologia",
+    "image": "assets/images/staffa.avif",
+    "imageAlt": "Staffa · Fotografía aportada para el viaje",
+    "imageCaption": "Staffa · Fotografía aportada para el viaje · Imagen de contexto de la isla",
+    "coordinates": [
+      56.4314,
+      -6.3412
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "El principal atractivo geológico de la excursión prioritaria del día 6.",
+    "history": null,
+    "geology": "Las columnas de basalto se formaron por contracción al enfriarse la lava. El mar aprovechó las fracturas entre las columnas y fue excavando la cueva.",
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita acordada en el plan, excursión aún sin reservar.",
+      "El desembarco y el acceso dependen del mar, el tiempo y las condiciones del operador."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "staffa-geology",
+      "staffa",
+      "photo-user-staffa",
+      "guide-fingal-music"
+    ],
+    "featured": false,
+    "parentId": "staffa",
+    "miniGuide": {
+      "intro": "Fingal’s Cave es la gran cueva marina de Staffa, enmarcada por columnas de basalto. No fue construida ni tallada por personas: el enfriamiento de la roca y la acción del mar explican sus formas.",
+      "story": "Las columnas nacieron cuando el basalto ya sólido se contrajo mientras seguía enfriándose. Después, el oleaje aprovechó fracturas para abrir y ampliar la cavidad. La geometría parece arquitectónica, pero el sonido del agua recuerda que es un espacio natural en movimiento.",
+      "highlights": [
+        {
+          "title": "Las columnas y la boca de la cueva",
+          "text": "Si las condiciones permiten la visita, compara las secciones de las columnas y su altura. También se puede entender el conjunto desde el barco."
+        },
+        {
+          "title": "El sonido del mar",
+          "text": "Escucha cómo resuena el agua cuando podamos aproximarnos. El acceso y el desembarco dependen del operador y del estado del mar."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Su nombre gaélico, An Uamh Binn, se traduce como «la cueva melodiosa»."
+        },
+        {
+          "kind": "dato",
+          "text": "La visita de Mendelssohn en 1829 inspiró su obertura Las Hébridas, también conocida por el nombre de la cueva."
+        }
+      ],
+      "sourceIds": [
+        "staffa-geology",
+        "guide-fingal-music"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "three-sisters",
+    "name": "Three Sisters Viewpoint",
+    "region": "Glencoe",
+    "category": "geologia",
+    "image": "assets/images/glencoe.jpg",
+    "imageAlt": "Montañas verdes y rocosas de Glencoe",
+    "imageCaption": "Glencoe · Imagen de contexto de la zona",
+    "coordinates": [
+      56.668,
+      -4.986
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Mirador propuesto para observar las montañas y el valle de Glencoe el día 7.",
+    "history": null,
+    "geology": "La actividad volcánica antigua y el modelado glaciar explican parte del relieve que se observa en este valle.",
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "glencoe-glen",
+      "guide-glencoe-walks"
+    ],
+    "featured": false,
+    "parentId": "glencoe",
+    "miniGuide": {
+      "intro": "Las Three Sisters son tres grandes crestas del macizo de Bidean nam Bian que se levantan sobre Glencoe. Son parte de la montaña, no tres cumbres aisladas que haya que subir para disfrutar de la vista.",
+      "story": "El valle combina una historia de rocas volcánicas antiguas con la acción posterior del hielo. Desde abajo, las crestas hacen visible esa escala. Los huecos entre ellas son valles de montaña: lo que parece una excursión corta en una foto puede ser un recorrido exigente.",
+      "highlights": [
+        {
+          "title": "Las tres crestas",
+          "text": "Desde nuestra parada, intenta separar sus perfiles y mira cómo cambian con las nubes y la dirección de la luz."
+        },
+        {
+          "title": "El valle y sus pendientes",
+          "text": "Compara el fondo de Glencoe con las paredes de roca. La forma del relieve ayuda a imaginar el trabajo del hielo."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La denominación Three Sisters se refiere a crestas que descienden del mismo macizo, Bidean nam Bian."
+        }
+      ],
+      "sourceIds": [
+        "guide-glencoe-walks",
+        "glencoe-glen"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "signal-rock",
+    "name": "Signal Rock",
+    "region": "Glencoe",
+    "category": "naturaleza",
+    "image": "assets/images/glencoe.jpg",
+    "imageAlt": "Montañas verdes y rocosas de Glencoe",
+    "imageCaption": "Glencoe · Imagen de contexto de la zona",
+    "coordinates": [
+      56.676,
+      -5.056
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Sendero corto por el bosque, propuesto para el día 7. Referencia inicial de duración: 25–60 minutos, según el recorrido que finalmente elijamos.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": [
+      25,
+      60
+    ],
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "glencoe-glen",
+      "guide-glencoe-massacre",
+      "guide-glencoe-walks"
+    ],
+    "featured": false,
+    "parentId": "glencoe",
+    "miniGuide": {
+      "intro": "Signal Rock es un afloramiento rocoso entre los bosques de Glencoe. Su interés reúne paisaje y tradición local: es un buen ejemplo de cómo un nombre puede conservar relatos que debemos leer con cuidado.",
+      "story": "La tradición atribuye a este lugar funciones de reunión o aviso. Sin embargo, la historia popular que lo vincula a una señal de la matanza de Glencoe no está respaldada como un hecho demostrado. La matanza de 1692 sí es histórica; esta escena concreta pertenece al terreno de la tradición.",
+      "highlights": [
+        {
+          "title": "La roca y el bosque",
+          "text": "Si hacemos esta parada opcional, observa cómo el bosque cambia la percepción del valle y la posición del afloramiento."
+        },
+        {
+          "title": "El paisaje alrededor",
+          "text": "Piensa en qué se puede ver desde este lugar y en qué queda oculto. Esa observación ayuda a entender por qué surgieron historias sobre señales."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "leyenda",
+          "text": "Se cuenta que una señal desde la roca anunció la matanza de Glencoe. El National Trust for Scotland explica que hoy no se cree que aquella señal se diera aquí."
+        }
+      ],
+      "sourceIds": [
+        "guide-glencoe-massacre",
+        "guide-glencoe-walks"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "glencoe-visitor-centre",
+    "name": "Glencoe Visitor Centre",
+    "region": "Glencoe",
+    "category": "historia",
+    "image": "assets/images/glencoe.jpg",
+    "imageAlt": "Montañas verdes y rocosas de Glencoe",
+    "imageCaption": "Glencoe · Imagen de contexto de la zona",
+    "coordinates": [
+      56.667,
+      -5.095
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Visita propuesta si encaja con el horario tras el ferry y la llegada al valle.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "glencoe",
+      "guide-glencoe-turf"
+    ],
+    "featured": false,
+    "parentId": "glencoe",
+    "miniGuide": {
+      "intro": "El centro de visitantes de Glencoe permite situar la historia, la naturaleza y la conservación del valle antes de seguir la ruta. Su entorno también incluye una reconstrucción de una vivienda tradicional.",
+      "story": "La casa de turba y entramado, conocida como turf and creel house, se apoya en investigaciones arqueológicas del antiguo asentamiento de Achtriachtan. No es una casa del siglo XVII conservada intacta, sino una reconstrucción que devuelve forma a materiales y técnicas de aquel mundo.",
+      "highlights": [
+        {
+          "title": "La interpretación del valle",
+          "text": "Busca el contexto del paisaje y de sus habitantes. Así, las vistas que encontremos después tendrán nombres e historias."
+        },
+        {
+          "title": "La casa tradicional",
+          "text": "Si está accesible durante nuestra visita, observa el entramado, el tejado y los materiales. Imagina el mantenimiento que requerían en este clima."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La reconstrucción permite ver técnicas de construcción con materiales como turba, madera y brezo, además de la piedra habitual en otros edificios."
+        }
+      ],
+      "sourceIds": [
+        "guide-glencoe-turf"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "mallaig",
+    "name": "Mallaig",
+    "region": "Costa oeste",
+    "category": "transporte",
+    "image": "assets/images/highlands2.jpg",
+    "imageAlt": "Lago y montañas de Skye con el pináculo del Storr al fondo",
+    "imageCaption": "Paisaje de Skye · Fotografía aportada para el viaje · Imagen de ambiente del viaje; no representa este lugar concreto",
+    "coordinates": [
+      57.006,
+      -5.83
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Puerto previsto en la etapa provisional del día 8 para cruzar con la autocaravana a Armadale.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Reserva y horario del ferry pendientes.",
+      "Confirmar las dimensiones del vehículo antes de reservar."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "photo-user-highlands2",
+      "guide-mallaig"
+    ],
+    "featured": false,
+    "parentId": null,
+    "miniGuide": {
+      "intro": "Mallaig es un puerto de la costa occidental que conecta con las islas. En nuestra ruta es el punto de salida hacia Armadale, pero su historia también se entiende mirando el ferrocarril y la pesca.",
+      "story": "La llegada del tren en 1901 facilitó el envío de pescado a otros mercados. A su alrededor trabajaban no solo marineros: también personas que preparaban el arenque, fabricantes de barriles y muchos otros oficios. El puerto y la estación forman parte de la misma historia económica.",
+      "highlights": [
+        {
+          "title": "El puerto desde las zonas públicas",
+          "text": "Distingue los espacios de trabajo y de embarque. La actividad cotidiana ofrece más contexto que una vista solo de los barcos."
+        },
+        {
+          "title": "La estación y el pueblo",
+          "text": "Si disponemos de margen antes del ferry, observa lo cerca que están el tren y el agua: esa proximidad tenía una función práctica."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El ferrocarril no solo trajo viajeros; fue decisivo para transportar las capturas hacia los mercados."
+        }
+      ],
+      "sourceIds": [
+        "guide-mallaig"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "armadale",
+    "name": "Armadale",
+    "region": "Isla de Skye",
+    "category": "transporte",
+    "image": "assets/images/quiraing.jpg",
+    "imageAlt": "Montañas y carretera entre las laderas del Quiraing",
+    "imageCaption": "Quiraing, isla de Skye · Imagen de contexto de la zona",
+    "coordinates": [
+      57.064,
+      -5.896
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Puerto de llegada previsto a Skye desde Mallaig en el día 8.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "guide-armadale",
+      "guide-armadale-clan"
+    ],
+    "featured": false,
+    "parentId": "skye",
+    "miniGuide": {
+      "intro": "Armadale es nuestra puerta de entrada al sur de Skye tras el ferry desde Mallaig. Está en Sleat, una zona distinta de los grandes relieves de Trotternish que veremos más adelante.",
+      "story": "El cercano conjunto de Armadale Castle reúne jardines, ruinas y un museo dedicado a la historia del Clan Donald. Esa historia abre la mirada hacia una Escocia conectada por el mar: las islas y las costas formaban redes de poder y comercio, no lugares aislados.",
+      "highlights": [
+        {
+          "title": "La llegada a Skye",
+          "text": "Mira hacia el Sound of Sleat desde un espacio adecuado una vez completado el desembarco. El agua explica la conexión con el continente."
+        },
+        {
+          "title": "El contexto del Clan Donald",
+          "text": "Los jardines y el museo de Armadale aportan contexto si encajan en otro momento. No forman una visita añadida al plan de esta jornada."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La antigua capital de los Lords of the Isles vinculados al Clan Donald estaba en Finlaggan, en Islay, no en Armadale."
+        }
+      ],
+      "sourceIds": [
+        "guide-armadale",
+        "guide-armadale-clan"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "old-man-storr",
+    "name": "Old Man of Storr",
+    "region": "Norte de Skye",
+    "category": "geologia",
+    "image": "assets/images/highlands2.jpg",
+    "imageAlt": "Lago y montañas de Skye con el pináculo del Storr al fondo",
+    "imageCaption": "Paisaje de Skye · Fotografía aportada para el viaje",
+    "coordinates": [
+      57.507,
+      -6.183
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Visita prevista dentro del plan provisional del norte de Skye, día 9.",
+    "history": null,
+    "geology": "Un paisaje de pináculos rocosos incluido entre los lugares geológicos de la península de Trotternish.",
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "skye",
+      "photo-user-highlands2",
+      "guide-storr-geology",
+      "guide-storr"
+    ],
+    "featured": false,
+    "parentId": "skye",
+    "miniGuide": {
+      "intro": "El Old Man of Storr es el gran pináculo que destaca bajo los escarpes de Trotternish, en Skye. Su aspecto parece el de una torre natural separada de la montaña.",
+      "story": "La geología lo relaciona con grandes deslizamientos: materiales volcánicos se desplazaron sobre rocas más débiles. No es una estatua ni una pieza colocada allí. Mirar las masas de roca de alrededor ayuda a ver el conjunto como un paisaje que ha cambiado de posición.",
+      "highlights": [
+        {
+          "title": "El pináculo y su entorno",
+          "text": "Busca la relación entre la torre y los escarpes de detrás. La silueta varía según la perspectiva y las nubes."
+        },
+        {
+          "title": "Las formas desplazadas",
+          "text": "Observa bloques, pendientes y huecos desde el recorrido que hagamos. No hace falta convertir la parada en una subida completa para apreciar el relieve."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "leyenda",
+          "text": "Una tradición presenta el pináculo como el pulgar de un gigante enterrado. Es una explicación legendaria, distinta de la explicación geológica."
+        }
+      ],
+      "sourceIds": [
+        "guide-storr-geology",
+        "guide-storr"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "kilt-rock",
+    "name": "Kilt Rock",
+    "region": "Norte de Skye",
+    "category": "geologia",
+    "image": "assets/images/quiraing.jpg",
+    "imageAlt": "Montañas y carretera entre las laderas del Quiraing",
+    "imageCaption": "Quiraing, isla de Skye · Imagen de contexto de la zona",
+    "coordinates": [
+      57.611,
+      -6.173
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Mirador previsto en el tramo provisional del día 9, junto con Storr y Quiraing.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "skye",
+      "guide-kilt"
+    ],
+    "featured": false,
+    "parentId": "skye",
+    "miniGuide": {
+      "intro": "Kilt Rock es un acantilado de la costa de Trotternish cuyas columnas de roca recuerdan a los pliegues de una falda escocesa. Cerca cae Mealt Falls, la cascada que suele compartir su fotografía.",
+      "story": "Son dos elementos diferentes: la pared que da nombre al lugar y el salto de agua que llega desde Loch Mealt. El interés está en seguir con la mirada esas líneas, desde las columnas del acantilado hasta el agua que cae hacia el mar.",
+      "highlights": [
+        {
+          "title": "El dibujo del acantilado",
+          "text": "Desde el mirador, busca las líneas verticales que sugieren los pliegues de un kilt. La comparación es una forma de recordar su geometría."
+        },
+        {
+          "title": "Mealt Falls",
+          "text": "Localiza la caída de agua y observa cómo el viento y el caudal cambian su aspecto. Mantente en el espacio de observación delimitado."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Kilt Rock y Mealt Falls no son dos nombres para lo mismo: uno identifica el acantilado y el otro la cascada."
+        }
+      ],
+      "sourceIds": [
+        "guide-kilt"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "quiraing",
+    "name": "Quiraing",
+    "region": "Norte de Skye",
+    "category": "geologia",
+    "image": "assets/images/quiraing.jpg",
+    "imageAlt": "Montañas y carretera del Quiraing, en el norte de Skye",
+    "imageCaption": "Quiraing · Isla de Skye",
+    "coordinates": [
+      57.643,
+      -6.265
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Paisaje geológico previsto para el día 9. El paseo concreto y su duración todavía están por decidir.",
+    "history": null,
+    "geology": "Uno de los paisajes geológicos destacados del norte de Skye, en la península de Trotternish.",
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "skye",
+      "guide-skye-geology",
+      "guide-quiraing"
+    ],
+    "featured": false,
+    "parentId": "skye",
+    "miniGuide": {
+      "intro": "El Quiraing es un paisaje de escarpes, pináculos y plataformas de Trotternish. Sus formas no son el resultado de un castillo perdido: pertenecen a un gran sistema de deslizamientos de ladera.",
+      "story": "Las rocas volcánicas descansan sobre materiales sedimentarios más débiles, lo que ha permitido desplazamientos. El relieve conserva esa inestabilidad geológica. Sus formas recibieron nombres fáciles de imaginar, como The Prison, The Needle y The Table.",
+      "highlights": [
+        {
+          "title": "La panorámica de Trotternish",
+          "text": "Desde los espacios de observación y el recorrido que elijamos, compara pared rocosa, plataformas y costa. La escala del conjunto es parte de su atractivo."
+        },
+        {
+          "title": "Las formas con nombre",
+          "text": "Busca figuras que recuerden una fortaleza, una aguja o una mesa. No todas se distinguen desde el mismo punto; reconocerlas no exige completar una ruta larga."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El British Geological Survey describe que el movimiento continúa a pequeña escala en la zona del Quiraing: no es solo una historia del pasado remoto."
+        }
+      ],
+      "sourceIds": [
+        "guide-skye-geology",
+        "guide-quiraing"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "skye-bridge",
+    "name": "Puente de Skye",
+    "region": "Isla de Skye",
+    "category": "transporte",
+    "image": "assets/images/quiraing.jpg",
+    "imageAlt": "Montañas y carretera entre las laderas del Quiraing",
+    "imageCaption": "Quiraing, isla de Skye · Imagen de contexto de la zona",
+    "coordinates": [
+      57.279,
+      -5.739
+    ],
+    "coordinateStatus": "aproximadas",
+    "description": "Salida por carretera prevista en el plan provisional del día 10, rumbo a Eilean Donan.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+    ],
+    "sourceIds": [
+      "update-2027",
+      "guide-skye-bridge"
+    ],
+    "featured": false,
+    "parentId": "skye",
+    "miniGuide": {
+      "intro": "El puente de Skye forma parte del enlace por carretera entre la isla y el continente, en la zona de Kyle of Lochalsh y Kyleakin. Para nuestra ruta marca la salida de Skye por tierra, después de haber entrado por mar.",
+      "story": "La conexión aprovecha la pequeña isla de Eilean Bàn. Aunque hablamos de «el puente», el cruce comprende dos estructuras: el Skye Bridge y el Carrich Viaduct. La geografía de islas y canales sigue marcando el camino, incluso cuando viajamos sobre el agua por carretera.",
+      "highlights": [
+        {
+          "title": "La conexión entre orillas",
+          "text": "Como pasajeros, observa la relación entre el continente, Eilean Bàn y Skye. El conductor debe concentrarse en la circulación."
+        },
+        {
+          "title": "El paisaje del canal",
+          "text": "Si realizamos una parada en un lugar habilitado antes o después del cruce, mira la altura del puente y las costas que enlaza."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El enlace de la A87 se construyó entre 1992 y 1995 y está compuesto por dos puentes, no por una sola estructura."
+        }
+      ],
+      "sourceIds": [
+        "guide-skye-bridge"
+      ],
+      "checkedAt": "2026-10-10"
+    }
+  }
+]

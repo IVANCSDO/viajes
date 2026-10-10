@@ -1,0 +1,278 @@
+{
+  "vehicle": {
+    "pickupDayId": "dia-4",
+    "returnDayId": "dia-11",
+    "pickupPlaceId": "glasgow",
+    "returnPlaceId": "glasgow",
+    "travelSeats": 3,
+    "sleepingPlaces": 3,
+    "requirements": [
+      "3 plazas homologadas para viajar y dormir",
+      "Baño",
+      "Ducha",
+      "Cocina",
+      "Frigorífico"
+    ],
+    "bookingStatus": "pendiente",
+    "provider": null,
+    "model": null,
+    "pickupTime": null,
+    "returnTime": null,
+    "price": null,
+    "budgetReference": {
+      "min": 600,
+      "max": 800,
+      "currency": "EUR",
+      "referenceDays": 10,
+      "status": "sin-confirmar",
+      "note": "Referencia inicial aportada para unos 10 días. No es una oferta ni el precio del alquiler previsto de 8 días. No prorratear ni convertir automáticamente."
+    }
+  },
+  "accommodations": [
+    {
+      "id": "hotel-glasgow-llegada",
+      "name": null,
+      "placeId": "glasgow",
+      "type": "convencional",
+      "selectionStatus": "pendiente",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Primera noche en Glasgow; alojamiento concreto por elegir.",
+      "url": null,
+      "candidateIds": [],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "hotel-edinburgh",
+      "name": null,
+      "placeId": "edinburgh",
+      "type": "convencional",
+      "selectionStatus": "pendiente",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Noches 2 y 3 en Edimburgo; alojamiento concreto por elegir.",
+      "url": null,
+      "candidateIds": [],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "camping-oban",
+      "name": null,
+      "placeId": "oban",
+      "type": "camping",
+      "selectionStatus": "pendiente",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Noche 4 en Oban; camping por elegir.",
+      "url": null,
+      "candidateIds": [],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "fidden-farm",
+      "name": "Fidden Farm Campsite",
+      "placeId": "fidden",
+      "type": "camping",
+      "selectionStatus": "elegida",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Elegido para dos noches. Confirmar disponibilidad y condiciones para junio de 2027. La web oficial indica actualmente que no acepta reservas; no existe plaza garantizada.",
+      "url": "https://fiddenfarm.co.uk/",
+      "candidateIds": [],
+      "bookingPolicy": {
+        "status": "sin-reservas-previas",
+        "checkedAt": "2026-10-10",
+        "sourceId": "fidden-official"
+      },
+      "sourceIds": [
+        "update-2027",
+        "fidden-official"
+      ]
+    },
+    {
+      "id": "camping-glencoe",
+      "name": null,
+      "placeId": "glencoe",
+      "type": "camping",
+      "selectionStatus": "pendiente",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Noche 7. Camping pendiente de elegir; Red Squirrel solo es candidato.",
+      "url": null,
+      "candidateIds": [
+        "red-squirrel"
+      ],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "red-squirrel",
+      "name": "Red Squirrel Campsite",
+      "placeId": "glencoe",
+      "type": "camping",
+      "selectionStatus": "candidata",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Comprobar admisión de la autocaravana concreta, instalaciones y disponibilidad. No está elegido ni reservado.",
+      "url": "https://redsquirrelcampsite.co.uk/",
+      "candidateIds": [],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "update-2027",
+        "red-squirrel-official"
+      ]
+    },
+    {
+      "id": "camping-skye",
+      "name": null,
+      "placeId": "skye",
+      "type": "camping",
+      "selectionStatus": "pendiente",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Noches 8 y 9, dentro del plan provisional; camping por elegir.",
+      "url": null,
+      "candidateIds": [],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "camping-fort-augustus",
+      "name": null,
+      "placeId": "fort-augustus",
+      "type": "camping",
+      "selectionStatus": "pendiente",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Noche 10, provisional; camping por elegir.",
+      "url": null,
+      "candidateIds": [],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "hotel-glasgow-regreso",
+      "name": null,
+      "placeId": "glasgow",
+      "type": "convencional",
+      "selectionStatus": "pendiente",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Última noche, día 11, tras devolver la autocaravana; alojamiento por elegir.",
+      "url": null,
+      "candidateIds": [],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "update-2027"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "vuelos",
+      "name": "Vuelos por Glasgow",
+      "selectionStatus": "acordada",
+      "reservationStatus": "pendiente",
+      "provider": null,
+      "price": null,
+      "time": null,
+      "note": "Fechas exactas y horarios pendientes. Junio de 2027 es la ventana provisional.",
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "autocaravana",
+      "name": "Alquiler de autocaravana",
+      "selectionStatus": "acordada",
+      "reservationStatus": "pendiente",
+      "provider": null,
+      "price": null,
+      "time": null,
+      "note": "Plan: días 4–11. Empresa, modelo, precio y horas de recogida y devolución pendientes.",
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "ferry-oban-craignure",
+      "name": "Ferry Oban → Craignure",
+      "selectionStatus": "acordada",
+      "reservationStatus": "pendiente",
+      "provider": null,
+      "price": null,
+      "time": null,
+      "note": "Día 5 con autocaravana; reservar al confirmar fechas y vehículo.",
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "ferry-craignure-oban",
+      "name": "Ferry Craignure → Oban",
+      "selectionStatus": "acordada",
+      "reservationStatus": "pendiente",
+      "provider": null,
+      "price": null,
+      "time": null,
+      "note": "Día 7 con autocaravana; horario y reserva pendientes.",
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "ferry-iona",
+      "name": "Ferry Fionnphort ↔ Iona",
+      "selectionStatus": "acordada",
+      "reservationStatus": "pendiente",
+      "provider": null,
+      "price": null,
+      "time": null,
+      "note": "Día 5, pasajeros; comprobar horarios y condiciones. La autocaravana queda en Mull.",
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "excursion-staffa",
+      "name": "Excursión Fionnphort ↔ Staffa",
+      "selectionStatus": "acordada",
+      "reservationStatus": "pendiente",
+      "provider": null,
+      "price": null,
+      "time": null,
+      "note": "Día 6, prioritaria. Reservar y comprobar cancelación, meteorología y desembarco.",
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "ferry-mallaig-armadale",
+      "name": "Ferry Mallaig → Armadale",
+      "selectionStatus": "provisional",
+      "reservationStatus": "pendiente",
+      "provider": null,
+      "price": null,
+      "time": null,
+      "note": "Día 8, dentro del plan provisional; reserva pendiente.",
+      "sourceIds": [
+        "update-2027"
+      ]
+    }
+  ]
+}

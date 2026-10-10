@@ -1,0 +1,194 @@
+{
+  "sections": [
+    {
+      "id": "cities",
+      "icon": "train-front",
+      "title": "Primero, las ciudades",
+      "label": "Transporte urbano y alojamiento",
+      "status": "planificada",
+      "text": "Glasgow y Edimburgo en autobús o tren. Las primeras tres noches y la última se duermen en alojamiento convencional.",
+      "items": [
+        "Día 1: llegada y descanso en Glasgow.",
+        "Día 2: Glasgow y traslado por la tarde a Edimburgo.",
+        "Día 3: Edimburgo; noche también en la ciudad.",
+        "Día 4: volver temprano a Glasgow para recoger el vehículo.",
+        "Día 11: devolución y última noche en Glasgow. Día 12: solo vuelo."
+      ],
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "camper",
+      "icon": "truck",
+      "title": "Nuestra casa sobre ruedas",
+      "label": "Autocaravana",
+      "status": "confirmada",
+      "text": "Plan acordado: autocaravana del día 4 al 11. Recogida y devolución en Glasgow; empresa, modelo y precio pendientes.",
+      "items": [
+        "3 plazas homologadas para viajar y dormir, baño, ducha, cocina y frigorífico.",
+        "Recogida el día 4 por la mañana, idealmente antes de comer; confirmar que la empresa lo permite.",
+        "Devolución el día 11: hora y lugar exactos pendientes."
+      ],
+      "sourceIds": [
+        "update-2027"
+      ]
+    },
+    {
+      "id": "driving",
+      "icon": "signpost-split",
+      "title": "El camino también es el viaje",
+      "label": "Conducción",
+      "status": "orientativo",
+      "text": "En Escocia se conduce por la izquierda. Planifica con margen y consulta la información oficial antes de viajar.",
+      "items": [
+        "Evitar jornadas de conducción de 6–7 horas y dejar margen para ferris y descansos.",
+        "Preferir senderos sencillos o moderados y miradores.",
+        "Día 7: estimación inicial 115–130 km y 2,5–3 h, sin ferry, esperas ni paradas. Validar con la ruta definitiva.",
+        "El resto de kilómetros y tiempos siguen pendientes."
+      ],
+      "sourceIds": [
+        "driving",
+        "update-2027"
+      ]
+    },
+    {
+      "id": "ferries",
+      "icon": "water",
+      "title": "Un salto a las islas",
+      "label": "Ferris y barcos",
+      "status": "pendiente",
+      "text": "Oban–Craignure de ida y vuelta, Iona en ferry de pasajeros, Staffa en barco y Mallaig–Armadale dentro del tramo provisional. No hay billetes ni horarios confirmados.",
+      "items": [
+        "Oban–Craignure: día 5; Craignure–Oban: día 7, con autocaravana.",
+        "Fionnphort–Iona: día 5, solo pasajeros; vehículo en Mull.",
+        "Staffa: salida desde Fionnphort el día 6; reservar y revisar cancelación.",
+        "Mallaig–Armadale: día 8 provisional; salida de Skye por el puente el día 10."
+      ],
+      "sourceIds": [
+        "update-2027",
+        "ferries",
+        "staffa"
+      ]
+    },
+    {
+      "id": "fuel",
+      "icon": "fuel-pump",
+      "title": "Con margen para parar",
+      "label": "Combustible",
+      "status": "pendiente",
+      "text": "Consumo, precio por litro y coste total pendientes del vehículo y de la ruta definitiva.",
+      "items": [
+        "Identificar puntos de repostaje al cerrar cada jornada.",
+        "No calcular el combustible a partir de las líneas esquemáticas del mapa."
+      ],
+      "sourceIds": [
+        "brief"
+      ]
+    },
+    {
+      "id": "booking",
+      "icon": "journal-check",
+      "title": "Antes de salir",
+      "label": "Reservas",
+      "status": "pendiente",
+      "text": "Elegir una visita o un camping no equivale a tener una reserva. No hay reservas confirmadas en esta actualización.",
+      "items": [
+        "Fechas exactas, vuelos y alojamiento convencional de las primeras tres noches y la última.",
+        "Autocaravana, ferris y excursión a Staffa.",
+        "Comprobar disponibilidad y condiciones de Fidden para dos noches: actualmente indica que no acepta reservas.",
+        "Elegir camping en Oban, Glencoe, Skye y Fort Augustus."
+      ],
+      "sourceIds": [
+        "update-2027",
+        "fidden-official"
+      ]
+    },
+    {
+      "id": "packing",
+      "icon": "backpack",
+      "title": "Lo esencial, a mano",
+      "label": "Preparativos",
+      "status": "orientativo",
+      "text": "Una propuesta de equipaje para un viaje centrado en naturaleza y paseos.",
+      "items": [
+        "Capas de ropa, impermeable y calzado para caminar.",
+        "Cargadores, batería y documentación del viaje.",
+        "Revisar la previsión y las condiciones de cada paseo."
+      ],
+      "sourceIds": [
+        "editorial"
+      ]
+    }
+  ],
+  "budget": {
+    "currency": "GBP",
+    "status": "pendiente",
+    "categories": [
+      {
+        "id": "vehicle",
+        "label": "Alquiler de autocaravana",
+        "amount": null
+      },
+      {
+        "id": "nights",
+        "label": "Pernoctas",
+        "amount": null
+      },
+      {
+        "id": "ferries",
+        "label": "Ferris y excursiones",
+        "amount": null
+      },
+      {
+        "id": "fuel",
+        "label": "Combustible",
+        "amount": null
+      },
+      {
+        "id": "food",
+        "label": "Comida",
+        "amount": null
+      },
+      {
+        "id": "flights",
+        "label": "Vuelos y otros gastos",
+        "amount": null
+      }
+    ]
+  },
+  "checklist": [
+    {
+      "id": "dates-2027",
+      "label": "Confirmar fechas exactas y vuelos por Glasgow"
+    },
+    {
+      "id": "vehicle-2027",
+      "label": "Elegir autocaravana y confirmar recogida/devolución"
+    },
+    {
+      "id": "hotels-2027",
+      "label": "Elegir alojamientos convencionales (4 noches)"
+    },
+    {
+      "id": "fidden-2027",
+      "label": "Comprobar condiciones y disponibilidad de Fidden"
+    },
+    {
+      "id": "campings-2027",
+      "label": "Elegir campings en Oban, Glencoe, Skye y Fort Augustus"
+    },
+    {
+      "id": "ferries-2027",
+      "label": "Reservar ferris con la autocaravana"
+    },
+    {
+      "id": "staffa-2027",
+      "label": "Reservar Staffa y revisar cancelación"
+    },
+    {
+      "id": "route-2027",
+      "label": "Validar kilómetros y tiempos de conducción"
+    }
+  ]
+}

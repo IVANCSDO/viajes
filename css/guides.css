@@ -1,0 +1,60 @@
+.mini-guide { margin: 30px 0; min-width: 0; }
+.guide-heading { margin-bottom: 25px; }
+.guide-heading h2 { margin-bottom: 12px; }
+.guide-heading > p { font-size: 13px; }
+.mini-guide h3,.mini-guide h4 {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.35;
+  margin: 0 0 13px;
+}
+.mini-guide h3 .bi,.mini-guide h4 .bi { font-size: 17px; color: var(--pine); }
+.mini-guide p { font-size: 14px; line-height: 1.85; overflow-wrap: anywhere; }
+.guide-intro { padding: 24px; background: #edf1e7; border-radius: 8px; }
+.guide-intro p { margin: 0; }
+.guide-story,.guide-sights,.guide-curiosities { margin-top: 28px; }
+.guide-sights ol { list-style: none; padding: 0; margin: 0; counter-reset: guide-sight; }
+.guide-sights li { position: relative; padding: 5px 0 10px 43px; counter-increment: guide-sight; }
+.guide-sights li::before {
+  content: counter(guide-sight, decimal-leading-zero);
+  position: absolute;
+  top: 5px;
+  left: 0;
+  color: #7b8a6c;
+  font-size: 12px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  width: 29px;
+  height: 29px;
+  display: grid;
+  place-items: center;
+}
+.guide-sights strong { font-size: 14px; font-weight: 600; }
+.guide-sights p { margin: 6px 0 0; }
+.guide-curiosity { padding: 17px 20px; background: #f2edde; border-left: 3px solid #ac915b; border-radius: 0 7px 7px 0; margin-top: 12px; }
+.guide-curiosity.is-legend { background: #eaf0f1; border-color: #7498a1; }
+.guide-curiosity > span { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #806b43; }
+.guide-curiosity.is-legend > span { color: #4a737e; }
+.guide-curiosity p { margin: 6px 0 0; }
+.guide-sources { margin-top: 22px; font-size: 12px; }
+.guide-sources summary { cursor: pointer; color: var(--pine); padding: 9px 0; }
+.stop-guide { margin: 14px 0 0; min-width: 0; }
+.stop-guide > summary { cursor: pointer; color: var(--pine); font-size: 12px; padding: 10px 0; }
+.stop-item > div { min-width: 0; }
+.embedded-guide { margin: 12px 0; padding-top: 8px; }
+.embedded-guide h4 { font-size: 21px; }
+.embedded-guide p { font-size: 13px; }
+@media (max-width: 767px) {
+  .guide-intro { padding: 20px; }
+  .mini-guide h3 { font-size: 23px; }
+  .mini-guide p { font-size: 13px; }
+  .guide-curiosity { padding: 16px; }
+  .guide-sights li { padding-left: 39px; }
+}
+@media print {
+  .guide-intro,.guide-curiosity { background: white; border: 1px solid #bbb; break-inside: avoid; }
+}

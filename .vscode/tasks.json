@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Escocia: servidor local",
+      "type": "process",
+      "command": "python3",
+      "windows": {
+        "command": "${env:LOCALAPPDATA}\\Python\\pythoncore-3.14-64\\python.exe"
+      },
+      "args": ["-u", "-m", "http.server", "8000", "--bind", "127.0.0.1"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "escocia-server",
+        "pattern": {
+          "regexp": "^(.*):(\\d+): (.*)$",
+          "file": 1,
+          "line": 2,
+          "message": 3
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^Starting HTTP server",
+          "endsPattern": "^Serving HTTP on 127\\.0\\.0\\.1 port 8000"
+        }
+      },
+      "presentation": {
+        "reveal": "silent",
+        "panel": "dedicated",
+        "clear": false
+      },
+      "runOptions": {
+        "instanceLimit": 1
+      }
+    }
+  ]
+}
