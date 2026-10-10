@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#213e35">
+  <meta name="description" content="Escocia 2027: 12 días desde Glasgow, con ciudades, Iona, Staffa y las Highlands. Itinerario, mapas y reservas pendientes.">
+  <title>Escocia, sin prisa · Nuestra guía de viaje</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/vendor/leaflet.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/trip-plan.css">
+  <link rel="stylesheet" href="css/maps.css">
+  <link rel="stylesheet" href="css/guides.css">
+  <script src="assets/vendor/leaflet.js" defer></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Escocia, sin prisa. Inicio"><span class="brand-mark"><i class="bi bi-mountains" aria-hidden="true"></i><svg viewBox="0 0 40 32" aria-hidden="true"><path d="M3 27 15 7l6 10 5-8 12 18H3Z M11 14l4 4 4-4"/></svg></span><span>escocia<span class="brand-sub">SIN PRISA</span></span></a>
+      <nav class="desktop-nav" aria-label="Navegación principal"><a href="#inicio" data-nav="inicio">Inicio</a><a href="#itinerario" data-nav="itinerario">Itinerario</a><a href="#mapa" data-nav="mapa">El mapa</a><a href="#lugares" data-nav="lugares">Lugares</a><a href="#practica" data-nav="practica">Info práctica</a></nav>
+      <a href="#lugares?favoritos=1" class="saved-link"><i class="bi bi-bookmark" aria-hidden="true"></i><span>Mis lugares</span><span class="saved-count" id="saved-count">0</span></a>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"><div class="container loading" role="status">Preparando nuestra próxima aventura…</div></main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="#inicio">escocia, sin prisa.</a><span>Menos reloj. Más camino.</span><a href="#practica/fuentes">Fuentes y créditos <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></footer>
+  <nav class="mobile-nav" aria-label="Navegación móvil"><a href="#inicio" data-nav="inicio"><i class="bi bi-house" aria-hidden="true"></i>Inicio</a><a href="#itinerario" data-nav="itinerario"><i class="bi bi-signpost-split" aria-hidden="true"></i>Itinerario</a><a href="#mapa" data-nav="mapa"><i class="bi bi-map" aria-hidden="true"></i>Mapa</a><a href="#lugares" data-nav="lugares"><i class="bi bi-compass" aria-hidden="true"></i>Lugares</a><a href="#practica" data-nav="practica"><i class="bi bi-backpack" aria-hidden="true"></i>Info</a></nav>
+  <div id="toast" class="app-toast" role="status" aria-live="polite"></div>
+  <noscript><p class="container">Activa JavaScript para consultar el itinerario y los mapas de esta guía.</p></noscript>
+</body>
+</html>

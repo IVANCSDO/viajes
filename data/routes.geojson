@@ -1,0 +1,551 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-1",
+        "mode": "public",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "glasgow-airport",
+        "destinationId": "glasgow",
+        "serviceId": "vuelos",
+        "note": "Autobús o tren; enlace concreto y horario pendientes."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.4331,
+            55.8719
+          ],
+          [
+            -4.2518,
+            55.8642
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-2",
+        "mode": "public",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "glasgow",
+        "destinationId": "edinburgh",
+        "serviceId": null,
+        "note": "Autobús o tren por elegir; traslado previsto por la tarde."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.2518,
+            55.8642
+          ],
+          [
+            -3.1883,
+            55.9533
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-4",
+        "mode": "public",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "edinburgh",
+        "destinationId": "glasgow",
+        "serviceId": null,
+        "note": "Salida temprana en autobús o tren."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.1883,
+            55.9533
+          ],
+          [
+            -4.2518,
+            55.8642
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-4",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "glasgow",
+        "destinationId": "oban",
+        "serviceId": "autocaravana",
+        "note": "Después de la recogida y la compra; llegada por la tarde."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.2518,
+            55.8642
+          ],
+          [
+            -5.471,
+            56.4152
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-5",
+        "mode": "ferry",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "oban",
+        "destinationId": "craignure",
+        "serviceId": "ferry-oban-craignure",
+        "note": "Con autocaravana; horario y reserva pendientes."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.471,
+            56.4152
+          ],
+          [
+            -5.706,
+            56.469
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-5",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "craignure",
+        "destinationId": "fidden",
+        "serviceId": null,
+        "note": "Conducción por Mull hacia Fionnphort."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.706,
+            56.469
+          ],
+          [
+            -6.356,
+            56.311
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-5",
+        "mode": "ferry",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "fionnphort",
+        "destinationId": "iona",
+        "serviceId": "ferry-iona",
+        "note": "Ferry de pasajeros; vehículo en Mull."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.3691,
+            56.3257
+          ],
+          [
+            -6.4,
+            56.33
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-5",
+        "mode": "ferry",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "iona",
+        "destinationId": "fionnphort",
+        "serviceId": "ferry-iona",
+        "note": "Regreso a Mull después de la visita."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.4,
+            56.33
+          ],
+          [
+            -6.3691,
+            56.3257
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-6",
+        "mode": "boat",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "fionnphort",
+        "destinationId": "staffa",
+        "serviceId": "excursion-staffa",
+        "note": "Excursión acordada, reserva pendiente."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.3691,
+            56.3257
+          ],
+          [
+            -6.341,
+            56.435
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-6",
+        "mode": "boat",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "staffa",
+        "destinationId": "fionnphort",
+        "serviceId": "excursion-staffa",
+        "note": "Regreso de la excursión, sujeto a condiciones."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.341,
+            56.435
+          ],
+          [
+            -6.3691,
+            56.3257
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-7",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "fidden",
+        "destinationId": "craignure",
+        "serviceId": null,
+        "note": "Salida desde Fidden hacia el ferry."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.356,
+            56.311
+          ],
+          [
+            -5.706,
+            56.469
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-7",
+        "mode": "ferry",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "craignure",
+        "destinationId": "oban",
+        "serviceId": "ferry-craignure-oban",
+        "note": "Ferry de regreso con autocaravana; reserva pendiente."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.706,
+            56.469
+          ],
+          [
+            -5.471,
+            56.4152
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-7",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "oban",
+        "destinationId": "glencoe",
+        "serviceId": null,
+        "note": "Continuación hacia el valle después del ferry."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.471,
+            56.4152
+          ],
+          [
+            -5.1023,
+            56.6826
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-8",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "glencoe",
+        "destinationId": "glenfinnan",
+        "serviceId": null,
+        "note": "Parada prevista en el viaducto."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.1023,
+            56.6826
+          ],
+          [
+            -5.4315,
+            56.8762
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-8",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "glenfinnan",
+        "destinationId": "mallaig",
+        "serviceId": null,
+        "note": "Continuación hacia el puerto."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.4315,
+            56.8762
+          ],
+          [
+            -5.83,
+            57.006
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-8",
+        "mode": "ferry",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "mallaig",
+        "destinationId": "armadale",
+        "serviceId": "ferry-mallaig-armadale",
+        "note": "Ferry con autocaravana; reserva y horario pendientes."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.83,
+            57.006
+          ],
+          [
+            -5.896,
+            57.064
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-10",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "skye",
+        "destinationId": "skye-bridge",
+        "serviceId": null,
+        "note": "Salida por el puente."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.196,
+            57.412
+          ],
+          [
+            -5.739,
+            57.279
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-10",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "skye-bridge",
+        "destinationId": "eilean-donan",
+        "serviceId": null,
+        "note": "Parada prevista en el castillo."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.739,
+            57.279
+          ],
+          [
+            -5.516,
+            57.274
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-10",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "eilean-donan",
+        "destinationId": "fort-augustus",
+        "serviceId": null,
+        "note": "Continuación hacia el lago Ness."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.516,
+            57.274
+          ],
+          [
+            -4.681,
+            57.145
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-11",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "fort-augustus",
+        "destinationId": "glasgow",
+        "serviceId": "autocaravana",
+        "note": "Regreso directo como referencia esquemática; Pitlochry no se impone como desvío."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.681,
+            57.145
+          ],
+          [
+            -4.2518,
+            55.8642
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-12",
+        "mode": "public",
+        "geometryStatus": "schematic",
+        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "originId": "glasgow",
+        "destinationId": "glasgow-airport",
+        "serviceId": "vuelos",
+        "note": "Traslado al aeropuerto según el horario del vuelo."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.2518,
+            55.8642
+          ],
+          [
+            -4.4331,
+            55.8719
+          ]
+        ]
+      }
+    }
+  ]
+}
