@@ -6,9 +6,10 @@
       "type": "process",
       "command": "python3",
       "windows": {
-        "command": "${env:LOCALAPPDATA}\\Python\\pythoncore-3.14-64\\python.exe"
+        "command": "py",
+        "args": ["-3", "-u", "scripts/serve.py"]
       },
-      "args": ["-u", "-m", "http.server", "8000", "--bind", "127.0.0.1"],
+      "args": ["-u", "scripts/serve.py"],
       "options": {
         "cwd": "${workspaceFolder}"
       },
@@ -23,12 +24,12 @@
         },
         "background": {
           "activeOnStart": true,
-          "beginsPattern": "^Starting HTTP server",
-          "endsPattern": "^Serving HTTP on 127\\.0\\.0\\.1 port 8000"
+          "beginsPattern": "^ESCOCIA_SERVER_START$",
+          "endsPattern": "^ESCOCIA_SERVER_READY "
         }
       },
       "presentation": {
-        "reveal": "silent",
+        "reveal": "always",
         "panel": "dedicated",
         "clear": false
       },

@@ -33,7 +33,34 @@
     "tourismFree": false,
     "sourceIds": [
       "update-2027"
-    ]
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Llegada y traslado",
+          "period": "Según vuelo",
+          "note": "Sin hora propuesta hasta conocer el vuelo; reservar margen para equipaje y traslado.",
+          "placeIds": [],
+          "legIndex": 0,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Instalarnos y descansar",
+          "period": "Después del traslado",
+          "note": "Alojamiento y hora de llegada pendientes.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        }
+      ]
+    }
   },
   {
     "id": "dia-2",
@@ -94,7 +121,56 @@
     "tourismFree": false,
     "sourceIds": [
       "update-2027"
-    ]
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Desayuno y preparación",
+          "period": "Mañana",
+          "note": "Referencia de organización, modificable.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "label": "Paseo y visitas elegidas",
+          "period": "Mañana",
+          "note": "Elegir algunas opciones; esta franja no implica completar todas ni confirma aperturas.",
+          "placeIds": [
+            "glasgow-cathedral",
+            "necropolis",
+            "george-square"
+          ],
+          "legIndex": null,
+          "start": "10:00",
+          "end": "13:00"
+        },
+        {
+          "label": "Comida y descanso",
+          "period": "Mediodía",
+          "note": "Margen propuesto para comer y descansar.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": "13:00",
+          "end": "14:30"
+        },
+        {
+          "label": "Traslado a Edimburgo",
+          "period": "Tarde",
+          "note": "Orden orientativo; ajustar cuando se conozcan horarios y accesos.",
+          "placeIds": [],
+          "legIndex": 0,
+          "start": "14:30",
+          "end": "18:00"
+        }
+      ]
+    }
   },
   {
     "id": "dia-3",
@@ -165,7 +241,61 @@
     "tourismFree": false,
     "sourceIds": [
       "update-2027"
-    ]
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Desayuno y preparación",
+          "period": "Mañana",
+          "note": "Referencia de organización, modificable.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "label": "Paseo y visitas elegidas",
+          "period": "Mañana",
+          "note": "Elegir algunas opciones; esta franja no implica completar todas ni confirma aperturas.",
+          "placeIds": [
+            "edinburgh-castle",
+            "royal-mile",
+            "victoria-street"
+          ],
+          "legIndex": null,
+          "start": "10:00",
+          "end": "13:00"
+        },
+        {
+          "label": "Comida y descanso",
+          "period": "Mediodía",
+          "note": "Margen propuesto para comer y descansar.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": "13:00",
+          "end": "14:30"
+        },
+        {
+          "label": "Continuar el paseo",
+          "period": "Tarde",
+          "note": "Orden orientativo; ajustar cuando se conozcan horarios y accesos.",
+          "placeIds": [
+            "st-giles",
+            "calton-hill",
+            "dean-village",
+            "arthurs-seat"
+          ],
+          "legIndex": null,
+          "start": "14:30",
+          "end": "18:00"
+        }
+      ]
+    }
   },
   {
     "id": "dia-4",
@@ -234,7 +364,47 @@
     "tourismFree": false,
     "sourceIds": [
       "update-2027"
-    ]
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Traslado a Glasgow y recogida",
+          "period": "Mañana",
+          "note": "El proveedor debe confirmar la recogida; no se asigna hora contractual.",
+          "placeIds": [],
+          "legIndex": 0,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Provisiones y salida hacia Oban",
+          "period": "Después de recoger",
+          "note": "Prever compra y explicación del vehículo antes de salir.",
+          "placeIds": [],
+          "legIndex": 1,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Llegada y opciones de paseo",
+          "period": "Tarde",
+          "note": "Orden orientativo; ajustar cuando se conozcan horarios y accesos.",
+          "placeIds": [
+            "loch-lomond",
+            "oban",
+            "mccaigs-tower"
+          ],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        }
+      ]
+    }
   },
   {
     "id": "dia-5",
@@ -242,8 +412,8 @@
     "title": "Un día entre dos islas",
     "subtitle": "Oban → Mull → Iona → Mull",
     "date": null,
-    "status": "confirmada",
-    "description": "Ferry Oban–Craignure con el vehículo, recorrido por Mull hasta Fidden y visita a Iona en ferry de pasajeros. Volvemos a Mull para la primera noche en Fidden.",
+    "status": "provisional",
+    "description": "Ferry temprano Oban–Craignure con autocaravana; conducir hacia Fionnphort, cruzar a Iona como pasajeros, visitar abadía y regresar para dormir una sola noche en Fidden. Sujeto a cuadrar ferris.",
     "originId": "oban",
     "destinationId": "mull",
     "overnightId": "fidden-farm",
@@ -257,86 +427,170 @@
       {
         "placeId": "craignure",
         "priority": "imprescindible",
-        "status": "acordada",
-        "activity": "Llegada a Mull con la autocaravana en el ferry desde Oban."
+        "status": "provisional",
+        "activity": "Llegada en ferry con autocaravana"
       },
       {
-        "placeId": "fidden",
+        "placeId": "fionnphort",
         "priority": "imprescindible",
-        "status": "acordada",
-        "activity": "Llegada a la base elegida para dos noches."
+        "status": "provisional",
+        "activity": "Aparcar la autocaravana y tomar ferry de pasajeros"
       },
       {
         "placeId": "iona",
         "priority": "imprescindible",
-        "status": "acordada",
-        "activity": "Ferry de pasajeros desde Fionnphort; paseo por el pueblo y las playas."
+        "status": "provisional",
+        "activity": "Paseo por la isla"
       },
       {
         "placeId": "iona-abbey",
         "priority": "imprescindible",
-        "status": "acordada",
-        "activity": "La abadía está contemplada en la visita a Iona."
+        "status": "provisional",
+        "activity": "Visita a la abadía"
       },
       {
-        "placeId": "tobermory",
-        "priority": "opcional",
-        "status": "propuesta",
-        "activity": "Opcional y no prioritario; descartar para evitar desplazamientos largos."
+        "placeId": "fidden",
+        "priority": "imprescindible",
+        "status": "provisional",
+        "activity": "Una noche en el camping elegido"
       }
     ],
     "tips": [
-      "La autocaravana permanece en Mull durante la visita a Iona.",
-      "Regresar de Iona a Mull para dormir.",
-      "Fidden está elegido, pero no hay estancia ni disponibilidad garantizadas."
+      "Priorizar un ferry temprano Oban–Craignure y confirmar horarios de Iona.",
+      "La autocaravana queda en Mull al visitar Iona.",
+      "Una sola noche prevista en Fidden, cuya disponibilidad no está garantizada.",
+      "Evitar Tobermory para no añadir desvíos."
     ],
     "travelLegs": [
       {
         "mode": "ferry",
         "originId": "oban",
         "destinationId": "craignure",
-        "note": "Con autocaravana; horario y reserva pendientes.",
+        "note": "Ferry temprano con autocaravana; horarios 2027 pendientes.",
         "serviceId": "ferry-oban-craignure"
       },
       {
         "mode": "road",
         "originId": "craignure",
-        "destinationId": "fidden",
-        "note": "Conducción por Mull hacia Fionnphort.",
+        "destinationId": "fionnphort",
+        "note": "Conducción al suroeste de Mull; margen por carreteras estrechas.",
         "serviceId": null
       },
       {
         "mode": "ferry",
         "originId": "fionnphort",
         "destinationId": "iona",
-        "note": "Ferry de pasajeros; vehículo en Mull.",
+        "note": "Solo pasajeros; autocaravana permanece en Mull.",
         "serviceId": "ferry-iona"
       },
       {
         "mode": "ferry",
         "originId": "iona",
         "destinationId": "fionnphort",
-        "note": "Regreso a Mull después de la visita.",
+        "note": "Regreso a Mull.",
         "serviceId": "ferry-iona"
+      },
+      {
+        "mode": "road",
+        "originId": "fionnphort",
+        "destinationId": "fidden",
+        "note": "Desplazamiento corto para pernoctar.",
+        "serviceId": null
       }
     ],
     "tourismFree": false,
     "sourceIds": [
-      "update-2027"
-    ]
+      "update-2027",
+      "ajuste-mull-cairngorms-2026-10-11"
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Inicio de jornada",
+          "period": "Primera hora",
+          "note": "Desayuno y salida según el primer ferry o barco; hora pendiente.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Travesía",
+          "period": "Después del tramo anterior",
+          "note": "Ferry temprano con autocaravana; horarios 2027 pendientes.",
+          "placeIds": [],
+          "legIndex": 0,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Traslado por carretera",
+          "period": "Después del tramo anterior",
+          "note": "Conducción al suroeste de Mull; margen por carreteras estrechas.",
+          "placeIds": [],
+          "legIndex": 1,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Travesía",
+          "period": "Después del tramo anterior",
+          "note": "Solo pasajeros; autocaravana permanece en Mull.",
+          "placeIds": [],
+          "legIndex": 2,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Visita a Iona",
+          "period": "Entre los ferris",
+          "note": "Paseo y abadía sujetos a horarios, entradas y conexión de regreso.",
+          "placeIds": [
+            "iona",
+            "iona-abbey"
+          ],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Travesía",
+          "period": "Después del tramo anterior",
+          "note": "Regreso a Mull.",
+          "placeIds": [],
+          "legIndex": 3,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Traslado por carretera",
+          "period": "Después del tramo anterior",
+          "note": "Desplazamiento corto para pernoctar.",
+          "placeIds": [],
+          "legIndex": 4,
+          "start": null,
+          "end": null
+        }
+      ]
+    }
   },
   {
     "id": "dia-6",
     "number": 6,
-    "title": "La música del basalto",
+    "title": "Staffa y noche en Glencoe",
     "imagePlaceId": "staffa",
-    "subtitle": "Staffa, Fingal y una tarde en Fidden",
+    "subtitle": "Staffa → Craignure → Oban → Glencoe",
     "date": null,
-    "status": "confirmada",
-    "description": "Un día dedicado a Staffa y a la cueva de Fingal. Regresamos a Mull para una tarde tranquila y la segunda noche en Fidden.",
+    "status": "provisional",
+    "description": "Excursión matinal a Staffa desde Fionnphort, regreso a Craignure y ferry a Oban. Después continuamos a Glencoe para dormir. La conexión entre barco, ferry y carretera sigue pendiente de horarios; Three Sisters Viewpoint se organiza para la mañana siguiente.",
     "originId": "mull",
-    "destinationId": "mull",
-    "overnightId": "fidden-farm",
+    "destinationId": "glencoe",
+    "overnightId": "camping-glencoe",
     "distanceKm": null,
     "drivingMinutes": null,
     "distanceKmRange": null,
@@ -347,132 +601,159 @@
       {
         "placeId": "staffa",
         "priority": "imprescindible",
-        "status": "acordada",
-        "activity": "Excursión prioritaria en barco desde Fionnphort."
+        "status": "provisional",
+        "activity": "Excursión en barco a primera hora, pendiente de reservar."
       },
       {
         "placeId": "fingals-cave",
         "priority": "imprescindible",
-        "status": "acordada",
-        "activity": "Una de las visitas más importantes del viaje por su interés geológico."
+        "status": "provisional",
+        "activity": "Cueva de Fingal, acceso sujeto al estado del mar."
       },
       {
-        "placeId": "fidden",
+        "placeId": "craignure",
         "priority": "imprescindible",
-        "status": "acordada",
-        "activity": "Tarde libre para descansar y disfrutar de las playas."
+        "status": "provisional",
+        "activity": "Ferry de regreso a Oban, horario por confirmar."
       }
     ],
     "tips": [
-      "Reservar la excursión y comprobar sus condiciones de cancelación.",
-      "El desembarco depende de la meteorología y del estado del mar.",
-      "Posibilidad estacional de frailecillos; no hay avistamiento garantizado."
+      "Confirmar que la excursión a Staffa y el ferry dejan margen para llegar al camping de Glencoe.",
+      "Camping, acceso, hora de llegada y reservas pendientes."
     ],
     "travelLegs": [
+      {
+        "mode": "road",
+        "originId": "fidden",
+        "destinationId": "fionnphort",
+        "note": "Salida de la pernocta prevista hacia la excursión de Staffa; conexión esquemática, recorrido concreto pendiente.",
+        "serviceId": null
+      },
       {
         "mode": "boat",
         "originId": "fionnphort",
         "destinationId": "staffa",
-        "note": "Excursión acordada, reserva pendiente.",
+        "note": "Excursión matinal deseada; horario y desembarco por confirmar.",
         "serviceId": "excursion-staffa"
       },
       {
         "mode": "boat",
         "originId": "staffa",
         "destinationId": "fionnphort",
-        "note": "Regreso de la excursión, sujeto a condiciones.",
+        "note": "Regreso sujeto al mar.",
         "serviceId": "excursion-staffa"
-      }
-    ],
-    "tourismFree": false,
-    "sourceIds": [
-      "update-2027"
-    ]
-  },
-  {
-    "id": "dia-7",
-    "number": 7,
-    "title": "De las islas al valle",
-    "subtitle": "Mull → Oban → Glencoe",
-    "date": null,
-    "status": "confirmada",
-    "description": "Salimos de Fidden hacia Craignure, cruzamos en ferry a Oban y continuamos a Glencoe. Elegiremos las visitas según el tiempo disponible tras la travesía.",
-    "originId": "mull",
-    "destinationId": "glencoe",
-    "overnightId": "camping-glencoe",
-    "distanceKm": null,
-    "drivingMinutes": null,
-    "distanceKmRange": [
-      115,
-      130
-    ],
-    "drivingMinutesRange": [
-      150,
-      180
-    ],
-    "metricsStatus": "estimada",
-    "camper": true,
-    "stops": [
-      {
-        "placeId": "three-sisters",
-        "priority": "opcional",
-        "status": "propuesta",
-        "activity": "Mirador propuesto de las montañas y del valle glaciar."
       },
-      {
-        "placeId": "signal-rock",
-        "priority": "opcional",
-        "status": "propuesta",
-        "activity": "Sendero propuesto por el bosque: aproximadamente 25–60 minutos."
-      },
-      {
-        "placeId": "glencoe-visitor-centre",
-        "priority": "opcional",
-        "status": "propuesta",
-        "activity": "Si encaja con la hora de llegada."
-      }
-    ],
-    "tips": [
-      "115–130 km y 2,5–3 h son estimaciones de conducción aportadas por el grupo.",
-      "No incluyen ferry, esperas ni paradas; falta validar la ruta definitiva.",
-      "Red Squirrel es solo un candidato: comprobar admisión del vehículo, instalaciones y disponibilidad."
-    ],
-    "travelLegs": [
       {
         "mode": "road",
-        "originId": "fidden",
+        "originId": "fionnphort",
         "destinationId": "craignure",
-        "note": "Salida desde Fidden hacia el ferry.",
+        "note": "Carretera hasta el puerto, con margen para embarcar.",
         "serviceId": null
       },
       {
         "mode": "ferry",
         "originId": "craignure",
         "destinationId": "oban",
-        "note": "Ferry de regreso con autocaravana; reserva pendiente.",
+        "note": "Travesía con autocaravana, reserva y horarios pendientes.",
         "serviceId": "ferry-craignure-oban"
       },
       {
         "mode": "road",
         "originId": "oban",
         "destinationId": "glencoe",
-        "note": "Continuación hacia el valle después del ferry.",
-        "serviceId": null
+        "serviceId": null,
+        "note": "Después del ferry; conexión esquemática, carretera y hora de llegada pendientes."
       }
     ],
     "tourismFree": false,
     "sourceIds": [
-      "update-2027"
-    ]
+      "update-2027",
+      "ajuste-mull-cairngorms-2026-10-11",
+      "decision-oban-three-sisters-2026-10-11",
+      "decision-skye-fairy-pools-2026-10-11",
+      "decision-glencoe-glasgow-2026-10-11"
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Inicio de jornada",
+          "period": "Primera hora",
+          "note": "Desayuno y salida según el primer ferry o barco; hora pendiente.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Traslado por carretera",
+          "period": "Después del tramo anterior",
+          "note": "Salida de la pernocta prevista hacia la excursión de Staffa; conexión esquemática, recorrido concreto pendiente.",
+          "placeIds": [],
+          "legIndex": 0,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Travesía",
+          "period": "Después del tramo anterior",
+          "note": "Excursión matinal deseada; horario y desembarco por confirmar.",
+          "placeIds": [],
+          "legIndex": 1,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Travesía",
+          "period": "Después del tramo anterior",
+          "note": "Regreso sujeto al mar.",
+          "placeIds": [],
+          "legIndex": 2,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Traslado por carretera",
+          "period": "Después del tramo anterior",
+          "note": "Carretera hasta el puerto, con margen para embarcar.",
+          "placeIds": [],
+          "legIndex": 3,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Travesía",
+          "period": "Después del tramo anterior",
+          "note": "Travesía con autocaravana, reserva y horarios pendientes.",
+          "placeIds": [],
+          "legIndex": 4,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Traslado por carretera",
+          "period": "Después del tramo anterior",
+          "note": "Después del ferry; conexión esquemática, carretera y hora de llegada pendientes.",
+          "placeIds": [],
+          "legIndex": 5,
+          "start": null,
+          "end": null
+        }
+      ]
+    }
   },
   {
-    "id": "dia-8",
-    "number": 8,
-    "title": "El camino hacia Skye",
-    "subtitle": "Glencoe → Glenfinnan → Mallaig → Armadale",
+    "id": "dia-7",
+    "number": 7,
+    "title": "Three Sisters y Skye por el puente",
+    "subtitle": "Glencoe → Three Sisters Viewpoint → Eilean Donan → Skye",
     "date": null,
     "status": "provisional",
-    "description": "Visita del viaducto de Glenfinnan, continuación a Mallaig y cruce a Armadale en Skye. Recorrido general provisional.",
+    "description": "Visita acordada a Three Sisters Viewpoint por la mañana, sin añadir una ruta de senderismo. Después seguimos hacia Eilean Donan y entramos a Skye por el puente, sin ferry. Visita interior del castillo, accesos y camping pendientes.",
     "originId": "glencoe",
     "destinationId": "skye",
     "overnightId": "camping-skye",
@@ -484,59 +765,266 @@
     "camper": true,
     "stops": [
       {
-        "placeId": "glenfinnan",
+        "placeId": "three-sisters",
         "priority": "imprescindible",
-        "status": "provisional",
-        "activity": "Visita prevista del viaducto; detalle pendiente."
+        "status": "acordada",
+        "activity": "Parada en Three Sisters Viewpoint para contemplar el valle; acceso, aparcamiento y duración pendientes."
       },
       {
-        "placeId": "skye",
+        "placeId": "eilean-donan",
         "priority": "imprescindible",
         "status": "provisional",
-        "activity": "Llegada prevista por el ferry Mallaig–Armadale."
+        "activity": "Castillo y entorno, de camino a Skye; visita interior según horario y ganas."
+      },
+      {
+        "placeId": "skye-bridge",
+        "priority": "imprescindible",
+        "status": "provisional",
+        "activity": "Entrada a Skye por carretera, sin ferry."
       }
     ],
     "tips": [
-      "Tramo provisional, todavía sin el mismo detalle que los primeros días.",
-      "Coordinar Glenfinnan con el horario del ferry y evitar una jornada excesiva.",
-      "Camping en Skye pendiente."
+      "Three Sisters se plantea como parada de mirador, sin senderismo acordado.",
+      "Ajustar la visita de Eilean Donan al margen de llegada al camping.",
+      "Entrada y salida de Skye por el puente; sin ferry Mallaig–Armadale."
     ],
     "travelLegs": [
       {
         "mode": "road",
         "originId": "glencoe",
-        "destinationId": "glenfinnan",
-        "note": "Parada prevista en el viaducto.",
+        "destinationId": "three-sisters",
+        "serviceId": null,
+        "note": "Aproximación esquemática al mirador; acceso y aparcamiento pendientes."
+      },
+      {
+        "mode": "road",
+        "originId": "three-sisters",
+        "destinationId": "eilean-donan",
+        "serviceId": null,
+        "note": "Tras la parada de mirador; carretera y tiempos pendientes."
+      },
+      {
+        "mode": "road",
+        "originId": "eilean-donan",
+        "destinationId": "skye-bridge",
+        "note": "Hacia Kyle of Lochalsh y puente de Skye.",
         "serviceId": null
       },
       {
         "mode": "road",
-        "originId": "glenfinnan",
-        "destinationId": "mallaig",
-        "note": "Continuación hacia el puerto.",
+        "originId": "skye-bridge",
+        "destinationId": "skye",
+        "note": "Conexión esquemática con la isla; camping concreto pendiente de elegir.",
         "serviceId": null
-      },
-      {
-        "mode": "ferry",
-        "originId": "mallaig",
-        "destinationId": "armadale",
-        "note": "Ferry con autocaravana; reserva y horario pendientes.",
-        "serviceId": "ferry-mallaig-armadale"
       }
     ],
     "tourismFree": false,
     "sourceIds": [
-      "update-2027"
-    ]
+      "update-2027",
+      "ajuste-mull-cairngorms-2026-10-11",
+      "decision-oban-three-sisters-2026-10-11",
+      "decision-skye-fairy-pools-2026-10-11",
+      "decision-skye-puente-storr-mirador-2026-10-11",
+      "decision-glencoe-glasgow-2026-10-11"
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Desayuno y preparar la salida",
+          "period": "Mañana",
+          "note": "Hora de referencia propuesta, no compromiso.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "label": "Three Sisters Viewpoint",
+          "period": "Mañana",
+          "note": "Parada de mirador, sin senderismo; hora, acceso y duración pendientes.",
+          "placeIds": [
+            "three-sisters"
+          ],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Continuar y visitar Eilean Donan",
+          "period": "Después del mirador",
+          "note": "Ajustar comida y visita al margen disponible; no hay tiempo de carretera verificado.",
+          "placeIds": [
+            "eilean-donan"
+          ],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Entrada a Skye y camping",
+          "period": "Tarde",
+          "note": "Entrada por el puente, sin ferry; llegada sujeta a carretera y camping.",
+          "placeIds": [
+            "skye-bridge",
+            "skye"
+          ],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "dia-8",
+    "number": 8,
+    "title": "Fairy Pools y cerveceo en Portree",
+    "subtitle": "Fairy Pools → Eighteen Twenty en Portree",
+    "date": null,
+    "status": "provisional",
+    "description": "Paseo de Fairy Pools por la mañana, comida y pausa de cerveceo en Eighteen Twenty (An Talla Mòr 1820), en Portree, por la tarde. Organizar los traslados y la vuelta al camping según su ubicación; horarios del bar pendientes.",
+    "originId": "skye",
+    "destinationId": "skye",
+    "overnightId": "camping-skye",
+    "distanceKm": null,
+    "drivingMinutes": null,
+    "distanceKmRange": null,
+    "drivingMinutesRange": null,
+    "metricsStatus": "pendiente",
+    "camper": true,
+    "stops": [
+      {
+        "placeId": "fairy-pools",
+        "priority": "imprescindible",
+        "status": "acordada",
+        "activity": "Paseo a pie hacia pozas y cascadas. Duración y acceso según clima, vehículo y estado del sendero."
+      },
+      {
+        "placeId": "eighteen-twenty",
+        "priority": "imprescindible",
+        "status": "acordada",
+        "activity": "Cerveceo en Eighteen Twenty, en Bank Street, Portree. Horario y traslado por concretar."
+      }
+    ],
+    "tips": [
+      "Revisar aparcamiento, acceso de la autocaravana y estado del sendero.",
+      "Las franjas de la timeline son propuestas que incluyen margen, no una duración verificada del paseo.",
+      "Ajustar la salida al camping real y a la meteorología.",
+      "Comprobar horario del bar y organizar la vuelta al camping."
+    ],
+    "travelLegs": [
+      {
+        "mode": "road",
+        "originId": "skye",
+        "destinationId": "fairy-pools",
+        "serviceId": null,
+        "note": "Aproximación esquemática al entorno de acceso; camping y aparcamiento pendientes, no carretera hasta las pozas."
+      },
+      {
+        "mode": "road",
+        "originId": "fairy-pools",
+        "destinationId": "eighteen-twenty",
+        "serviceId": null,
+        "note": "Aproximación esquemática a Portree después del paseo. Aparcamiento y forma de llegar al bar pendientes."
+      },
+      {
+        "mode": "undecided",
+        "originId": "eighteen-twenty",
+        "destinationId": "skye",
+        "serviceId": null,
+        "note": "Regreso al camping por elegir; medio y recorrido pendientes."
+      }
+    ],
+    "tourismFree": false,
+    "sourceIds": [
+      "update-2027",
+      "ajuste-mull-cairngorms-2026-10-11",
+      "decision-skye-puente-storr-mirador-2026-10-11",
+      "propuesta-skye-dos-jornadas-2026-10-11",
+      "decision-quiraing-1820-2026-10-11"
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11",
+        "propuesta-skye-dos-jornadas-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Desayuno y preparación",
+          "start": "09:00",
+          "end": "10:00",
+          "period": "Mañana",
+          "note": "Referencia propuesta, ajustable según el camping y la meteorología.",
+          "placeIds": [],
+          "legIndex": null
+        },
+        {
+          "label": "Acceso y paseo de Fairy Pools",
+          "start": "10:00",
+          "end": "13:30",
+          "period": "Mañana",
+          "note": "Franja de organización que agrupa aproximación, aparcamiento y paseo. No garantiza completar la visita en ese tiempo; acceso y recorrido pendientes.",
+          "placeIds": [
+            "fairy-pools"
+          ],
+          "legIndex": null
+        },
+        {
+          "label": "Comida y descanso",
+          "start": "13:30",
+          "end": "15:00",
+          "period": "Mediodía",
+          "note": "Margen propuesto después del paseo.",
+          "placeIds": [],
+          "legIndex": null
+        },
+        {
+          "label": "Traslado a Portree",
+          "start": null,
+          "end": null,
+          "period": "Después de comer",
+          "note": "Hora de llegada sin calcular; transporte y aparcamiento pendientes.",
+          "placeIds": [],
+          "legIndex": 1
+        },
+        {
+          "label": "Cerveceo en Eighteen Twenty",
+          "start": "17:00",
+          "end": "18:30",
+          "period": "Tarde",
+          "note": "Franja propuesta, sujeta a apertura y tiempo de llegada. Organizar vuelta al camping antes de tomar alcohol.",
+          "placeIds": [
+            "eighteen-twenty"
+          ],
+          "legIndex": null
+        },
+        {
+          "label": "Regreso al camping",
+          "start": null,
+          "end": null,
+          "period": "Después del cerveceo",
+          "note": "Medio y hora por concretar; quien conduzca queda sin alcohol.",
+          "placeIds": [],
+          "legIndex": 2
+        }
+      ]
+    }
   },
   {
     "id": "dia-9",
     "number": 9,
-    "title": "El norte de Skye",
-    "subtitle": "Storr, Kilt Rock y Quiraing",
+    "title": "Norte de Skye y Quiraing Walk",
+    "subtitle": "Storr desde mirador → Kilt Rock opcional → Quiraing Walk",
     "date": null,
     "status": "provisional",
-    "description": "Una jornada provisional para los paisajes del norte de Skye. El orden preciso y los recorridos a pie quedan por desarrollar.",
+    "description": "Día del norte: Storr desde un punto panorámico seguro sin subir, Kilt Rock opcional y Quiraing Walk como caminata principal. Reservar la tarde para el paseo; el circuito de referencia indica 3–4 horas, sin traslados. Ruta, acceso para la autocaravana y horarios se ajustarán al camping y al clima.",
     "originId": "skye",
     "destinationId": "skye",
     "overnightId": "camping-skye",
@@ -550,41 +1038,148 @@
       {
         "placeId": "old-man-storr",
         "priority": "imprescindible",
-        "status": "provisional",
-        "activity": "Visita prevista; sendero y duración por concretar."
+        "status": "acordada",
+        "activity": "Ver el pináculo desde un mirador o parada segura, sin realizar la ruta de senderismo de subida."
       },
       {
         "placeId": "kilt-rock",
-        "priority": "imprescindible",
-        "status": "provisional",
-        "activity": "Mirador previsto en el recorrido."
+        "priority": "opcional",
+        "status": "propuesta",
+        "activity": "Mirador costero breve solo si encaja sin alargar demasiado la jornada."
       },
       {
         "placeId": "quiraing",
         "priority": "imprescindible",
-        "status": "provisional",
-        "activity": "Visita prevista; paseo por elegir."
+        "status": "acordada",
+        "activity": "Quiraing Walk: circuito de referencia de 3–4 horas según Walkhighlands, sin incluir traslados. Recorrido definitivo y condiciones pendientes."
       }
     ],
     "tips": [
-      "Priorizar miradores y senderos sencillos o moderados.",
-      "Ajustar la jornada a meteorología, conducción y ganas de caminar.",
-      "Segunda noche prevista en Skye, camping pendiente."
+      "Storr se contempla desde un mirador: no hay ruta de subida prevista.",
+      "Comprobar un punto seguro y autorizado de parada para la autocaravana; no detenerse en el arcén.",
+      "Kilt Rock sigue siendo opcional; si se omite, regresar desde la zona de Storr.",
+      "Priorizar Quiraing Walk; Kilt Rock se puede omitir para conservar margen.",
+      "Revisar clima, recorrido y acceso del vehículo antes de fijar esta jornada."
     ],
-    "travelLegs": [],
+    "travelLegs": [
+      {
+        "mode": "road",
+        "originId": "skye",
+        "destinationId": "old-man-storr",
+        "serviceId": null,
+        "note": "Aproximación orientativa a la zona de Storr; punto panorámico seguro y acceso para el vehículo pendientes."
+      },
+      {
+        "mode": "road",
+        "originId": "old-man-storr",
+        "destinationId": "kilt-rock",
+        "serviceId": null,
+        "note": "Conexión esquemática solo si se realiza Kilt Rock, parada opcional."
+      },
+      {
+        "mode": "road",
+        "originId": "kilt-rock",
+        "destinationId": "quiraing",
+        "serviceId": null,
+        "note": "Conexión esquemática si se visita Kilt Rock; si se omite, aproximación desde Storr. Acceso y aparcamiento pendientes."
+      },
+      {
+        "mode": "road",
+        "originId": "quiraing",
+        "destinationId": "skye",
+        "serviceId": null,
+        "note": "Regreso al camping por elegir después de la caminata; carretera y llegada pendientes."
+      }
+    ],
     "tourismFree": false,
     "sourceIds": [
-      "update-2027"
-    ]
+      "update-2027",
+      "ajuste-mull-cairngorms-2026-10-11",
+      "decision-skye-puente-storr-mirador-2026-10-11",
+      "decision-skye-extra-dia-2026-10-11",
+      "propuesta-skye-dos-jornadas-2026-10-11",
+      "decision-quiraing-1820-2026-10-11",
+      "quiraing-walkhighlands-circuit"
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11",
+        "propuesta-skye-dos-jornadas-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Desayuno y salida",
+          "start": "08:00",
+          "end": "09:00",
+          "period": "Mañana",
+          "note": "Se propone empezar antes para dar margen a Quiraing; horario no acordado.",
+          "placeIds": [],
+          "legIndex": null
+        },
+        {
+          "label": "Storr desde mirador",
+          "start": "09:00",
+          "end": "10:30",
+          "period": "Mañana",
+          "note": "Franja propuesta con aproximación y parada; sin subida ni tiempo de carretera verificado.",
+          "placeIds": [
+            "old-man-storr"
+          ],
+          "legIndex": null
+        },
+        {
+          "label": "Kilt Rock opcional",
+          "start": "10:30",
+          "end": "11:30",
+          "period": "Mañana",
+          "note": "Franja propuesta con traslado; omitir si resta margen para Quiraing.",
+          "placeIds": [
+            "kilt-rock"
+          ],
+          "legIndex": null
+        },
+        {
+          "label": "Aproximación a Quiraing y comida",
+          "start": null,
+          "end": null,
+          "period": "Antes de caminar",
+          "note": "Dejar margen para conducción, aparcamiento y comida; llegada pendiente.",
+          "placeIds": [],
+          "legIndex": 2
+        },
+        {
+          "label": "Quiraing Walk",
+          "start": "13:00",
+          "end": "17:00",
+          "period": "Tarde",
+          "note": "Franja propuesta para el circuito; referencia de 3–4 horas, ajustable al grupo y al clima. No garantiza empezar a las 13:00.",
+          "placeIds": [
+            "quiraing"
+          ],
+          "legIndex": null
+        },
+        {
+          "label": "Regreso y descanso",
+          "start": null,
+          "end": null,
+          "period": "Después de caminar",
+          "note": "Tercera noche en Skye; hora de llegada pendiente.",
+          "placeIds": [],
+          "legIndex": 3
+        }
+      ]
+    }
   },
   {
     "id": "dia-10",
     "number": 10,
-    "title": "Castillos y agua en calma",
-    "subtitle": "Skye → Eilean Donan → Fort Augustus",
+    "title": "Despedida de Skye y Loch Ness",
+    "subtitle": "Skye → puente → Fort Augustus",
     "date": null,
     "status": "provisional",
-    "description": "Dejamos Skye por el puente y seguimos hacia Eilean Donan y Fort Augustus. Esta etapa conserva su carácter provisional.",
+    "description": "Salida tranquila de Skye por el puente hacia Fort Augustus y Loch Ness, sin repetir la parada de Eilean Donan, prevista el día 7. Tiempo para pasear por las esclusas y la orilla del lago según llegada.",
     "originId": "skye",
     "destinationId": "fort-augustus",
     "overnightId": "camping-fort-augustus",
@@ -596,58 +1191,100 @@
     "camper": true,
     "stops": [
       {
-        "placeId": "eilean-donan",
+        "placeId": "skye-bridge",
         "priority": "imprescindible",
         "status": "provisional",
-        "activity": "Visita prevista del castillo."
+        "activity": "Salida por carretera de la isla."
       },
       {
         "placeId": "fort-augustus",
         "priority": "imprescindible",
         "status": "provisional",
-        "activity": "Llegada prevista junto al lago Ness."
+        "activity": "Paseo por las esclusas del canal de Caledonia y Loch Ness."
       }
     ],
     "tips": [
-      "Salida de Skye por el puente, dentro del plan provisional.",
-      "Entradas, tiempos y camping de Fort Augustus pendientes."
+      "Eilean Donan se adelanta al día 7; no se repite en el regreso.",
+      "Camping en Fort Augustus todavía por elegir.",
+      "Mantener margen para la conducción en autocaravana y llegar sin apuros."
     ],
     "travelLegs": [
       {
         "mode": "road",
         "originId": "skye",
         "destinationId": "skye-bridge",
-        "note": "Salida por el puente.",
+        "note": "Salida de Skye según el camping elegido.",
         "serviceId": null
       },
       {
         "mode": "road",
         "originId": "skye-bridge",
-        "destinationId": "eilean-donan",
-        "note": "Parada prevista en el castillo.",
-        "serviceId": null
-      },
-      {
-        "mode": "road",
-        "originId": "eilean-donan",
         "destinationId": "fort-augustus",
-        "note": "Continuación hacia el lago Ness.",
+        "note": "Regreso hacia Fort Augustus por carretera; itinerario concreto pendiente de comprobar.",
         "serviceId": null
       }
     ],
     "tourismFree": false,
     "sourceIds": [
-      "update-2027"
-    ]
+      "update-2027",
+      "ajuste-mull-cairngorms-2026-10-11",
+      "decision-skye-puente-storr-mirador-2026-10-11",
+      "decision-skye-extra-dia-2026-10-11"
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Desayuno y preparar salida",
+          "period": "Mañana",
+          "note": "Referencia propuesta y modificable.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "label": "Traslado por carretera",
+          "period": "Después de preparar salida",
+          "note": "Salida de Skye según el camping elegido.",
+          "placeIds": [],
+          "legIndex": 0,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Traslado por carretera",
+          "period": "Después de preparar salida",
+          "note": "Regreso hacia Fort Augustus por carretera; itinerario concreto pendiente de comprobar.",
+          "placeIds": [],
+          "legIndex": 1,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Comida, llegada y descanso",
+          "period": "Según llegada",
+          "note": "Prever paradas para comer y descansar. Hora de llegada sin calcular; camping pendiente.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        }
+      ]
+    }
   },
   {
     "id": "dia-11",
     "number": 11,
-    "title": "Volvemos a Glasgow",
-    "subtitle": "Fort Augustus → Glasgow · Devolución del vehículo",
+    "title": "Fort Augustus a Glasgow y devolución",
+    "subtitle": "Fort Augustus → Glasgow · devolución del vehículo",
     "date": null,
     "status": "provisional",
-    "description": "Regresamos a Glasgow y devolvemos la autocaravana. Pitlochry es una posibilidad opcional; la prioridad es llegar con margen para la devolución.",
+    "description": "Regreso directo desde Fort Augustus a Glasgow y devolución de la autocaravana el mismo día, según el horario contractual. Sin visitas obligatorias de camino. Última noche en alojamiento convencional antes del vuelo.",
     "originId": "fort-augustus",
     "destinationId": "glasgow",
     "overnightId": "hotel-glasgow-regreso",
@@ -657,32 +1294,73 @@
     "drivingMinutesRange": null,
     "metricsStatus": "pendiente",
     "camper": true,
-    "stops": [
-      {
-        "placeId": "pitlochry",
-        "priority": "opcional",
-        "status": "propuesta",
-        "activity": "Solo si encaja razonablemente con la ruta y el horario de devolución."
-      }
-    ],
+    "stops": [],
     "tips": [
-      "Confirmar el horario y lugar de devolución de la autocaravana.",
-      "Descartar Pitlochry si alarga demasiado la jornada.",
-      "Última noche en alojamiento convencional en Glasgow."
+      "Confirmar hora y lugar de devolución antes de fijar la salida de Fort Augustus.",
+      "Dejar margen para carretera, descansos, combustible y preparación del vehículo; tiempos aún pendientes.",
+      "Última noche en alojamiento convencional; día 12 solo regreso."
     ],
     "travelLegs": [
       {
         "mode": "road",
         "originId": "fort-augustus",
         "destinationId": "glasgow",
-        "note": "Regreso directo como referencia esquemática; Pitlochry no se impone como desvío.",
-        "serviceId": "autocaravana"
+        "serviceId": null,
+        "note": "Regreso directo previsto, sin visitas obligatorias en Blair Atholl, Cairngorms o Bruar; carretera y tiempo pendientes."
       }
     ],
     "tourismFree": false,
     "sourceIds": [
-      "update-2027"
-    ]
+      "update-2027",
+      "ajuste-mull-cairngorms-2026-10-11",
+      "decision-glencoe-glasgow-2026-10-11",
+      "decision-skye-extra-dia-2026-10-11"
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Preparar y salir hacia Glasgow",
+          "period": "Según la devolución",
+          "note": "No fijamos 09:00: calcular la salida cuando se conozcan el horario contractual y el tiempo real de carretera.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Regreso directo a Glasgow",
+          "period": "Después de salir",
+          "note": "Sin visitas obligatorias. Prever descansos y margen para entregar el vehículo; hora de llegada pendiente.",
+          "placeIds": [],
+          "legIndex": 0,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Preparar y devolver la autocaravana",
+          "period": "Según contrato",
+          "note": "Limpieza, equipaje y devolución según las condiciones del proveedor. Hora contractual pendiente.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "label": "Traslado al alojamiento y descanso",
+          "period": "Después de devolver",
+          "note": "Última noche en alojamiento convencional; acceso y hora de entrada pendientes.",
+          "placeIds": [],
+          "legIndex": null,
+          "start": null,
+          "end": null
+        }
+      ]
+    }
   },
   {
     "id": "dia-12",
@@ -719,6 +1397,24 @@
     "tourismFree": true,
     "sourceIds": [
       "update-2027"
-    ]
+    ],
+    "timeline": {
+      "status": "propuesta",
+      "note": "Primer borrador de horarios, en hora local de Escocia. Las horas numéricas son franjas propuestas para organizar el día; donde falta información mantenemos la hora pendiente. No son reservas ni horarios publicados.",
+      "sourceIds": [
+        "timeline-propuesta-2026-10-11"
+      ],
+      "items": [
+        {
+          "label": "Traslado al aeropuerto y vuelo",
+          "period": "Según vuelo",
+          "note": "Sin hora propuesta hasta conocer el vuelo; reservar margen para equipaje y traslado.",
+          "placeIds": [],
+          "legIndex": 0,
+          "start": null,
+          "end": null
+        }
+      ]
+    }
   }
 ]

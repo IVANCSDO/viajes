@@ -1,4 +1,14 @@
 /* Estados del plan, desplazamientos y alojamiento. Complementa el diseño existente. */
+.day-timeline{margin:30px 0 42px;padding:26px;background:#f4f3ed;border:1px solid var(--line);border-radius:8px}
+.timeline-heading{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}.timeline-heading h2{margin:0}
+.timeline-intro{font-size:13px;line-height:1.8;max-width:850px}.schedule-list{list-style:none;padding:0;margin:22px 0}
+.schedule-item{display:grid;grid-template-columns:145px minmax(0,1fr);gap:24px;position:relative;padding:0 0 24px}
+.schedule-item:last-child{padding-bottom:0}.schedule-time{font-size:15px;font-weight:600;color:var(--forest);overflow-wrap:anywhere}
+.schedule-time small{display:block;font-size:10px;font-weight:400;color:var(--muted);margin-top:5px}
+.schedule-content{border-left:2px solid #a8b69c;padding-left:22px;min-width:0}.schedule-optional .schedule-content{border-left-style:dashed}
+.schedule-content h3{font-size:20px;margin:0 0 8px;line-height:1.5}.schedule-content p{font-size:12px;line-height:1.8;margin:0}.schedule-places{margin-bottom:5px!important}
+@media(max-width:575px){.day-timeline{padding:20px 16px}.schedule-item{grid-template-columns:1fr;gap:9px}.schedule-time small{display:inline;margin-left:8px}.schedule-content{padding-left:15px}.schedule-content h3{font-size:19px}}
+@media print{.schedule-item{break-inside:avoid}.day-timeline{background:white}}
 .status-badge.planned{background:#e2e9ed;color:#476775}
 .plan-legend{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:22px 0}
 .plan-legend small{font-size:11px;color:var(--muted);flex-basis:100%}

@@ -7,7 +7,7 @@
         "dayId": "dia-1",
         "mode": "public",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
         "originId": "glasgow-airport",
         "destinationId": "glasgow",
         "serviceId": "vuelos",
@@ -33,7 +33,7 @@
         "dayId": "dia-2",
         "mode": "public",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
         "originId": "glasgow",
         "destinationId": "edinburgh",
         "serviceId": null,
@@ -59,7 +59,7 @@
         "dayId": "dia-4",
         "mode": "public",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
         "originId": "edinburgh",
         "destinationId": "glasgow",
         "serviceId": null,
@@ -85,7 +85,7 @@
         "dayId": "dia-4",
         "mode": "road",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
         "originId": "glasgow",
         "destinationId": "oban",
         "serviceId": "autocaravana",
@@ -111,11 +111,11 @@
         "dayId": "dia-5",
         "mode": "ferry",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
         "originId": "oban",
         "destinationId": "craignure",
         "serviceId": "ferry-oban-craignure",
-        "note": "Con autocaravana; horario y reserva pendientes."
+        "note": "Ferry temprano con autocaravana; horarios 2027 pendientes."
       },
       "geometry": {
         "type": "LineString",
@@ -137,11 +137,11 @@
         "dayId": "dia-5",
         "mode": "road",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
         "originId": "craignure",
-        "destinationId": "fidden",
+        "destinationId": "fionnphort",
         "serviceId": null,
-        "note": "Conducción por Mull hacia Fionnphort."
+        "note": "Conducción al suroeste de Mull; margen por carreteras estrechas."
       },
       "geometry": {
         "type": "LineString",
@@ -151,8 +151,8 @@
             56.469
           ],
           [
-            -6.356,
-            56.311
+            -6.3691,
+            56.3257
           ]
         ]
       }
@@ -163,11 +163,11 @@
         "dayId": "dia-5",
         "mode": "ferry",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
         "originId": "fionnphort",
         "destinationId": "iona",
         "serviceId": "ferry-iona",
-        "note": "Ferry de pasajeros; vehículo en Mull."
+        "note": "Solo pasajeros; autocaravana permanece en Mull."
       },
       "geometry": {
         "type": "LineString",
@@ -189,11 +189,11 @@
         "dayId": "dia-5",
         "mode": "ferry",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
         "originId": "iona",
         "destinationId": "fionnphort",
         "serviceId": "ferry-iona",
-        "note": "Regreso a Mull después de la visita."
+        "note": "Regreso a Mull."
       },
       "geometry": {
         "type": "LineString",
@@ -212,66 +212,40 @@
     {
       "type": "Feature",
       "properties": {
-        "dayId": "dia-6",
-        "mode": "boat",
-        "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
-        "originId": "fionnphort",
-        "destinationId": "staffa",
-        "serviceId": "excursion-staffa",
-        "note": "Excursión acordada, reserva pendiente."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -6.3691,
-            56.3257
-          ],
-          [
-            -6.341,
-            56.435
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "dayId": "dia-6",
-        "mode": "boat",
-        "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
-        "originId": "staffa",
-        "destinationId": "fionnphort",
-        "serviceId": "excursion-staffa",
-        "note": "Regreso de la excursión, sujeto a condiciones."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -6.341,
-            56.435
-          ],
-          [
-            -6.3691,
-            56.3257
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "dayId": "dia-7",
+        "dayId": "dia-5",
         "mode": "road",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
-        "originId": "fidden",
-        "destinationId": "craignure",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
+        "originId": "fionnphort",
+        "destinationId": "fidden",
         "serviceId": null,
-        "note": "Salida desde Fidden hacia el ferry."
+        "note": "Desplazamiento corto para pernoctar."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.3691,
+            56.3257
+          ],
+          [
+            -6.356,
+            56.311
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-6",
+        "geometryStatus": "schematic",
+        "source": "Nuevo plan provisional aportado por el usuario el 11 de octubre de 2026; conexión entre coordenadas aproximadas, no carretera real ni orden definitivo.",
+        "mode": "road",
+        "originId": "fidden",
+        "destinationId": "fionnphort",
+        "note": "Salida de la pernocta prevista hacia la excursión de Staffa; conexión esquemática, recorrido concreto pendiente.",
+        "serviceId": null
       },
       "geometry": {
         "type": "LineString",
@@ -281,6 +255,84 @@
             56.311
           ],
           [
+            -6.3691,
+            56.3257
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-6",
+        "mode": "boat",
+        "geometryStatus": "schematic",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
+        "originId": "fionnphort",
+        "destinationId": "staffa",
+        "serviceId": "excursion-staffa",
+        "note": "Excursión matinal deseada; horario y desembarco por confirmar."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.3691,
+            56.3257
+          ],
+          [
+            -6.341,
+            56.435
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-6",
+        "mode": "boat",
+        "geometryStatus": "schematic",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
+        "originId": "staffa",
+        "destinationId": "fionnphort",
+        "serviceId": "excursion-staffa",
+        "note": "Regreso sujeto al mar."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.341,
+            56.435
+          ],
+          [
+            -6.3691,
+            56.3257
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-6",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
+        "originId": "fionnphort",
+        "destinationId": "craignure",
+        "serviceId": null,
+        "note": "Carretera hasta el puerto, con margen para embarcar."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.3691,
+            56.3257
+          ],
+          [
             -5.706,
             56.469
           ]
@@ -290,14 +342,14 @@
     {
       "type": "Feature",
       "properties": {
-        "dayId": "dia-7",
+        "dayId": "dia-6",
         "mode": "ferry",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
         "originId": "craignure",
         "destinationId": "oban",
         "serviceId": "ferry-craignure-oban",
-        "note": "Ferry de regreso con autocaravana; reserva pendiente."
+        "note": "Travesía con autocaravana, reserva y horarios pendientes."
       },
       "geometry": {
         "type": "LineString",
@@ -316,14 +368,14 @@
     {
       "type": "Feature",
       "properties": {
-        "dayId": "dia-7",
+        "dayId": "dia-6",
         "mode": "road",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática; no sigue carreteras ni rutas marítimas verificadas.",
         "originId": "oban",
         "destinationId": "glencoe",
         "serviceId": null,
-        "note": "Continuación hacia el valle después del ferry."
+        "note": "Después del ferry; conexión esquemática, carretera y hora de llegada pendientes."
       },
       "geometry": {
         "type": "LineString",
@@ -342,14 +394,14 @@
     {
       "type": "Feature",
       "properties": {
-        "dayId": "dia-8",
+        "dayId": "dia-7",
         "mode": "road",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática; no sigue carreteras ni rutas marítimas verificadas.",
         "originId": "glencoe",
-        "destinationId": "glenfinnan",
+        "destinationId": "three-sisters",
         "serviceId": null,
-        "note": "Parada prevista en el viaducto."
+        "note": "Aproximación esquemática al mirador; acceso y aparcamiento pendientes."
       },
       "geometry": {
         "type": "LineString",
@@ -359,8 +411,8 @@
             56.6826
           ],
           [
-            -5.4315,
-            56.8762
+            -4.986,
+            56.668
           ]
         ]
       }
@@ -368,25 +420,25 @@
     {
       "type": "Feature",
       "properties": {
-        "dayId": "dia-8",
+        "dayId": "dia-7",
         "mode": "road",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
-        "originId": "glenfinnan",
-        "destinationId": "mallaig",
+        "source": "Conexión esquemática; no sigue carreteras ni rutas marítimas verificadas.",
+        "originId": "three-sisters",
+        "destinationId": "eilean-donan",
         "serviceId": null,
-        "note": "Continuación hacia el puerto."
+        "note": "Tras la parada de mirador; carretera y tiempos pendientes."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -5.4315,
-            56.8762
+            -4.986,
+            56.668
           ],
           [
-            -5.83,
-            57.006
+            -5.516,
+            57.274
           ]
         ]
       }
@@ -394,25 +446,51 @@
     {
       "type": "Feature",
       "properties": {
-        "dayId": "dia-8",
-        "mode": "ferry",
+        "dayId": "dia-7",
+        "mode": "road",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
-        "originId": "mallaig",
-        "destinationId": "armadale",
-        "serviceId": "ferry-mallaig-armadale",
-        "note": "Ferry con autocaravana; reserva y horario pendientes."
+        "source": "Itinerario provisional 11-10-2026: línea entre coordenadas aproximadas, no trazado de carretera o sendero.",
+        "originId": "eilean-donan",
+        "destinationId": "skye-bridge",
+        "serviceId": null,
+        "note": "Hacia Kyle of Lochalsh y puente de Skye."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -5.83,
-            57.006
+            -5.516,
+            57.274
           ],
           [
-            -5.896,
-            57.064
+            -5.739,
+            57.279
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-7",
+        "mode": "road",
+        "geometryStatus": "schematic",
+        "source": "Itinerario provisional 11-10-2026: línea entre coordenadas aproximadas, no trazado de carretera o sendero.",
+        "originId": "skye-bridge",
+        "destinationId": "skye",
+        "serviceId": null,
+        "note": "Conexión esquemática con la isla; camping concreto pendiente de elegir."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.739,
+            57.279
+          ],
+          [
+            -6.196,
+            57.412
           ]
         ]
       }
@@ -423,11 +501,11 @@
         "dayId": "dia-10",
         "mode": "road",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Itinerario provisional 11-10-2026: línea entre coordenadas aproximadas, no trazado de carretera o sendero.",
         "originId": "skye",
         "destinationId": "skye-bridge",
         "serviceId": null,
-        "note": "Salida por el puente."
+        "note": "Salida de Skye según el camping elegido."
       },
       "geometry": {
         "type": "LineString",
@@ -449,11 +527,11 @@
         "dayId": "dia-10",
         "mode": "road",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Itinerario provisional 11-10-2026: línea entre coordenadas aproximadas, no trazado de carretera o sendero.",
         "originId": "skye-bridge",
-        "destinationId": "eilean-donan",
+        "destinationId": "fort-augustus",
         "serviceId": null,
-        "note": "Parada prevista en el castillo."
+        "note": "Regreso hacia Fort Augustus por carretera; itinerario concreto pendiente de comprobar."
       },
       "geometry": {
         "type": "LineString",
@@ -461,32 +539,6 @@
           [
             -5.739,
             57.279
-          ],
-          [
-            -5.516,
-            57.274
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "dayId": "dia-10",
-        "mode": "road",
-        "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
-        "originId": "eilean-donan",
-        "destinationId": "fort-augustus",
-        "serviceId": null,
-        "note": "Continuación hacia el lago Ness."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.516,
-            57.274
           ],
           [
             -4.681,
@@ -501,11 +553,11 @@
         "dayId": "dia-11",
         "mode": "road",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática; no sigue carreteras ni rutas marítimas verificadas.",
         "originId": "fort-augustus",
         "destinationId": "glasgow",
-        "serviceId": "autocaravana",
-        "note": "Regreso directo como referencia esquemática; Pitlochry no se impone como desvío."
+        "serviceId": null,
+        "note": "Regreso directo previsto, sin visitas obligatorias en Blair Atholl, Cairngorms o Bruar; carretera y tiempo pendientes."
       },
       "geometry": {
         "type": "LineString",
@@ -527,7 +579,7 @@
         "dayId": "dia-12",
         "mode": "public",
         "geometryStatus": "schematic",
-        "source": "Actualización aportada por el usuario; conexión esquemática entre coordenadas aproximadas, no ruta real.",
+        "source": "Conexión esquemática entre lugares con coordenadas aproximadas; no sigue carreteras ni rutas marítimas reales.",
         "originId": "glasgow",
         "destinationId": "glasgow-airport",
         "serviceId": "vuelos",
@@ -543,6 +595,188 @@
           [
             -4.4331,
             55.8719
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-8",
+        "mode": "road",
+        "originId": "skye",
+        "destinationId": "fairy-pools",
+        "serviceId": null,
+        "note": "Aproximación esquemática al entorno de acceso; camping y aparcamiento pendientes, no carretera hasta las pozas.",
+        "geometryStatus": "schematic",
+        "source": "Conexión esquemática; no verifica carreteras, senderos, aparcamiento ni transporte."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.196,
+            57.412
+          ],
+          [
+            -6.255,
+            57.25
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-8",
+        "mode": "road",
+        "originId": "fairy-pools",
+        "destinationId": "eighteen-twenty",
+        "serviceId": null,
+        "note": "Aproximación esquemática a Portree después del paseo. Aparcamiento y forma de llegar al bar pendientes.",
+        "geometryStatus": "schematic",
+        "source": "Conexión esquemática; no verifica carreteras, senderos, aparcamiento ni transporte."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.255,
+            57.25
+          ],
+          [
+            -6.19302,
+            57.41195
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-8",
+        "mode": "undecided",
+        "originId": "eighteen-twenty",
+        "destinationId": "skye",
+        "serviceId": null,
+        "note": "Regreso al camping por elegir; medio y recorrido pendientes.",
+        "geometryStatus": "schematic",
+        "source": "Conexión esquemática; no verifica carreteras, senderos, aparcamiento ni transporte."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.19302,
+            57.41195
+          ],
+          [
+            -6.196,
+            57.412
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-9",
+        "mode": "road",
+        "originId": "skye",
+        "destinationId": "old-man-storr",
+        "serviceId": null,
+        "note": "Aproximación orientativa a la zona de Storr; punto panorámico seguro y acceso para el vehículo pendientes.",
+        "geometryStatus": "schematic",
+        "source": "Conexión esquemática; no verifica carreteras, senderos, aparcamiento ni transporte."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.196,
+            57.412
+          ],
+          [
+            -6.183,
+            57.507
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-9",
+        "mode": "road",
+        "originId": "old-man-storr",
+        "destinationId": "kilt-rock",
+        "serviceId": null,
+        "note": "Conexión esquemática solo si se realiza Kilt Rock, parada opcional.",
+        "geometryStatus": "schematic",
+        "source": "Conexión esquemática; no verifica carreteras, senderos, aparcamiento ni transporte."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.183,
+            57.507
+          ],
+          [
+            -6.173,
+            57.611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-9",
+        "mode": "road",
+        "originId": "kilt-rock",
+        "destinationId": "quiraing",
+        "serviceId": null,
+        "note": "Conexión esquemática si se visita Kilt Rock; si se omite, aproximación desde Storr. Acceso y aparcamiento pendientes.",
+        "geometryStatus": "schematic",
+        "source": "Conexión esquemática; no verifica carreteras, senderos, aparcamiento ni transporte."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.173,
+            57.611
+          ],
+          [
+            -6.265,
+            57.643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "dayId": "dia-9",
+        "mode": "road",
+        "originId": "quiraing",
+        "destinationId": "skye",
+        "serviceId": null,
+        "note": "Regreso al camping por elegir después de la caminata; carretera y llegada pendientes.",
+        "geometryStatus": "schematic",
+        "source": "Conexión esquemática; no verifica carreteras, senderos, aparcamiento ni transporte."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.265,
+            57.643
+          ],
+          [
+            -6.196,
+            57.412
           ]
         ]
       }

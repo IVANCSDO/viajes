@@ -1,13 +1,25 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Escocia · Abrir la web",
-      "type": "msedge",
-      "request": "launch",
-      "url": "http://127.0.0.1:8000/",
-      "webRoot": "${workspaceFolder}",
-      "preLaunchTask": "Escocia: servidor local"
-    }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Escocia · Abrir la web",
+            "type": "msedge",
+            "request": "launch",
+            "url": "http://127.0.0.1:8000/",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "Escocia: servidor local",
+            "windows": {
+                "runtimeExecutable": "${env:ProgramFiles(x86)}\\Microsoft\\Edge\\Application\\msedge.exe"
+            },
+            "userDataDir": "${workspaceFolder}/.qa/edge-debug-profile",
+            "runtimeArgs": ["--no-first-run", "--no-default-browser-check"]
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
 }

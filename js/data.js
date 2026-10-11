@@ -16,6 +16,15 @@ export async function loadData() {
     if (![day.originId,day.destinationId,...day.stops.map(stop => stop.placeId),...day.travelLegs.flatMap(leg => [leg.originId,leg.destinationId])].every(id => placeById.has(id))) throw new Error(`Referencias incorrectas en ${day.id}.`);
     if (day.overnightId && !accommodationById.has(day.overnightId)) throw new Error(`Pernocta incorrecta en ${day.id}.`);
     if (day.travelLegs.some(leg => leg.serviceId && !serviceById.has(leg.serviceId))) throw new Error(`Servicio incorrecto en ${day.id}.`);
+    if (day.timeline) {
+      const timeValid = value => value === null || typeof value === 'string' && /^(?:[01]\d|2[0-3]):[0-5]\d$/.test(value);
+      if (day.timeline.status !== 'propuesta' || !Array.isArray(day.timeline.items) || day.timeline.items.some(item =>
+        !item.label || !item.period || !item.note || !Array.isArray(item.placeIds) || !item.placeIds.every(id => placeById.has(id)) ||
+        !(item.legIndex === null || Number.isInteger(item.legIndex) && item.legIndex >= 0 && item.legIndex < day.travelLegs.length) ||
+        !timeValid(item.start) || !timeValid(item.end) || item.end !== null && (item.start === null || item.end <= item.start) ||
+        day.tourismFree && item.placeIds.length
+      )) throw new Error(`Timeline incorrecta en ${day.id}.`);
+    }
   }
   if (routes.features.some(route => !dayById.has(route.properties.dayId))) throw new Error('Existe una ruta sin jornada.');
   cached = {trip, days:days.sort((a,b) => a.number-b.number), places, routes, practical, sources, logistics, placeById, dayById, accommodationById, serviceById};

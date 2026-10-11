@@ -1,4 +1,24 @@
 /* Keep the map independent of the number of places in the sidebar. */
+.marker-visit { --marker-color: #315d4b; }
+.marker-sleep { --marker-color: #70449a; }
+.marker-mixed { --marker-color: linear-gradient(90deg, #315d4b 50%, #70449a 50%); }
+.marker-transit { --marker-color: #586575; }
+.trip-marker > span { background: var(--marker-color, #586575); display: flex; justify-content: center; gap: 1px; }
+.trip-marker > span > small { font-size: 12px; line-height: 1; }
+.trip-marker.optional-marker > span { border-style: dashed; }
+.legend-marker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--marker-color);
+  color: white;
+  font-size: 12px;
+}
+.map-legend { flex-wrap: wrap; }
 .map-layout {
   align-items: start;
   grid-template-columns: 290px minmax(0, 1fr);

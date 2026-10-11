@@ -179,7 +179,7 @@
     "geology": null,
     "durationMinutes": null,
     "recommendations": [
-      "Dos noches previstas en Fidden Farm Campsite.",
+      "Una sola noche prevista en Fidden Farm Campsite, tras la visita a Iona.",
       "Tobermory es opcional y no prioritario."
     ],
     "sourceIds": [
@@ -236,7 +236,7 @@
     "geology": "Las columnas se formaron al enfriarse y contraerse la lava. El oleaje ha ido modelando las cuevas entre las fracturas del basalto.",
     "durationMinutes": null,
     "recommendations": [
-      "Excursión acordada para el día 6, reserva pendiente.",
+      "Excursión matinal prevista antes de salir de Mull, con horario y reserva pendientes.",
       "Desembarco sujeto a meteorología y estado del mar.",
       "Observar frailecillos es una posibilidad estacional, nunca garantizada."
     ],
@@ -291,20 +291,22 @@
       -5.1023
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Llegaremos el día 7 tras regresar de Mull a Oban. Miradores, bosque y un paisaje volcánico modelado por glaciares, sin llenar la tarde de actividades.",
+    "description": "Pernocta prevista la noche 6 tras Staffa y llegada a Oban; Three Sisters Viewpoint el día 7 antes de seguir hacia Skye.",
     "history": null,
     "geology": "El paisaje conserva la huella de actividad volcánica antigua y del modelado posterior de los glaciares.",
     "durationMinutes": null,
     "recommendations": [
-      "Three Sisters, Signal Rock y el Visitor Centre son propuestas.",
-      "Camping pendiente de elegir; Red Squirrel solo es candidato."
+      "Consultar el itinerario vigente; no hay reservas confirmadas."
     ],
     "sourceIds": [
       "glencoe",
       "update-2027",
       "glencoe-glen",
       "guide-glencoe-massacre",
-      "guide-glencoe-turf"
+      "guide-glencoe-turf",
+      "decision-oban-three-sisters-2026-10-11",
+      "decision-skye-fairy-pools-2026-10-11",
+      "decision-glencoe-glasgow-2026-10-11"
     ],
     "featured": true,
     "miniGuide": {
@@ -347,20 +349,21 @@
       -5.4315
     ],
     "coordinateStatus": "aproximadas",
-    "description": "El viaducto de Glenfinnan forma parte del plan provisional del día 8, antes de continuar hacia Mallaig y cruzar a Skye.",
+    "description": "Lugar conservado en la guía, pero descartado del recorrido principal: el día 7 se entra en Skye por carretera y no se pasa por Mallaig.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
     "recommendations": [
-      "No hay horario de tren confirmado.",
-      "Coordinar la visita con el ferry Mallaig–Armadale."
+      "No programado en la ruta actual; no condiciona horarios ni reservas."
     ],
     "sourceIds": [
       "glenfinnan",
       "update-2027",
       "photo-user-highlands2",
       "guide-glenfinnan-viaduct",
-      "guide-glenfinnan-monument"
+      "guide-glenfinnan-monument",
+      "decision-skye-fairy-pools-2026-10-11",
+      "decision-skye-puente-storr-mirador-2026-10-11"
     ],
     "featured": false,
     "miniGuide": {
@@ -402,28 +405,33 @@
       -6.196
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Dos noches previstas en la isla. Llegada provisional por ferry desde Mallaig, un día para el norte y salida por el puente hacia Eilean Donan.",
+    "description": "Tres noches en Skye: llegada por el puente día 7; Fairy Pools y cerveceo en Portree día 8; Storr solo mirador, Kilt Rock opcional y Quiraing Walk día 9; salida a Fort Augustus día 10.",
     "history": null,
     "geology": "El norte de la isla reúne paisajes geológicos como el Quiraing y los pináculos del Old Man of Storr.",
     "durationMinutes": null,
     "recommendations": [
-      "Old Man of Storr, Kilt Rock y Quiraing están en el plan provisional del día 9.",
-      "Campings y tiempos de ruta pendientes."
+      "Fairy Pools es el paseo a pie prioritario en Skye.",
+      "Old Man of Storr se verá desde lejos, sin hacer la subida.",
+      "Kilt Rock es opcional; Quiraing no se incluye en las visitas previstas.",
+      "Camping y tiempos de conducción pendientes."
     ],
     "sourceIds": [
       "skye",
       "update-2027",
       "guide-skye-geology",
-      "guide-armadale-clan"
+      "guide-armadale-clan",
+      "decision-skye-fairy-pools-2026-10-11",
+      "decision-skye-puente-storr-mirador-2026-10-11",
+      "decision-skye-extra-dia-2026-10-11"
     ],
     "featured": true,
     "miniGuide": {
-      "intro": "Skye es una isla de las Hébridas Interiores con montañas, costas y un importante patrimonio gaélico. Nuestro recorrido se concentra en el norte de Trotternish, aunque la llegada por Armadale muestra primero otra cara de la isla.",
+      "intro": "Skye es una isla de las Hébridas Interiores con montañas, costas y patrimonio gaélico. El plan actual llega por el puente, se centra en Fairy Pools y contempla desde lejos Old Man of Storr, con Kilt Rock opcional.",
       "story": "La mejor forma de leer sus paisajes es comparar escalas: un pináculo aislado en el Storr, grandes masas desplazadas en el Quiraing y paredes de roca junto al mar. No todas las formaciones se explican igual; la lava, los deslizamientos y la erosión han dejado señales diferentes.",
       "highlights": [
         {
           "title": "Trotternish",
-          "text": "Las fichas del Storr, Kilt Rock y Quiraing permiten reconocer qué estás mirando en cada parada, más allá de hacer una fotografía."
+          "text": "Compararemos las pozas entre los Cuillin y la silueta del Storr desde un punto panorámico seguro, sin subir por el sendero. Kilt Rock será opcional."
         },
         {
           "title": "La cultura de la isla",
@@ -457,7 +465,7 @@
       -5.516
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Parada prevista en el día 10, después de salir de Skye por el puente y antes de llegar a Fort Augustus.",
+    "description": "Parada de camino desde Oban al puente de Skye durante el día 7, en vez de visitarlo al salir de la isla.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
@@ -470,7 +478,8 @@
       "update-2027",
       "guide-eilean-about",
       "guide-eilean-history",
-      "guide-eilean-interiors"
+      "guide-eilean-interiors",
+      "decision-skye-puente-storr-mirador-2026-10-11"
     ],
     "featured": false,
     "miniGuide": {
@@ -513,7 +522,7 @@
       -4.681
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Destino provisional del día 10, junto al lago Ness. La siguiente jornada se reserva para volver a Glasgow y devolver la autocaravana.",
+    "description": "Llegada el día 10 desde Skye por el puente; noche prevista antes de regresar a Glasgow y devolver el vehículo el día 11.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
@@ -526,7 +535,8 @@
       "update-2027",
       "photo-user-highlands2",
       "guide-fort-augustus",
-      "guide-caledonian-history"
+      "guide-caledonian-history",
+      "decision-skye-extra-dia-2026-10-11"
     ],
     "featured": false,
     "miniGuide": {
@@ -1397,7 +1407,7 @@
       -5.706
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Puerto de llegada desde Oban el día 5 y de salida de Mull el día 7. Ferris con autocaravana, pendientes de reserva.",
+    "description": "Puerto de llegada desde Oban y de salida de Mull después de la excursión a Staffa. Ferris con autocaravana, pendientes de horarios compatibles y reserva.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
@@ -1508,7 +1518,7 @@
       -6.4
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Visita acordada para el día 5: ferry de pasajeros desde Fionnphort, paseo por la isla, su pueblo y sus playas. Regreso a Mull para dormir.",
+    "description": "Visita prevista en ferry de pasajeros desde Fionnphort, con paseo por la isla, su pueblo y sus playas. Regreso a Mull para la única noche prevista en Fidden; horarios pendientes.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
@@ -1617,7 +1627,7 @@
       -6.356
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Nuestro entorno de descanso para las noches 5 y 6, con una tarde libre después de Staffa.",
+    "description": "Entorno de descanso para una sola noche prevista, la noche 5, tras la visita a Iona. Camping elegido, sin plaza garantizada.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
@@ -1782,7 +1792,7 @@
   },
   {
     "id": "three-sisters",
-    "name": "Three Sisters Viewpoint",
+    "name": "Three Sisters de Glencoe",
     "region": "Glencoe",
     "category": "geologia",
     "image": "assets/images/glencoe.jpg",
@@ -1793,18 +1803,21 @@
       -4.986
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Mirador propuesto para observar las montañas y el valle de Glencoe el día 7.",
+    "description": "Three Sisters Viewpoint vuelve al plan como parada de mirador el día 7, después de dormir en Glencoe; no se ha acordado una ruta de senderismo.",
     "history": null,
     "geology": "La actividad volcánica antigua y el modelado glaciar explican parte del relieve que se observa en este valle.",
     "durationMinutes": null,
     "durationMinutesRange": null,
     "recommendations": [
-      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+      "Acceso al mirador, aparcamiento y duración pendientes; no implica senderismo."
     ],
     "sourceIds": [
       "update-2027",
       "glencoe-glen",
-      "guide-glencoe-walks"
+      "guide-glencoe-walks",
+      "decision-oban-three-sisters-2026-10-11",
+      "decision-skye-fairy-pools-2026-10-11",
+      "decision-glencoe-glasgow-2026-10-11"
     ],
     "featured": false,
     "parentId": "glencoe",
@@ -1847,7 +1860,7 @@
       -5.056
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Sendero corto por el bosque, propuesto para el día 7. Referencia inicial de duración: 25–60 minutos, según el recorrido que finalmente elijamos.",
+    "description": "Sendero corto por el bosque de Glencoe, conservado como referencia y sin parada asignada en la nueva ruta. Referencia inicial de duración: 25–60 minutos, según el recorrido.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
@@ -1958,7 +1971,7 @@
       -5.83
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Puerto previsto en la etapa provisional del día 8 para cruzar con la autocaravana a Armadale.",
+    "description": "Puerto previsto en la etapa provisional hacia Skye para cruzar con la autocaravana a Armadale.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
@@ -2012,7 +2025,7 @@
       -5.896
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Puerto de llegada previsto a Skye desde Mallaig en el día 8.",
+    "description": "Puerto de llegada previsto a Skye desde Mallaig, antes de continuar hacia la zona de pernocta todavía por elegir.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
@@ -2066,20 +2079,22 @@
       -6.183
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Visita prevista dentro del plan provisional del norte de Skye, día 9.",
+    "description": "Parada panorámica prevista para el día 9. Ver el pináculo desde lejos, desde un lugar seguro y autorizado próximo a la A855; no se realizará el sendero de subida.",
     "history": null,
     "geology": "Un paisaje de pináculos rocosos incluido entre los lugares geológicos de la península de Trotternish.",
     "durationMinutes": null,
     "durationMinutesRange": null,
     "recommendations": [
-      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+      "No hacer el sendero: solo contemplación desde un punto panorámico seguro.",
+      "Evitar parar en arcenes estrechos o bloquear la carretera; buscar aparcamiento permitido."
     ],
     "sourceIds": [
       "update-2027",
       "skye",
       "photo-user-highlands2",
       "guide-storr-geology",
-      "guide-storr"
+      "guide-storr",
+      "decision-skye-puente-storr-mirador-2026-10-11"
     ],
     "featured": false,
     "parentId": "skye",
@@ -2122,7 +2137,7 @@
       -6.173
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Mirador previsto en el tramo provisional del día 9, junto con Storr y Quiraing.",
+    "description": "Mirador opcional del día 9, únicamente si queda tiempo después de Fairy Pools y la vista panorámica del Storr.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
@@ -2133,7 +2148,8 @@
     "sourceIds": [
       "update-2027",
       "skye",
-      "guide-kilt"
+      "guide-kilt",
+      "decision-skye-puente-storr-mirador-2026-10-11"
     ],
     "featured": false,
     "parentId": "skye",
@@ -2175,19 +2191,26 @@
       -6.265
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Paisaje geológico previsto para el día 9. El paseo concreto y su duración todavía están por decidir.",
+    "description": "Quiraing Walk vuelve al itinerario como caminata principal del día 9, junto a Storr solo mirador y Kilt Rock opcional.",
     "history": null,
     "geology": "Uno de los paisajes geológicos destacados del norte de Skye, en la península de Trotternish.",
     "durationMinutes": null,
-    "durationMinutesRange": null,
+    "durationMinutesRange": [
+      180,
+      240
+    ],
     "recommendations": [
-      "Visita propuesta; consultar accesos y condiciones cuando se conozcan las fechas."
+      "El circuito de Walkhighlands indica 3–4 horas como referencia; no incluye conducción ni garantiza el tiempo del grupo.",
+      "Confirmar recorrido, meteorología, estado del camino y acceso al aparcamiento para la autocaravana."
     ],
     "sourceIds": [
       "update-2027",
       "skye",
       "guide-skye-geology",
-      "guide-quiraing"
+      "guide-quiraing",
+      "decision-skye-puente-storr-mirador-2026-10-11",
+      "decision-quiraing-1820-2026-10-11",
+      "quiraing-walkhighlands-circuit"
     ],
     "featured": false,
     "parentId": "skye",
@@ -2230,7 +2253,7 @@
       -5.739
     ],
     "coordinateStatus": "aproximadas",
-    "description": "Salida por carretera prevista en el plan provisional del día 10, rumbo a Eilean Donan.",
+    "description": "Entrada a Skye el día 7 y salida el día 10 por carretera. Se prescinde del ferry entre Mallaig y Armadale.",
     "history": null,
     "geology": null,
     "durationMinutes": null,
@@ -2240,7 +2263,8 @@
     ],
     "sourceIds": [
       "update-2027",
-      "guide-skye-bridge"
+      "guide-skye-bridge",
+      "decision-skye-puente-storr-mirador-2026-10-11"
     ],
     "featured": false,
     "parentId": "skye",
@@ -2267,6 +2291,344 @@
         "guide-skye-bridge"
       ],
       "checkedAt": "2026-10-10"
+    }
+  },
+  {
+    "id": "blair-atholl",
+    "name": "Blair Atholl",
+    "region": "Perthshire / Cairngorms",
+    "category": "naturaleza",
+    "coordinates": [
+      56.766,
+      -3.849
+    ],
+    "coordinateStatus": "aproximadas",
+    "image": "assets/images/highlands2.jpg",
+    "imageAlt": "Paisaje de Escocia, imagen ambiental",
+    "imageCaption": "Imagen de ambiente; no representa necesariamente Blair Atholl",
+    "description": "Referencia conservada fuera del itinerario actual; la noche 10 se pasa en Fort Augustus.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "Consultar el itinerario vigente; no hay reservas confirmadas."
+    ],
+    "sourceIds": [
+      "ajuste-mull-cairngorms-2026-10-11",
+      "guide-blair-atholl",
+      "decision-glencoe-glasgow-2026-10-11",
+      "decision-skye-extra-dia-2026-10-11"
+    ],
+    "featured": false,
+    "parentId": "cairngorms",
+    "miniGuide": {
+      "intro": "Pueblo del sur de Cairngorms, entre los ríos Garry y Tilt. Se conserva su ficha como referencia; ya no es una pernocta del plan.",
+      "story": "La vida del pueblo se desarrolló alrededor de Blair Castle y de la familia Atholl. El molino de agua recuerda la importancia de los oficios y del río en esta comunidad.",
+      "highlights": [
+        {
+          "title": "Los ríos del pueblo",
+          "text": "Observa el entorno del Garry y el Tilt durante el paseo que finalmente se elija."
+        },
+        {
+          "title": "La huella del molino",
+          "text": "El molino histórico ayuda a leer el pasado del pueblo; visitarlo no está impuesto en el itinerario."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El nombre Blair procede de blàr, palabra gaélica relacionada con un campo o una llanura."
+        },
+        {
+          "kind": "dato",
+          "text": "La autoridad del parque sitúa el origen del molino en el siglo XVI."
+        }
+      ],
+      "sourceIds": [
+        "guide-blair-atholl"
+      ],
+      "checkedAt": "2026-10-11"
+    }
+  },
+  {
+    "id": "falls-of-bruar",
+    "name": "Falls of Bruar",
+    "region": "Cairngorms / Perthshire",
+    "category": "naturaleza",
+    "coordinates": [
+      56.789,
+      -3.879
+    ],
+    "coordinateStatus": "aproximadas",
+    "image": "assets/images/highlands2.jpg",
+    "imageAlt": "Paisaje de Escocia, imagen ambiental",
+    "imageCaption": "Imagen de ambiente; no representa las cascadas",
+    "description": "Referencia conservada fuera del itinerario vigente; el día 11 se dedica a devolver el vehículo en Glasgow.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": [
+      60,
+      120
+    ],
+    "recommendations": [
+      "Consultar el itinerario vigente; no hay reservas confirmadas."
+    ],
+    "sourceIds": [
+      "ajuste-mull-cairngorms-2026-10-11",
+      "guide-falls-bruar",
+      "decision-glencoe-glasgow-2026-10-11"
+    ],
+    "featured": false,
+    "parentId": "cairngorms",
+    "miniGuide": {
+      "intro": "Cascadas del Bruar Water en una garganta boscosa. El paseo queda fuera del itinerario vigente.",
+      "story": "Robert Burns visitó las cascadas en 1787 y dedicó un poema a pedir que se plantaran árboles alrededor. El bosque actual forma parte de la manera en que disfrutamos de este paisaje.",
+      "highlights": [
+        {
+          "title": "Agua y garganta",
+          "text": "Desde el sendero señalizado, mira cómo el agua salva los desniveles y se encauza entre las rocas."
+        },
+        {
+          "title": "Puentes y bosque",
+          "text": "Hay una opción corta y otra más larga que sube hacia las cascadas superiores; elegir según las condiciones y el margen disponible."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Las primeras plantaciones de pinos descritas por la fuente local datan de 1796."
+        },
+        {
+          "kind": "dato",
+          "text": "El acceso indicado por la entidad local parte de House of Bruar; esa referencia no verifica una plaza para la autocaravana."
+        }
+      ],
+      "sourceIds": [
+        "guide-falls-bruar"
+      ],
+      "checkedAt": "2026-10-11"
+    }
+  },
+  {
+    "id": "bruar",
+    "name": "Bruar / House of Bruar",
+    "region": "Perthshire",
+    "category": "naturaleza",
+    "coordinates": [
+      56.783,
+      -3.875
+    ],
+    "coordinateStatus": "aproximadas",
+    "image": "assets/images/highlands2.jpg",
+    "imageAlt": "Paisaje de Escocia, imagen ambiental",
+    "imageCaption": "Imagen ambiental; no representa Bruar",
+    "description": "Referencia conservada fuera del itinerario vigente, sin visita asignada.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "Consultar el itinerario vigente; no hay reservas confirmadas."
+    ],
+    "sourceIds": [
+      "ajuste-mull-cairngorms-2026-10-11",
+      "guide-falls-bruar",
+      "decision-glencoe-glasgow-2026-10-11"
+    ],
+    "featured": false,
+    "parentId": "cairngorms",
+    "miniGuide": {
+      "intro": "Zona de acceso al paseo de Falls of Bruar, junto a House of Bruar. La visita queda fuera del itinerario vigente.",
+      "story": "Aquí conviven la parada comercial y la entrada al paisaje del río. La fuente local indica rodear el edificio y seguir las señales de las cascadas para iniciar el paseo.",
+      "highlights": [
+        {
+          "title": "Las indicaciones del sendero",
+          "text": "Localizar las señales antes de empezar; comprobar en el lugar el acceso y el estacionamiento disponibles."
+        },
+        {
+          "title": "El enlace con las cascadas",
+          "text": "Bruar y Falls of Bruar son dos puntos de una misma posible visita, no dos excursiones independientes."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "El recorrido hacia las cascadas permite escoger entre un paseo corto y otro más largo."
+        }
+      ],
+      "sourceIds": [
+        "guide-falls-bruar"
+      ],
+      "checkedAt": "2026-10-11"
+    }
+  },
+  {
+    "id": "cairngorms",
+    "name": "Parque Nacional de Cairngorms",
+    "region": "Highlands / Perthshire",
+    "category": "naturaleza",
+    "coordinates": [
+      56.82,
+      -3.65
+    ],
+    "coordinateStatus": "aproximadas",
+    "image": "assets/images/highlands2.jpg",
+    "imageAlt": "Paisaje genérico de Escocia",
+    "imageCaption": "Imagen ambiental; no identifica un lugar concreto",
+    "description": "Referencia conservada fuera del itinerario vigente: se vuelve directamente de Fort Augustus a Glasgow.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "recommendations": [
+      "Consultar el itinerario vigente; no hay reservas confirmadas."
+    ],
+    "sourceIds": [
+      "ajuste-mull-cairngorms-2026-10-11",
+      "guide-cairngorms",
+      "decision-glencoe-glasgow-2026-10-11"
+    ],
+    "featured": false,
+    "parentId": null,
+    "miniGuide": {
+      "intro": "Parque nacional de gran extensión que combina naturaleza y pueblos. La visita propuesta a su sector de Blair Atholl y Bruar queda fuera del itinerario vigente.",
+      "story": "El parque se creó en 2003. Su gestión combina la conservación del patrimonio natural y cultural con el disfrute del paisaje y la vida de sus comunidades.",
+      "highlights": [
+        {
+          "title": "El entorno elegido",
+          "text": "Dedicar el tiempo disponible a la zona suroccidental prevista en el plan, con paseos por concretar."
+        },
+        {
+          "title": "Paisaje y comunidad",
+          "text": "Leer el parque también a través de sus pueblos y actividades locales, además de sus panorámicas."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Es el parque nacional más extenso del Reino Unido, según su autoridad gestora."
+        },
+        {
+          "kind": "dato",
+          "text": "La protección del patrimonio natural y cultural es uno de sus objetivos legales."
+        }
+      ],
+      "sourceIds": [
+        "guide-cairngorms"
+      ],
+      "checkedAt": "2026-10-11"
+    }
+  },
+  {
+    "id": "fairy-pools",
+    "name": "Fairy Pools",
+    "region": "Glenbrittle · Isla de Skye",
+    "category": "naturaleza",
+    "parentId": "skye",
+    "coordinates": [
+      57.25,
+      -6.255
+    ],
+    "coordinateStatus": "aproximadas",
+    "image": "assets/images/skye.jpg",
+    "imageAlt": "Paisaje del Quiraing, en Skye; imagen de contexto de la isla",
+    "imageCaption": "Quiraing · Imagen de contexto de Skye; no representa Fairy Pools",
+    "description": "Excursión a pie principal del día 8 en Skye, ya sin depender de la hora de llegada del ferry (se entra por el puente el día 7).",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "featured": false,
+    "recommendations": [
+      "Cuadrar el paseo con la llegada del ferry y el camping elegido, sin asignar una duración inventada.",
+      "Consultar el acceso y las condiciones del aparcamiento para la autocaravana concreta antes del viaje. Las coordenadas sitúan el entorno de las pozas, no una plaza ni un acceso verificados."
+    ],
+    "sourceIds": [
+      "decision-skye-fairy-pools-2026-10-11",
+      "guide-fairy-pools-estate",
+      "fairy-pools-parking",
+      "fairy-pools-location",
+      "decision-skye-puente-storr-mirador-2026-10-11"
+    ],
+    "miniGuide": {
+      "intro": "Fairy Pools es una sucesión de pozas rocosas y cascadas de agua de montaña en Glenbrittle, al pie de los Cuillin. La visita prevista es a pie.",
+      "story": "El paisaje se descubre siguiendo el agua: pequeñas caídas conectan las pozas mientras las montañas sirven de fondo. El nombre sugerente no explica su origen; son formas naturales que se observan a lo largo del arroyo.",
+      "highlights": [
+        {
+          "title": "Pozas y cascadas",
+          "text": "Observa las diferencias entre los saltos de agua y las formas de cada poza desde el sendero que se elija."
+        },
+        {
+          "title": "El fondo de los Cuillin",
+          "text": "Mira la relación entre el arroyo y las montañas, además de los detalles del agua. El recorrido y su longitud siguen pendientes de concretar."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "La gestión del aparcamiento corresponde a Outdoor Access Trust for Scotland mediante un acuerdo con la comunidad de Minginish; visitar las pozas y aparcar son cuestiones distintas."
+        }
+      ],
+      "sourceIds": [
+        "guide-fairy-pools-estate",
+        "fairy-pools-parking"
+      ],
+      "checkedAt": "2026-10-11"
+    }
+  },
+  {
+    "id": "eighteen-twenty",
+    "name": "Eighteen Twenty · An Talla Mòr 1820",
+    "region": "Portree · Isla de Skye",
+    "category": "ocio",
+    "parentId": "skye",
+    "coordinates": [
+      57.41195,
+      -6.19302
+    ],
+    "coordinateStatus": "aproximadas",
+    "image": "assets/images/skye.jpg",
+    "imageAlt": "Paisaje de Skye como imagen de contexto",
+    "imageCaption": "Quiraing · Imagen de contexto de Skye; no representa el bar",
+    "description": "Parada de cerveceo en Portree prevista la tarde del día 8 después de Fairy Pools. Establecimiento identificado en Bank Street; apertura, horario y traslado pendientes.",
+    "history": null,
+    "geology": null,
+    "durationMinutes": null,
+    "durationMinutesRange": null,
+    "recommendations": [
+      "Comprobar apertura y horario para las fechas del viaje.",
+      "Organizar acceso a Portree y vuelta al camping antes del cerveceo; quien conduzca queda sin alcohol.",
+      "No hay reserva ni precio confirmado."
+    ],
+    "sourceIds": [
+      "decision-quiraing-1820-2026-10-11",
+      "1820-fsa",
+      "1820-geograph"
+    ],
+    "featured": false,
+    "miniGuide": {
+      "intro": "Eighteen Twenty, también denominado An Talla Mòr 1820, está en Bank Street, Portree. Lo incluimos como pausa de cerveceo después de Fairy Pools.",
+      "story": "La descripción histórica de Geograph sitúa el establecimiento en la antigua iglesia parroquial, abierta en 1820 y que dejó de utilizarse para culto en 1934. Posteriormente fue denominada Black Memorial Hall.",
+      "highlights": [
+        {
+          "title": "La pausa del día",
+          "text": "Reservamos este rato para sentarnos y conversar; consumiciones y oferta por comprobar."
+        },
+        {
+          "title": "El edificio",
+          "text": "La historia de la antigua iglesia da contexto al nombre Eighteen Twenty."
+        }
+      ],
+      "curiosities": [
+        {
+          "kind": "dato",
+          "text": "Geograph traduce An Talla Mòr como el gran salón."
+        }
+      ],
+      "sourceIds": [
+        "1820-fsa",
+        "1820-geograph"
+      ],
+      "checkedAt": "2026-10-11"
     }
   }
 ]

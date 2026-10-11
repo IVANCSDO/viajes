@@ -3,6 +3,7 @@ import {pageHeading,notice,dayMetrics,statusBadge,mapLegend,placeImage,stopBadge
 import {createMap} from '../maps.js';
 import {overnightLabel} from '../trip.js';
 import {renderMiniGuide} from '../mini-guide.js';
+import {renderTimeline} from '../timeline.js';
 
 export function renderItinerary(data) {
   return `<div class="container page-content">
@@ -29,9 +30,10 @@ export function renderDay(data,id) {
     ${pageHeading(`DÍA ${String(day.number).padStart(2,'0')} · ${dateLabel(day.date)}`,day.title,day.subtitle)}
     <div class="detail-status">${statusBadge(day.status)}<span>${statusText}</span></div>
     <p class="day-description">${e(day.description)}</p>${dayMetrics(day,data)}
+    ${renderTimeline(day,data)}
     <div class="detail-grid"><section>
       <h2>${day.tourismFree ? 'Hoy toca volver a casa.' : 'Lo que nos espera'}</h2>
-      ${day.tourismFree ? `<div class="return-card">${icon('airplane')}<p>Traslado al aeropuerto de Glasgow y vuelo de regreso. Sin actividades ni visitas; la devolución de la autocaravana está prevista el día 11.</p></div>` : !day.stops.length ? `<div class="return-card">${icon('cup-hot')}<p>Llegar, instalarnos y descansar. Sin visitas obligatorias hasta conocer el horario del vuelo.</p></div>` : `<div class="stop-list">${day.stops.map((stop,i) => {
+      ${day.tourismFree ? `<div class="return-card">${icon('airplane')}<p>Traslado al aeropuerto de Glasgow y vuelo de regreso. Sin actividades ni visitas; la devolución de la autocaravana está prevista el día 11.</p></div>` : !day.stops.length ? `<div class="return-card">${icon('cup-hot')}<p>${day.number === 1 ? 'Llegar, instalarnos y descansar. Sin visitas obligatorias hasta conocer el horario del vuelo.' : 'Jornada de traslado o preparación, sin visitas obligatorias. Consulta la timeline y las indicaciones de abajo.'}</p></div>` : `<div class="stop-list">${day.stops.map((stop,i) => {
         const place = data.placeById.get(stop.placeId);
         return `<article class="stop-item"><span class="stop-index">${i+1}</span><div>${stopBadge(stop)}<h3><a href="#lugar/${e(stop.placeId)}">${e(place.name)} ${icon('arrow-up-right')}</a></h3><p>${e(stop.activity)}</p>${place.miniGuide ? `<details class="stop-guide"><summary>${icon('book')} Mini guía · Qué ver y curiosidades</summary>${renderMiniGuide(place,data,{embedded:true})}</details>` : ''}</div></article>`;
       }).join('')}</div>`}

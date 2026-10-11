@@ -8,19 +8,27 @@
   "departurePlaceId": "glasgow",
   "startDate": null,
   "status": "provisional",
-  "description": "Ciudades de piedra, islas salvajes y montañas que rozan las nubes. Doce días para descubrir Escocia a nuestro ritmo, con junio de 2027 como primera idea.",
+  "description": "Doce días en Escocia: Glasgow y Edimburgo, Iona y Staffa, noche en Glencoe y Three Sisters Viewpoint, Skye por el puente con Fairy Pools y Storr sin subida, Fort Augustus y regreso directo a Glasgow. Junio de 2027 provisional.",
   "heroImage": "assets/images/skye.jpg",
   "heroAlt": "Laderas verdes y acantilados del Quiraing, en la isla de Skye",
   "heroCaption": "Quiraing · Isla de Skye",
   "sourceIds": [
-    "update-2027"
+    "update-2027",
+    "ajuste-mull-cairngorms-2026-10-11",
+    "decision-oban-three-sisters-2026-10-11",
+    "decision-skye-fairy-pools-2026-10-11",
+    "decision-skye-puente-storr-mirador-2026-10-11",
+    "decision-glencoe-glasgow-2026-10-11",
+    "decision-skye-extra-dia-2026-10-11",
+    "propuesta-skye-dos-jornadas-2026-10-11",
+    "decision-quiraing-1820-2026-10-11"
   ],
   "featuredPlaceIds": [
     "skye",
-    "glencoe",
+    "fairy-pools",
     "staffa"
   ],
-  "planningNote": "12 días con llegada y salida por Glasgow. Junio de 2027 previsto, fechas exactas pendientes. Días 1–3 planificados, 4–7 acordados y 8–11 provisionales. Día 12 solo para el regreso. No hay reservas confirmadas.",
+  "planningNote": "12 días; junio de 2027 provisional. Noche 5 Fidden; día 6 Staffa, ferry a Oban y noche en Glencoe. Día 7 Three Sisters Viewpoint, Eilean Donan y entrada a Skye por el puente, sin ferry. Skye noches 7, 8 y 9: día 8 Fairy Pools y cerveceo en Eighteen Twenty, Portree; día 9 Storr solo mirador, Kilt Rock opcional y Quiraing Walk. Día 10 salida por el puente hacia Fort Augustus y noche allí. Día 11 Fort Augustus–Glasgow y devolución de la autocaravana, con horario contractual y margen de carretera pendientes; última noche convencional. Sin pernocta en Blair Atholl ni camping en Glasgow. Día 12 sin turismo. Campings, horarios y reservas pendientes.",
   "camperNights": 7,
   "travelWindow": {
     "year": 2027,
@@ -32,8 +40,11 @@
     "edinburgh",
     "iona",
     "staffa",
+    "skye",
+    "fairy-pools",
     "glencoe",
-    "glenfinnan",
-    "skye"
+    "three-sisters",
+    "quiraing",
+    "eighteen-twenty"
   ]
 }

@@ -123,7 +123,7 @@
     "title": "Actualización del usuario · Viaje a Escocia 2027",
     "url": null,
     "type": "usuario",
-    "note": "Fuente vigente: 12 días, 3 adultos, Glasgow, junio de 2027 provisional, alquiler días 4–11, Iona y Staffa, dos noches en Fidden. Fechas y reservas pendientes."
+    "note": "Actualización inicial de 2027: 12 días, 3 adultos, Glasgow, junio provisional y alquiler días 4–11. Su distribución original de dos noches en Fidden queda sustituida por el ajuste del 11 de octubre de 2026; fechas y reservas pendientes."
   },
   {
     "id": "fidden-official",
@@ -586,5 +586,131 @@
     "url": "https://www.gov.scot/binaries/content/documents/govscot/publications/foi-eir-release/2019/06/foi-19-01338/documents/foi-19-01338-annex-b/foi-19-01338-annex-b/govscot%253Adocument/FOI1901338%252B-%252BAnnex%252BB.pdf",
     "type": "oficial",
     "note": "Fuente de historia, patrimonio o paisaje para la mini guía. Consultada el 10 de octubre de 2026; no confirma horarios ni condiciones de 2027."
+  },
+  {
+    "id": "ajuste-mull-cairngorms-2026-10-11",
+    "title": "Ajuste del itinerario: una noche en Mull y más tiempo en Cairngorms",
+    "url": null,
+    "type": "usuario",
+    "note": "Propuesta conversada el 11 de octubre de 2026: concentrar Mull en días 5 y 6, salida tras Staffa si los barcos lo permiten, adelantar Skye y añadir Bruar/Falls of Bruar con noche cerca de Blair Atholl. Provisional y sujeto a horarios, mar y devolución de autocaravana."
+  },
+  {
+    "id": "guide-blair-atholl",
+    "title": "Cairngorms National Park Authority · Blair Atholl",
+    "url": "https://cairngorms.co.uk/towns-and-villages/blair-atholl",
+    "type": "oficial",
+    "note": "Contexto para las mini guías nuevas. Consultada el 11 de octubre de 2026; no confirma accesos, horarios, precios ni condiciones para 2027."
+  },
+  {
+    "id": "guide-falls-bruar",
+    "title": "Blair Atholl Area Tourism Association · Falls of Bruar",
+    "url": "https://www.blairatholl.org.uk/attractions/nature-and-wildlife/falls-of-bruar/",
+    "type": "divulgacion",
+    "note": "Contexto para las mini guías nuevas. Consultada el 11 de octubre de 2026; no confirma accesos, horarios, precios ni condiciones para 2027."
+  },
+  {
+    "id": "guide-cairngorms",
+    "title": "Cairngorms National Park Authority · About",
+    "url": "https://cairngorms.co.uk/the-national-park/about",
+    "type": "oficial",
+    "note": "Contexto para las mini guías nuevas. Consultada el 11 de octubre de 2026; no confirma accesos, horarios, precios ni condiciones para 2027."
+  },
+  {
+    "id": "decision-oban-three-sisters-2026-10-11",
+    "title": "Decisión del grupo: Oban después de Staffa y senderismo en Three Sisters",
+    "url": null,
+    "type": "usuario",
+    "note": "Petición expresa del 11 de octubre de 2026: dormir en Oban después de Staffa y hacer senderismo imprescindible en Three Sisters de Glencoe al día siguiente, antes de Skye. No concreta sendero, duración, horarios, camping ni reservas. Decisión posterior: se mantiene Oban como pernocta, pero se descarta Three Sisters a favor de más tiempo en Skye y Fairy Pools."
+  },
+  {
+    "id": "decision-skye-fairy-pools-2026-10-11",
+    "title": "Decisión del grupo: Fairy Pools y más tiempo en Skye",
+    "url": null,
+    "type": "usuario",
+    "note": "Petición expresa del 11 de octubre de 2026: incluir Fairy Pools y descartar Three Sisters para ir directamente a Skye y estar más tiempo en la isla. Se mantiene Oban tras Staffa; Fairy Pools se organiza provisionalmente el día de llegada y Glenfinnan queda opcional."
+  },
+  {
+    "id": "guide-fairy-pools-estate",
+    "title": "MacLeod Estate · Fairy Pools",
+    "url": "https://www.dunvegancastle.com/fairy-pools/",
+    "type": "oficial",
+    "note": "Contexto del paisaje y visita a pie. Consultada el 11 de octubre de 2026; no se trasladan horarios, distancias o condiciones actuales al viaje de 2027."
+  },
+  {
+    "id": "fairy-pools-parking",
+    "title": "Outdoor Access Trust for Scotland · Fairy Pools parking",
+    "url": "https://www.outdooraccesstrustforscotland.org.uk/car-parking/",
+    "type": "oficial",
+    "note": "Gestor del aparcamiento y condiciones para vehículos. Consultada el 11 de octubre de 2026; revalidar para 2027 y para la autocaravana concreta. No se incorpora una tarifa al presupuesto."
+  },
+  {
+    "id": "fairy-pools-location",
+    "title": "Scotland Off the Beaten Track · Fairy Pools",
+    "url": "https://sobt.co.uk/fairy-pools/",
+    "type": "divulgacion",
+    "note": "Referencia de posición GPS del entorno de las pozas, redondeada a coordenadas aproximadas [57.25, -6.255]. Consultada el 11 de octubre de 2026; no verifica carretera, sendero, acceso ni aparcamiento."
+  },
+  {
+    "id": "decision-skye-puente-storr-mirador-2026-10-11",
+    "title": "Decisión del grupo: entrada a Skye por el puente y Storr sin senderismo",
+    "url": null,
+    "type": "usuario",
+    "note": "Ajuste conversado el 11 de octubre de 2026: se descarta ferry Mallaig–Armadale, Glenfinnan y Quiraing del itinerario; entrada por Skye Bridge, Eilean Donan día 7, Fairy Pools con senderismo día 8, Old Man of Storr solo desde mirador seguro sin ruta de subida, Kilt Rock opcional, salida tranquila a Fort Augustus día 9. Pendientes camping, duración real de visitas y tiempos con autocaravana."
+  },
+  {
+    "id": "decision-glencoe-glasgow-2026-10-11",
+    "title": "Decisión del grupo: Glencoe y regreso directo a Glasgow",
+    "url": null,
+    "type": "usuario",
+    "note": "Recuperar Three Sisters Viewpoint y noche en Glencoe; quitar noche en Blair Atholl y regresar de Fort Augustus a Glasgow. Se mantiene Skye por el puente. Organización propuesta: Glencoe noche 6, mirador día 7, Glasgow noche 10 en camping pendiente y devolución día 11, conservando 12 días y 7 noches de autocaravana."
+  },
+  {
+    "id": "timeline-propuesta-2026-10-11",
+    "title": "Propuesta inicial de franjas para la timeline",
+    "url": null,
+    "type": "propuesta",
+    "note": "Franjas de organización creadas para iniciar la timeline solicitada por el usuario. Referencia 09:00 para jornadas flexibles, no acordada. No acredita duraciones de visitas, conducción, vuelos, horarios de ferris ni aperturas. Horas desconocidas null."
+  },
+  {
+    "id": "decision-skye-extra-dia-2026-10-11",
+    "title": "Corrección del grupo: regreso a Glasgow día 11 y más Skye",
+    "url": null,
+    "type": "usuario",
+    "note": "El usuario corrige Fort Augustus–Glasgow al día 11 y propone más tiempo en Skye. Se organiza día 9 flexible y tercera noche en Skye; Fort Augustus día/noche 10, devolución y alojamiento convencional en Glasgow día/noche 11. No se añaden visitas ni tiempos verificados. Sustituye la propuesta de camping en Glasgow noche 10."
+  },
+  {
+    "id": "propuesta-skye-dos-jornadas-2026-10-11",
+    "title": "Propuesta: repartir las visitas de Skye en días 8 y 9",
+    "url": null,
+    "type": "propuesta",
+    "note": "El usuario pide organizar la jornada flexible. Se distribuyen las visitas ya previstas: Fairy Pools día 8, Storr solo mirador y Kilt Rock opcional día 9. Franjas de organización propuestas, sin duraciones verificadas ni horarios de apertura o conducción. Sin recuperar Quiraing."
+  },
+  {
+    "id": "decision-quiraing-1820-2026-10-11",
+    "title": "Decisión: Quiraing Walk y cerveceo en Eighteen Twenty",
+    "url": null,
+    "type": "usuario",
+    "note": "El usuario añade Quiraing Walk al día del norte y un cerveceo en Eighteen Twenty durante Skye. Organización propuesta: bar tarde del día 8, norte y Quiraing día 9; horarios, transporte y accesos pendientes."
+  },
+  {
+    "id": "quiraing-walkhighlands-circuit",
+    "title": "Walkhighlands · Quiraing hill circuit",
+    "url": "https://www.walkhighlands.co.uk/skye/quiraing.shtml",
+    "type": "divulgacion",
+    "note": "Consultada 2026-10-11: circuito descrito de 6,5 km y 3–4 horas; referencia orientativa del paseo, no conducción. Terreno rocoso y retorno expuesto; recorrido y acceso para autocaravana por comprobar."
+  },
+  {
+    "id": "1820-fsa",
+    "title": "Food Standards Agency · An Talla Mor 1820",
+    "url": "https://ratings.food.gov.uk/business/1266388/an-talla-mor-1820-portree",
+    "type": "oficial",
+    "note": "Consultada 2026-10-11: identifica establecimiento en Bank Street, Portree. No acredita apertura ni horarios para 2027."
+  },
+  {
+    "id": "1820-geograph",
+    "title": "Geograph · Eighteen Twenty (An Talla Mòr)",
+    "url": "https://www.geograph.org.uk/photo/6591361",
+    "type": "divulgacion",
+    "note": "Localización aproximada del edificio [57.41195,-6.19302], historia y denominación. Foto y descripción de 2020 consultadas 2026-10-11; no se descarga ni reutiliza la foto. Horarios y operación por revalidar."
   }
 ]

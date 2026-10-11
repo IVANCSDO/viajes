@@ -1,6 +1,6 @@
 # Escocia, sin prisa
 
-Guía interactiva en español para **Escocia 2027: 12 días y 3 adultos, con llegada y salida por Glasgow**. Junio de 2027 provisional. Ciudades en transporte público y autocaravana del día 4 al 11: 8 días y 7 noches. Diseño responsive, itinerario, mini free tours de las 41 ubicaciones, mapas, favoritos, calculadora de presupuesto y lista de preparativos.
+Guía interactiva en español para **Escocia 2027: 12 días y 3 adultos, con llegada y salida por Glasgow**. Junio de 2027 provisional. Ciudades en transporte público y autocaravana del día 4 al 11: 8 días y 7 noches. Diseño responsive, itinerario, mini free tours de las 46 ubicaciones, mapas, favoritos, calculadora de presupuesto y lista de preparativos.
 
 HTML5, CSS3, JavaScript ES6 con módulos nativos, Bootstrap 5.3.3, Bootstrap Icons 1.11.3 y Leaflet 1.9.4. Sin backend, Node, compilación ni instalación de dependencias. Las bibliotecas y fotografías están incluidas en `assets/`.
 
@@ -10,9 +10,15 @@ HTML5, CSS3, JavaScript ES6 con módulos nativos, Bootstrap 5.3.3, Bootstrap Ico
 
 Abrir la **carpeta del proyecto** en VS Code y pulsar **F5**. Si aparece un selector, elegir **Escocia · Abrir la web**. Se inicia el servidor local y se abre Microsoft Edge automáticamente. No hace falta instalar extensiones de Python ni Live Server.
 
+Se conserva **Attach to Chrome** como opción adicional para conectar con un Chrome que ya esté iniciado en modo de depuración en el puerto 9222; esa opción no arranca el navegador ni el servidor.
+
 Guardar los cambios y recargar la página para verlos. **Shift+F5** detiene la depuración; el servidor permanece en la terminal **Escocia: servidor local** para reutilizarlo. Para apagarlo, pulsar **Ctrl+C** en esa terminal o usar **Terminal → Terminar tarea**.
 
-La tarea de Windows utiliza la instalación de Python detectada en este equipo (`%LOCALAPPDATA%\Python\pythoncore-3.14-64\python.exe`), evitando el alias de Microsoft Store. En otro equipo, ajustar `windows.command` en `.vscode/tasks.json` a su ejecutable de Python. Si el puerto 8000 ya está ocupado por un servidor iniciado manualmente, detenerlo antes de usar F5.
+La tarea de Windows utiliza `py -3`, el lanzador de Python, evitando el alias de Microsoft Store y las rutas ligadas a una versión concreta. En otros sistemas utiliza `python3`. `scripts/serve.py` sirve siempre la raíz del proyecto y avisa a VS Code cuando el puerto 8000 está listo. La terminal de la tarea queda visible para mostrar errores. Si el puerto 8000 ya está ocupado, detener el servidor anterior antes de usar F5. Si falla `py -3 --version`, instalar Python 3 con su lanzador o ajustar `windows.command` y `windows.args` en `.vscode/tasks.json` al ejecutable disponible.
+
+Si F5 no inicia la depuración, abrir **Ejecutar y depurar** (Ctrl+Shift+D), seleccionar **Escocia · Abrir la web** y pulsar el botón de inicio. Si indica que no reconoce `msedge`, comprobar que esté habilitado el depurador JavaScript integrado de VS Code. [Documentación del depurador de navegador](https://code.visualstudio.com/docs/nodejs/browser-debugging).
+
+Para el error **Unable to launch browser**, la configuración de Windows indica explícitamente `%ProgramFiles(x86)%\Microsoft\Edge\Application\msedge.exe`, comprobado en este equipo, y usa un perfil separado en `.qa/edge-debug-profile` (ignorado por Git). Si Edge está instalado en otra ruta, ajustar `windows.runtimeExecutable` en `.vscode/launch.json`. El perfil personal del navegador no se usa para depurar.
 
 ### Desde una terminal
 
@@ -47,11 +53,13 @@ En **Lugares**, abrir una ficha para leer qué es, su historia, qué ver y curio
 - `data/logistics.json`: alojamientos elegidos/candidatos, servicios, estados de reserva y requisitos del vehículo.
 - `data/sources.json`: fuentes y créditos visibles en la web.
 
-Los valores desconocidos se conservan como `null`. Nunca se suman métricas incompletas como si fueran totales. El plan vigente procede de la actualización del usuario: días 1–3 planificados, 4–7 acordados y 8–11 provisionales. Día 12 sin turismo; devolución del vehículo día 11. No hay reservas confirmadas. Fidden está elegido para noches 5 y 6; su web indica actualmente que no acepta reservas, por lo que hay que revalidar condiciones y disponibilidad para 2027. Red Squirrel solo es candidato.
+Los desconocidos se conservan como `null`. Plan vigente: noche 6 en Glencoe tras Staffa y el ferry a Oban; día 7 Three Sisters Viewpoint (sin senderismo acordado), Eilean Donan y Skye por el puente, sin ferry. Día 8 Fairy Pools con paseo; día 9 Storr solo mirador y Kilt Rock opcional; Glenfinnan fuera del itinerario; Quiraing Walk recuperado el día 9. Skye noches 7, 8 y 9: día 8 Fairy Pools y cerveceo en Eighteen Twenty, Portree; día 9 Storr solo mirador, Kilt Rock opcional y Quiraing Walk. Día 10 salida por el puente hacia Fort Augustus y noche allí. Día 11 Fort Augustus–Glasgow y devolución de la autocaravana, con horario contractual y margen de carretera pendientes; última noche convencional. Sin pernocta en Blair Atholl ni camping en Glasgow. Día 12 sin turismo. Se mantienen 12 días, 8 días y 7 noches en autocaravana; no hay reservas confirmadas. Estados de las jornadas y reservas se mantienen separados.
 
-El día 7 tiene estimaciones iniciales de 115–130 km y 2,5–3 h de conducción, excluyendo ferry, esperas y paradas. La referencia de alquiler de 600–800 EUR corresponde a unos 10 días y sigue sin confirmar; se muestra aparte, sin convertirla ni sumarla a la calculadora en GBP, ni extrapolarla al plan actual de 8 días.
+Las distancias y tiempos de conducción de la nueva ruta quedan pendientes; no se trasladan las estimaciones de la antigua jornada Mull–Glencoe a otra etapa. La referencia de alquiler de 600–800 EUR corresponde a unos 10 días y sigue sin confirmar; se muestra aparte, sin convertirla ni sumarla a la calculadora en GBP, ni extrapolarla al plan actual de 8 días.
 
-Los trazados actuales son **conexiones esquemáticas**, siempre discontinuas y señalizadas. No son carreteras ni travesías verificadas. Transporte público, ferry/barco y autocaravana usan colores distintos. El tramo provisional entra a Skye por Mallaig–Armadale y sale por el puente. Las opciones no se fuerzan como desvíos obligatorios en Google Maps. Para sustituir una conexión por un recorrido real, aportar GeoJSON verificado y su procedencia según el esquema.
+Los 30 trazados actuales son **conexiones esquemáticas**, discontinuas, sin carreteras ni travesías verificadas. Se añade Oban–Glencoe y la parada de Three Sisters antes de Eilean Donan; Skye se recorre y abandona por el puente. El día 10 enlaza Skye–Fort Augustus y el día 11 Fort Augustus–Glasgow; el día 9 organiza Storr solo mirador y Kilt Rock opcional. Los accesos de visitas y campings siguen pendientes.
+
+Los marcadores verdes indican visitas; los morados con luna, pernoctas previstas; los de ambos colores, visita y pernocta; los grises, puntos de paso o transporte. La clasificación se deriva de las paradas y las pernoctas del plan y cambia con el filtro de jornada. El mapa general y su lista muestran los lugares relacionados con el plan vigente; las fichas de los lugares descartados se conservan sin presentarlos como puntos del recorrido. Las visitas opcionales tienen borde discontinuo. Los popups muestran las noches y separan alojamiento elegido/por elegir de reserva confirmada/pendiente; cuando no hay camping u hotel concreto, la posición representa la zona prevista, no un alojamiento confirmado.
 
 Los favoritos, estimaciones y preparativos se guardan en `localStorage` del navegador. No cambian los archivos JSON ni confirman reservas. Si el navegador impide guardar, se conservan durante la sesión y se informa al usuario.
 
@@ -85,12 +93,16 @@ python scripts/validate.py
 python scripts/http_check.py
 ```
 
-Comprueba JSON, IDs, referencias, continuidad de jornadas, geometrías, fuentes, las 41 mini guías completas, regreso sin turismo, módulos e imágenes. Para revisar la interfaz: probar anchos de 320, 390, 768 y 1440 px; abrir las cinco secciones, cada jornada y lugar; desplegar las mini guías, usar teclado, filtros, favoritos, presupuesto y lista; comprobar consola y mapas con Internet.
+Comprueba JSON, IDs, referencias, continuidad de jornadas, geometrías, fuentes, las 47 mini guías completas, regreso sin turismo, módulos e imágenes. Para revisar la interfaz: probar anchos de 320, 390, 768 y 1440 px; abrir las cinco secciones, cada jornada y lugar; desplegar las mini guías, usar teclado, filtros, favoritos, presupuesto y lista; comprobar consola y mapas con Internet.
 
-`http_check.py` abre un servidor temporal, comprueba las respuestas de todos los recursos y los tipos MIME de JavaScript, y lo cierra. Hay un script opcional `scripts/browser_qa.py` para ejecutar comprobaciones en Edge sin ventana en Windows, con un perfil aislado dentro de `.qa/`; no utiliza ni modifica el perfil personal del navegador. **La comprobación en navegador no se ejecutó en esta entrega porque no se autorizó iniciar Edge.**
+`http_check.py` abre un servidor temporal, comprueba las respuestas de todos los recursos y los tipos MIME de JavaScript, y lo cierra. Hay un script opcional `scripts/browser_qa.py` para ejecutar comprobaciones en Edge sin ventana en Windows, con un perfil aislado dentro de `.qa/`; no utiliza ni modifica el perfil personal del navegador. La revisión anterior del 11 de octubre de 2026, con 41 lugares, superó navegación, 32 layouts a 320/390/768/1440 px, marcadores, popups, conexiones de Skye y salida de pantalla completa con Escape, sin errores JavaScript ni recursos locales ausentes. Las pruebas se han adaptado al plan vigente de 47 lugares y a los marcadores de lugares incluidos en el recorrido, pero su revisión visual queda pendiente porque no se autorizó iniciar Edge. La pulsación de F5 desde la interfaz de VS Code requiere comprobación del usuario.
 
 `scripts/fetch_assets.py` permite volver a descargar las versiones fijas de los recursos públicos; solo es una utilidad de mantenimiento con acceso a Internet. No se ejecuta para publicar o utilizar la web.
 
 `scripts/fetch_place_photos.py` descarga las fotografías adicionales de Glencoe y Eilean Donan y actualiza sus créditos. Todas las fichas tienen fotografía local. Las nuevas fotos del usuario están asignadas a sus destinos; los puntos sin toma específica usan una foto de contexto o de ambiente del viaje, identificada en el pie. Si falla una imagen, se intenta otra fotografía local. `staffa.jpg` es un AVIF y se sirve como `staffa.avif`, conservando el original. Al añadir lugares, rellenar `image`, `imageAlt` e `imageCaption`; la validación comprueba que existan y que el formato coincida con la extensión.
 
 Antes de modificar el proyecto, consultar [AGENTS.md](AGENTS.md) y [el esquema de datos](docs/DATA_SCHEMA.md). Las decisiones que lleguen desde ChatGPT se aplican solo cuando estén confirmadas; no existe sincronización automática.
+
+## Timeline por jornada
+
+Cada ficha de día incluye una primera timeline en hora local de Escocia. `timeline` se guarda en `data/days.json`: las franjas numéricas son propuestas de organización, con referencia inicial 09:00 en días flexibles. Vuelos, ferris, tiempos de carretera y devolución no se dan por confirmados; sus horas siguen pendientes. La timeline no calcula llegadas ni suma tiempos desconocidos.

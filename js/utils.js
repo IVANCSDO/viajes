@@ -1,6 +1,6 @@
 export const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 export const icon = name => `<i class="bi bi-${escapeHTML(name)}" aria-hidden="true"></i>`;
-export const categories = {naturaleza:'Naturaleza',historia:'Historia',costa:'Costa',islas:'Islas',geologia:'Geología',transporte:'Puertos y traslados'};
+export const categories = {naturaleza:'Naturaleza',historia:'Historia',costa:'Costa',islas:'Islas',geologia:'Geología',transporte:'Puertos y traslados',ocio:'Bares y ocio'};
 export const number = value => new Intl.NumberFormat('es-ES').format(value);
 export function minutes(value) { return value == null ? 'Por confirmar' : value < 60 ? `${number(value)} min` : `${Math.floor(value / 60)} h${value % 60 ? ` ${value % 60} min` : ''}`; }
 export function metricLabel(value, range, type = 'distance') {

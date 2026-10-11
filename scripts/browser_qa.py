@@ -152,6 +152,9 @@ def main():
             if width == 390:
                 client.route('inicio','.hero')
                 client.screenshot('mobile-home.png')
+            client.route('mapa','#trip-map .leaflet-pane')
+            client.evaluate('document.querySelector(".full-map-card").scrollIntoView({block:"center",behavior:"instant"})')
+            client.screenshot(f'map-{width}.png')
         report['checks'].append('32 layouts without horizontal overflow; one h1 per view')
         client.route('lugares','#place-search')
         client.evaluate('document.querySelector("#place-search").value="Victoria Street";document.querySelector("#place-search").dispatchEvent(new Event("input"))')
@@ -185,11 +188,45 @@ def main():
         assert client.evaluate('!!document.querySelector(".leaflet-popup-content a")')
         client.evaluate('document.querySelector("#fit-map").click()')
         report['checks'].append('Day map filter, markers, popup links and recenter')
+        client.evaluate('document.querySelector("#map-day").value="";document.querySelector("#map-day").dispatchEvent(new Event("change"))')
+        markers = client.evaluate('Array.from(document.querySelectorAll("#trip-map .trip-marker")).map(el=>({title:el.title,classes:el.className,color:getComputedStyle(el.firstElementChild).backgroundColor,image:getComputedStyle(el.firstElementChild).backgroundImage}))')
+        expected_markers = client.evaluate('(async()=>{const {loadData}=await import("./js/data.js");const {dayTouchesPlace}=await import("./js/trip.js");const data=await loadData();return data.places.filter(place=>data.days.some(day=>dayTouchesPlace(day,place.id,data))).length;})()')
+        assert len(markers) == expected_markers
+        assert any(marker['title'].startswith('Three Sisters') for marker in markers)
+        assert not any(marker['title'].startswith('Blair Atholl') for marker in markers)
+        for name, role in [('Old Man of Storr','visit'), ('Fairy Pools','visit'), ('Aeropuerto de Glasgow','transit'), ('Isla de Skye','mixed')]:
+            marker = next(m for m in markers if m['title'].startswith(name + ' ·'))
+            assert f'marker-{role}' in marker['classes'], marker
+        client.evaluate('document.querySelector("#map-day").value="dia-11";document.querySelector("#map-day").dispatchEvent(new Event("change"))')
+        sleep = client.evaluate('Array.from(document.querySelectorAll("#trip-map .trip-marker")).find(el=>el.title.startsWith("Glasgow ·"))?.className')
+        assert 'marker-sleep' in sleep, sleep
+        client.evaluate('document.querySelector("#trip-map .marker-sleep").click()')
+        popup = client.evaluate('document.querySelector(".leaflet-popup-content").textContent')
+        assert 'Noche 11' in popup and 'por elegir' in popup and 'Sin reserva confirmada' in popup, popup
+        for selected_day in days:
+            client.evaluate(f'document.querySelector("#map-day").value={json.dumps(selected_day["id"])};document.querySelector("#map-day").dispatchEvent(new Event("change"))')
+            lines = client.evaluate('Array.from(document.querySelectorAll("#trip-map path.leaflet-interactive")).map(el=>el.getAttribute("stroke-dasharray"))')
+            assert len(lines) == len(selected_day['travelLegs']), (selected_day['id'], lines)
+            assert all(lines), (selected_day['id'], lines)
+        client.evaluate('document.querySelector("#map-day").value="dia-5";document.querySelector("#map-day").dispatchEvent(new Event("change"));Array.from(document.querySelectorAll("#trip-map .trip-marker")).find(el=>el.title.startsWith("Fidden ")).click()')
+        popup = client.evaluate('document.querySelector(".leaflet-popup-content").textContent')
+        assert 'Noche 5' in popup and 'Noche 6' not in popup and 'Sin reserva confirmada' in popup, popup
+        client.evaluate('document.querySelector("#map-day").value="dia-10";document.querySelector("#map-day").dispatchEvent(new Event("change"));Array.from(document.querySelectorAll("#trip-map .trip-marker")).find(el=>el.title.startsWith("Fort Augustus ·")).click()')
+        popup = client.evaluate('document.querySelector(".leaflet-popup-content").textContent')
+        assert 'Noche 10' in popup and 'Alojamiento por elegir' in popup and 'Sin reserva confirmada' in popup, popup
+        client.evaluate('document.querySelector("#expand-map").click()')
+        assert client.evaluate('document.querySelector("#map-fullscreen").open')
+        client.call('Input.dispatchKeyEvent', type='keyDown', key='Escape', code='Escape', windowsVirtualKeyCode=27)
+        client.call('Input.dispatchKeyEvent', type='keyUp', key='Escape', code='Escape', windowsVirtualKeyCode=27)
+        client.wait('!document.querySelector("#map-fullscreen").open')
+        report['checks'].append('Marker roles and booking text, Fidden night 5, Fort Augustus night 10, all day routes and dashed geometry, fullscreen keyboard exit')
         for day in days:
             client.route(f'dia/{day["id"]}', '#day-map .leaflet-pane')
+            assert client.evaluate('document.querySelectorAll(".schedule-item").length') == len(day['timeline']['items'])
         assert client.evaluate('document.querySelectorAll(".stop-item").length') == 0
         for place in places:
             client.route(f'lugar/{place["id"]}', '#place-map .leaflet-pane')
+            assert client.evaluate('!!document.querySelector(".mini-guide")'), place['id']
         report['checks'].append(f'All {len(days)} day views, {len(places)} place views and tourism-free final day')
         client.route('missing','.empty-state')
         report['checks'].append('Unknown route recovery')

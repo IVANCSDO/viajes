@@ -33,7 +33,7 @@ Todos los archivos se codifican en UTF-8. IDs estables en minúsculas y con guio
 | imagePlaceId | string, opcional | Lugar cuya fotografía representa la jornada; si falta, se utiliza el destino. No modifica los desplazamientos ni la pernocta |
 | overnightId | string o null | Referencia a `logistics.accommodations.id`; `null` el día de regreso sin noche |
 | distanceKm, drivingMinutes | number >= 0 o null | Métricas del trayecto; incluir 0 solo si se conoce |
-| distanceKmRange, drivingMinutesRange | [number, number] o null | Intervalos `[mínimo,máximo]` estimados; no inventar un valor medio. Día 7: `[115,130]` km y `[150,180]` min, excluyendo ferry, esperas y paradas |
+| distanceKmRange, drivingMinutesRange | [number, number] o null | Intervalos `[mínimo,máximo]` estimados; no inventar un valor medio. En la nueva ruta están pendientes; no reutilizar los rangos de la antigua jornada Mull–Glencoe |
 | metricsStatus | string | `pendiente`, `estimada` o `confirmada` |
 | camper | boolean o null | Uso previsto de autocaravana ese día, no acreditación de alquiler reservado |
 | stops | object[] | Paradas, en orden; vacío si no hay turismo |
@@ -42,7 +42,7 @@ Todos los archivos se codifican en UTF-8. IDs estables en minúsculas y con guio
 | sourceIds | string[] | Procedencia del plan y de las estimaciones |
 | tourismFree | boolean | Día sin actividades turísticas |
 
-Cada parada: `{ "placeId": "staffa", "priority": "imprescindible", "status": "acordada", "activity": "Excursión prioritaria; reserva pendiente." }`. `priority`: `imprescindible` u `opcional`. `status`: `acordada`, `propuesta` o `provisional`. Son ejes separados: una visita opcional no se convierte en obligatoria por estar en una jornada acordada. El orden de `stops` es de presentación; no necesariamente una secuencia definitiva de navegación, especialmente en el día 9.
+Cada parada: `{ "placeId": "staffa", "priority": "imprescindible", "status": "provisional", "activity": "Excursión prioritaria; reserva pendiente." }`. `priority`: `imprescindible` u `opcional`. `status`: `acordada`, `propuesta` o `provisional`. Son ejes separados: una visita opcional no se convierte en obligatoria por estar en una jornada acordada. El orden de `stops` es de presentación; no necesariamente una secuencia definitiva de navegación, especialmente en el día 8 de la nueva ruta.
 
 Cada desplazamiento: `{ "mode": "ferry", "originId": "oban", "destinationId": "craignure", "note": "Con autocaravana; horario pendiente", "serviceId": "ferry-oban-craignure" }`. `mode`: `public`, `road`, `ferry`, `boat`, `undecided`; extremos referencian `places.id`. `serviceId`: referencia a `logistics.services.id` o `null`. No implica horario, operador ni reserva. Las visitas opcionales no se añaden automáticamente como desvíos al enlace de Google Maps entre origen y destino.
 
@@ -78,7 +78,7 @@ No duplicar el número de día en un lugar: las relaciones se derivan de las par
 - `sourceIds` (string[] no vacío): fuentes con URL, existentes en `sources.json` y también incluidas en `place.sourceIds`. Se muestran al pie de cada mini guía.
 - `checkedAt` (fecha `YYYY-MM-DD`): consulta de las fuentes; no es una fecha de viaje ni confirma condiciones de visita.
 
-Las 41 ubicaciones tienen guía, incluidas las de transporte. El contenido se reutiliza desde el mismo objeto en la ficha del lugar y en los desplegables de sus paradas. No duplicarlo en `days.json`. La guía sustituye visualmente los antiguos bloques `history`/`geology` en la ficha; esos campos se conservan para compatibilidad. Las visitas opcionales mantienen su prioridad, y el día de regreso sigue sin turismo.
+Las 46 ubicaciones tienen guía, incluidas las de transporte, Blair Atholl, Cairngorms, Bruar, Falls of Bruar y Fairy Pools. El contenido se reutiliza desde el mismo objeto en la ficha del lugar y en los desplegables de sus paradas. No duplicarlo en `days.json`. La guía sustituye visualmente los antiguos bloques `history`/`geology` en la ficha; esos campos se conservan para compatibilidad. Las visitas opcionales mantienen su prioridad, y el día de regreso sigue sin turismo.
 
 ## `routes.geojson` · FeatureCollection
 
@@ -103,7 +103,9 @@ Ejemplo:
 
 El renderer usa líneas discontinuas para `schematic`. Solo usar `verified` tras verificar una geometría real y documentar procedencia. `road` describe la intención de transporte, no verifica la forma de la línea. No calcular kilómetros desde esquemas. Barcos, ferris y conexiones con transporte pendiente tienen colores diferenciados.
 
-El GeoJSON refleja los `travelLegs` que tienen extremos conocidos, uno por desplazamiento. Al editar un desplazamiento, actualizar ambos archivos y validar sus relaciones. No añadir una línea que imponga visitas opcionales ni un orden todavía no acordado.
+El GeoJSON refleja uno a uno los `travelLegs` con extremos conocidos. El plan vigente incluye Oban–Glencoe, Glencoe–Three Sisters–Eilean Donan, Skye por el puente (salida día 10) y Fort Augustus–Glasgow (día 11). La jornada 8 incluye Fairy Pools y Eighteen Twenty; la 9 organiza Storr solo mirador, Kilt Rock opcional y Quiraing Walk. Sus 30 conexiones son esquemáticas y discontinuas; no verifican carreteras, senderos ni aparcamientos.
+
+Los colores de los marcadores se derivan de las relaciones existentes, sin campos adicionales: verde para visitas (`stops`, incluidos descendientes mediante `parentId`), morado para pernoctas (`overnightId` → alojamiento → `placeId`), ambos colores si concurren y gris para otros puntos. El filtro de jornada limita esas relaciones al día seleccionado. El mapa general y su lista incluyen solo lugares relacionados con alguna jornada mediante `dayTouchesPlace`; las fichas de lugares fuera del recorrido siguen accesibles y conservan sus IDs. Los candidatos no se consideran pernoctas elegidas. Los popups conservan separados los estados de elección y reserva.
 
 ## `logistics.json` · objeto
 
@@ -122,7 +124,7 @@ Fuente central de servicios, alojamientos y requisitos del vehículo. Carga medi
 ### `accommodations` · array
 Cada alojamiento tiene `id` (string único), `name` (string o null), `placeId` (referencia), `type` (`convencional`, `camping`), `selectionStatus` (`elegida`, `candidata`, `pendiente`), `reservationStatus` (`pendiente`, `confirmada`), `availability` (boolean o null), `note` (string), `url` (HTTPS o null), `candidateIds` (string[] de otros alojamientos), `sourceIds` (string[]) y `bookingPolicy` (objeto o null).
 
-Los campings por elegir usan `name: null` y referencian la zona. Red Squirrel está en `candidateIds` de Glencoe, con `selectionStatus: "candidata"`; nunca se usa como pernocta elegida. Fidden tiene `selectionStatus: "elegida"`, `reservationStatus: "pendiente"`, `availability: null`. Su `bookingPolicy`: `{status:"sin-reservas-previas",checkedAt:"2026-10-10",sourceId:"fidden-official"}` refleja una consulta actual, que debe revalidarse para 2027. Las noches se derivan de `days[].overnightId`.
+Los campings por elegir usan `name: null` y referencian la zona. Red Squirrel está en `candidateIds` de Glencoe y Blair Castle Caravan Park en los de Blair Atholl, con `selectionStatus: "candidata"`; nunca se usan como pernoctas elegidas. Glencoe no tiene noche asignada tras la decisión de dormir en Oban después de Staffa; su referencia se conserva para mantener IDs estables. Oban se referencia las noches 4 y 6, sin garantizar un mismo establecimiento. Fidden tiene `selectionStatus: "elegida"`, `reservationStatus: "pendiente"`, `availability: null`, para una noche (día 5). Su `bookingPolicy`: `{status:"sin-reservas-previas",checkedAt:"2026-10-10",sourceId:"fidden-official"}` refleja una consulta actual, que debe revalidarse para 2027. Las noches se derivan de `days[].overnightId`; una pernocta acordada en una localidad no confirma camping ni reserva.
 
 ### `services` · array
 Cada servicio tiene `id`, `name`, `selectionStatus` (`acordada`, `provisional`), `reservationStatus` (`pendiente`, `confirmada`), `provider` (string o null), `price` (number o null), `time` (string o null), `note` (string) y `sourceIds` (string[]). El operador desconocido permanece `null`, aunque se conozcan los puertos. Cada ferry se distingue de la excursión a Staffa y de los vuelos. Un servicio acordado no implica una compra.
@@ -140,3 +142,7 @@ Cada objeto contiene `id`, `title`, `type`, `note` (strings) y `url` (string HTT
 ## Estado local del navegador
 
 Claves con prefijo `escocia:`: `favorites` (string[] de IDs de lugares), `budget` (objeto de ID de concepto a string numérico o vacío), `checklist` (string[]). Los IDs originales de lugares y conceptos se preservan para no perder preferencias. La lista de pendientes 2027 utiliza nuevos IDs para no marcar tareas nuevas como terminadas por una lista antigua. No se envían a servidores ni se sincronizan con los JSON. Si localStorage falla, hay alternativa en memoria de la sesión. Para revisar el esquema y las relaciones: `python scripts/validate.py`.
+
+## Timeline
+
+Campo `timeline` por jornada: `status: propuesta`, `note`, `sourceIds` y `items` ordenados. Cada bloque contiene `label`, `period`, `note`, `placeIds` (IDs sin duplicar lugares), `legIndex` (índice de `travelLegs` o `null`) y `start`/`end` (`HH:mm` en hora local o `null`). Las franjas numéricas son propuestas de organización; no son duraciones verificadas. Los bloques sin hora conservan una etiqueta de secuencia. No se calculan llegadas cuando faltan duraciones. Día 12 solo traslado y vuelo. El servicio de ferry a Skye se conserva descartado, con `reservationStatus: no-necesaria`, y no puede ser referenciado por desplazamientos activos.

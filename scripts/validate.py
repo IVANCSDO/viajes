@@ -60,6 +60,23 @@ def main():
             assert leg['serviceId'] is None or leg['serviceId'] in services
         if day['tourismFree']:
             assert not day['stops'], 'Tourism-free day contains stops'
+        timeline = day.get('timeline')
+        if timeline:
+            assert timeline['status'] == 'propuesta' and timeline['note']
+            assert timeline['sourceIds'] and all(id in sources for id in timeline['sourceIds'])
+            last_end = None
+            for entry in timeline['items']:
+                assert entry['label'] and entry['period'] and entry['note']
+                assert all(id in place_ids for id in entry['placeIds'])
+                assert entry['legIndex'] is None or isinstance(entry['legIndex'], int) and 0 <= entry['legIndex'] < len(day['travelLegs'])
+                for time in (entry['start'],entry['end']):
+                    assert time is None or re.fullmatch(r'(?:[01]\d|2[0-3]):[0-5]\d',time)
+                assert entry['end'] is None or entry['start'] is not None and entry['start'] < entry['end']
+                if entry['start']:
+                    assert last_end is None or entry['start'] >= last_end, 'Overlapping proposed timeline windows'
+                    last_end = entry['end'] or entry['start']
+                if day['tourismFree']:
+                    assert not entry['placeIds'], 'Tourism-free timeline contains visits'
     final_day = max(days, key=lambda day: day['number'])
     assert final_day['tourismFree'] and final_day['destinationId'] == trip['departurePlaceId']
     assert final_day['overnightId'] is None and not final_day['camper']
@@ -77,7 +94,10 @@ def main():
         if stay['bookingPolicy']:
             assert stay['bookingPolicy']['sourceId'] in sources
     for service in services.values():
-        assert service['reservationStatus'] in ('pendiente', 'confirmada')
+        assert service['reservationStatus'] in ('pendiente', 'confirmada', 'no-necesaria')
+        if service['reservationStatus'] == 'no-necesaria':
+            assert service.get('selectionStatus') == 'descartada'
+            assert not any(leg['serviceId'] == service['id'] for day in days for leg in day['travelLegs'])
         assert all(id in sources for id in service['sourceIds'])
     camper_days = sum(day['camper'] is True for day in days)
     camper_nights = sum(day['camper'] is True and day['overnightId'] is not None and accommodations[day['overnightId']]['type'] != 'convencional' for day in days)

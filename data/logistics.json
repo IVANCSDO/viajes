@@ -69,12 +69,14 @@
       "selectionStatus": "pendiente",
       "reservationStatus": "pendiente",
       "availability": null,
-      "note": "Noche 4 en Oban; camping por elegir.",
+      "note": "Noche 4 prevista; camping y reserva pendientes. El día 6 Oban solo es punto de llegada del ferry antes de continuar a Glencoe.",
       "url": null,
       "candidateIds": [],
       "bookingPolicy": null,
       "sourceIds": [
-        "update-2027"
+        "update-2027",
+        "decision-oban-three-sisters-2026-10-11",
+        "decision-glencoe-glasgow-2026-10-11"
       ]
     },
     {
@@ -85,7 +87,7 @@
       "selectionStatus": "elegida",
       "reservationStatus": "pendiente",
       "availability": null,
-      "note": "Elegido para dos noches. Confirmar disponibilidad y condiciones para junio de 2027. La web oficial indica actualmente que no acepta reservas; no existe plaza garantizada.",
+      "note": "Una noche prevista, noche 5; elegido pero sin reserva previa ni plaza garantizada. Reconfirmar condiciones para junio de 2027.",
       "url": "https://fiddenfarm.co.uk/",
       "candidateIds": [],
       "bookingPolicy": {
@@ -106,14 +108,17 @@
       "selectionStatus": "pendiente",
       "reservationStatus": "pendiente",
       "availability": null,
-      "note": "Noche 7. Camping pendiente de elegir; Red Squirrel solo es candidato.",
+      "note": "Noche 6 acordada después de Staffa y el ferry a Oban. Camping y hora de llegada pendientes; Red Squirrel solo candidato, sin reserva.",
       "url": null,
       "candidateIds": [
         "red-squirrel"
       ],
       "bookingPolicy": null,
       "sourceIds": [
-        "update-2027"
+        "update-2027",
+        "decision-oban-three-sisters-2026-10-11",
+        "decision-skye-fairy-pools-2026-10-11",
+        "decision-glencoe-glasgow-2026-10-11"
       ]
     },
     {
@@ -141,12 +146,15 @@
       "selectionStatus": "pendiente",
       "reservationStatus": "pendiente",
       "availability": null,
-      "note": "Noches 8 y 9, dentro del plan provisional; camping por elegir.",
+      "note": "Noches 7–9 en Skye, camping por elegir. Fairy Pools y cerveceo en Portree día 8; norte con Storr solo mirador, Kilt Rock opcional y Quiraing Walk día 9. Entrada y salida por el puente.",
       "url": null,
       "candidateIds": [],
       "bookingPolicy": null,
       "sourceIds": [
-        "update-2027"
+        "update-2027",
+        "decision-skye-fairy-pools-2026-10-11",
+        "decision-skye-puente-storr-mirador-2026-10-11",
+        "decision-skye-extra-dia-2026-10-11"
       ]
     },
     {
@@ -157,12 +165,13 @@
       "selectionStatus": "pendiente",
       "reservationStatus": "pendiente",
       "availability": null,
-      "note": "Noche 10, provisional; camping por elegir.",
+      "note": "Noche 10 provisional; camping por elegir. Día 11 regreso a Glasgow y devolución del vehículo.",
       "url": null,
       "candidateIds": [],
       "bookingPolicy": null,
       "sourceIds": [
-        "update-2027"
+        "update-2027",
+        "decision-skye-extra-dia-2026-10-11"
       ]
     },
     {
@@ -179,6 +188,58 @@
       "bookingPolicy": null,
       "sourceIds": [
         "update-2027"
+      ]
+    },
+    {
+      "id": "camping-blair-atholl",
+      "name": null,
+      "placeId": "blair-atholl",
+      "type": "camping",
+      "selectionStatus": "pendiente",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Sin pernocta asignada en el plan vigente; se conserva el candidato como referencia histórica.",
+      "url": null,
+      "candidateIds": [
+        "blair-castle-caravan-park"
+      ],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "ajuste-mull-cairngorms-2026-10-11",
+        "decision-glencoe-glasgow-2026-10-11"
+      ]
+    },
+    {
+      "id": "blair-castle-caravan-park",
+      "name": "Blair Castle Caravan Park",
+      "placeId": "blair-atholl",
+      "type": "camping",
+      "selectionStatus": "candidata",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Referencia candidata conservada sin noche asignada; no está elegida ni reservada.",
+      "url": "https://atholl-estates.co.uk/stay-with-us/caravan-park/touring/",
+      "candidateIds": [],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "ajuste-mull-cairngorms-2026-10-11"
+      ]
+    },
+    {
+      "id": "camping-glasgow",
+      "name": null,
+      "placeId": "glasgow",
+      "type": "camping",
+      "selectionStatus": "pendiente",
+      "reservationStatus": "pendiente",
+      "availability": null,
+      "note": "Sin noche asignada en el plan vigente. Se conserva el ID de la propuesta anterior; el día 11 se llega a Glasgow para devolver el vehículo y dormir en alojamiento convencional.",
+      "url": null,
+      "candidateIds": [],
+      "bookingPolicy": null,
+      "sourceIds": [
+        "decision-glencoe-glasgow-2026-10-11",
+        "decision-skye-extra-dia-2026-10-11"
       ]
     }
   ],
@@ -230,7 +291,7 @@
       "provider": null,
       "price": null,
       "time": null,
-      "note": "Día 7 con autocaravana; horario y reserva pendientes.",
+      "note": "Día 6 tras la excursión de Staffa; horario de regreso compatible por confirmar. No reservado.",
       "sourceIds": [
         "update-2027"
       ]
@@ -256,7 +317,7 @@
       "provider": null,
       "price": null,
       "time": null,
-      "note": "Día 6, prioritaria. Reservar y comprobar cancelación, meteorología y desembarco.",
+      "note": "Día 6, excursión de mañana preferente. Desembarco, horario y meteorología condicionan salir de Mull ese mismo día.",
       "sourceIds": [
         "update-2027"
       ]
@@ -264,14 +325,15 @@
     {
       "id": "ferry-mallaig-armadale",
       "name": "Ferry Mallaig → Armadale",
-      "selectionStatus": "provisional",
-      "reservationStatus": "pendiente",
+      "selectionStatus": "descartada",
+      "reservationStatus": "no-necesaria",
       "provider": null,
       "price": null,
       "time": null,
-      "note": "Día 8, dentro del plan provisional; reserva pendiente.",
+      "note": "Descartado: día 7 entrada a Skye por el puente, sin ferry de Mallaig a Armadale. Servicio conservado en la base de datos por trazabilidad, sin reserva prevista.",
       "sourceIds": [
-        "update-2027"
+        "update-2027",
+        "decision-skye-puente-storr-mirador-2026-10-11"
       ]
     }
   ]

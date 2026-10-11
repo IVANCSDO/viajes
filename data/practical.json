@@ -6,13 +6,13 @@
       "title": "Primero, las ciudades",
       "label": "Transporte urbano y alojamiento",
       "status": "planificada",
-      "text": "Glasgow y Edimburgo en autobús o tren. Las primeras tres noches y la última se duermen en alojamiento convencional.",
+      "text": "Primeras tres noches y última en alojamiento convencional: Glasgow y Edimburgo con transportes públicos.",
       "items": [
         "Día 1: llegada y descanso en Glasgow.",
         "Día 2: Glasgow y traslado por la tarde a Edimburgo.",
         "Día 3: Edimburgo; noche también en la ciudad.",
         "Día 4: volver temprano a Glasgow para recoger el vehículo.",
-        "Día 11: devolución y última noche en Glasgow. Día 12: solo vuelo."
+        "Día 11: Fort Augustus–Glasgow y devolución; calcular salida según horario contractual, carretera y descansos."
       ],
       "sourceIds": [
         "update-2027"
@@ -42,14 +42,19 @@
       "status": "orientativo",
       "text": "En Escocia se conduce por la izquierda. Planifica con margen y consulta la información oficial antes de viajar.",
       "items": [
-        "Evitar jornadas de conducción de 6–7 horas y dejar margen para ferris y descansos.",
-        "Preferir senderos sencillos o moderados y miradores.",
-        "Día 7: estimación inicial 115–130 km y 2,5–3 h, sin ferry, esperas ni paradas. Validar con la ruta definitiva.",
-        "El resto de kilómetros y tiempos siguen pendientes."
+        "Evitar jornadas de conducción excesivas; reservar márgenes para ferris y descanso.",
+        "La salida de Mull el día 6 y entrada en Skye el día 7 dependen de las conexiones.",
+        "Priorizar carreteras adecuadas a la autocaravana; kilómetros y tiempos pendientes de validar.",
+        "Día 11: Fort Augustus–Glasgow y devolución; calcular salida según horario contractual, carretera y descansos.",
+        "Día 7: Three Sisters Viewpoint desde Glencoe, Eilean Donan y Skye por el puente, sin ferry.",
+        "Día 8: Fairy Pools con paseo a pie, Old Man of Storr únicamente desde mirador seguro, Kilt Rock opcional; sin Quiraing."
       ],
       "sourceIds": [
         "driving",
-        "update-2027"
+        "update-2027",
+        "ajuste-mull-cairngorms-2026-10-11",
+        "decision-skye-fairy-pools-2026-10-11",
+        "decision-skye-puente-storr-mirador-2026-10-11"
       ]
     },
     {
@@ -58,17 +63,20 @@
       "title": "Un salto a las islas",
       "label": "Ferris y barcos",
       "status": "pendiente",
-      "text": "Oban–Craignure de ida y vuelta, Iona en ferry de pasajeros, Staffa en barco y Mallaig–Armadale dentro del tramo provisional. No hay billetes ni horarios confirmados.",
+      "text": "Ferris imprescindibles para Mull, Iona y Staffa en días 5–6; no se toma ferry adicional para Skye, pues se entra y sale por el puente.",
       "items": [
-        "Oban–Craignure: día 5; Craignure–Oban: día 7, con autocaravana.",
-        "Fionnphort–Iona: día 5, solo pasajeros; vehículo en Mull.",
-        "Staffa: salida desde Fionnphort el día 6; reservar y revisar cancelación.",
-        "Mallaig–Armadale: día 8 provisional; salida de Skye por el puente el día 10."
+        "Oban→Craignure día 5 con autocaravana.",
+        "Fionnphort↔Iona día 5, pasajeros sin vehículo.",
+        "Staffa desde Fionnphort día 6: buscar salida matinal para regresar a Oban ese día.",
+        "Craignure→Oban día 6; validar conexión después de Staffa.",
+        "Skye día 7: entrada por puente de Kyle of Lochalsh; día 10 salida por el mismo puente, sin ferry de Mallaig."
       ],
       "sourceIds": [
         "update-2027",
         "ferries",
-        "staffa"
+        "staffa",
+        "ajuste-mull-cairngorms-2026-10-11",
+        "decision-skye-puente-storr-mirador-2026-10-11"
       ]
     },
     {
@@ -92,16 +100,20 @@
       "title": "Antes de salir",
       "label": "Reservas",
       "status": "pendiente",
-      "text": "Elegir una visita o un camping no equivale a tener una reserva. No hay reservas confirmadas en esta actualización.",
+      "text": "Plan vigente: noche en Glencoe, Skye por el puente y regreso directo de Fort Augustus a Glasgow.",
       "items": [
-        "Fechas exactas, vuelos y alojamiento convencional de las primeras tres noches y la última.",
-        "Autocaravana, ferris y excursión a Staffa.",
-        "Comprobar disponibilidad y condiciones de Fidden para dos noches: actualmente indica que no acepta reservas.",
-        "Elegir camping en Oban, Glencoe, Skye y Fort Augustus."
+        "Confirmar vuelos y fechas exactas (junio de 2027 provisional).",
+        "Alquilar autocaravana y confirmar especialmente la hora de devolución del día 11.",
+        "Confirmar ferris Oban–Craignure y Craignure–Oban.",
+        "Reservar Staffa en horario compatible con ferry de vuelta a Oban.",
+        "Verificar disponibilidad de una noche en Fidden.",
+        "Elegir campings en Oban (noche 4), Glencoe (noche 6), Skye (noches 7–9) y Fort Augustus (noche 10)."
       ],
       "sourceIds": [
         "update-2027",
-        "fidden-official"
+        "fidden-official",
+        "ajuste-mull-cairngorms-2026-10-11",
+        "decision-skye-puente-storr-mirador-2026-10-11"
       ]
     },
     {
@@ -172,15 +184,15 @@
     },
     {
       "id": "fidden-2027",
-      "label": "Comprobar condiciones y disponibilidad de Fidden"
+      "label": "Comprobar condiciones de Fidden para una noche (noche 5)"
     },
     {
       "id": "campings-2027",
-      "label": "Elegir campings en Oban, Glencoe, Skye y Fort Augustus"
+      "label": "Elegir campings en Oban (noche 4), Glencoe (noche 6), Skye (noches 7–9) y Fort Augustus (noche 10)."
     },
     {
       "id": "ferries-2027",
-      "label": "Reservar ferris con la autocaravana"
+      "label": "Cuadrar Staffa y el ferry de salida de Mull el mismo día 6; reservar travesías de vehículo"
     },
     {
       "id": "staffa-2027",
@@ -189,6 +201,10 @@
     {
       "id": "route-2027",
       "label": "Validar kilómetros y tiempos de conducción"
+    },
+    {
+      "id": "bruar-2027",
+      "label": "Confirmar horario de devolución el día 11 y margen para volver de Fort Augustus a Glasgow."
     }
   ]
 }
